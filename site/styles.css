@@ -30,7 +30,11 @@ header h1 {
 }
 header .tag { margin: 0.35rem 0 0; color: var(--muted); font-size: 1rem; }
 
-.searchbox { padding: 1.5rem 0 0.5rem; }
+.intro { padding: 1.5rem 0 0.25rem; max-width: 760px; }
+.intro p { margin: 0 0 0.85rem; }
+.intro p:first-child { margin-top: 0; }
+
+.searchbox { padding: 1rem 0 0.5rem; border-top: 1px solid var(--rule); margin-top: 1rem; }
 #q {
   width: 100%;
   font-size: 1.15rem;

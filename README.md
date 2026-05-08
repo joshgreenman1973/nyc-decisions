@@ -8,7 +8,7 @@ Aggregates public records from sources that are public but hard to track: OATH h
 
 - **`scrapers/`** — one Python module per source. Each exposes `scrape()` yielding normalized record dicts.
 - **`build.py`** — runs scrapers, dedupes, builds the in-browser MiniSearch index, generates RSS feeds.
-- **`site/`** — static site (HTML/CSS/JS, no framework). Hosted on GitHub Pages.
+- **`site/`** — static site (HTML/CSS/JS, no framework). Hosted on GitHub Pages. Includes prebuilt search index and per-source RSS feeds.
 - **`data/normalized/`** — JSONL of every record we've scraped (committed; small enough). Raw PDFs in `data/cache/` and `data/raw/` are gitignored.
 
 ## Run locally
@@ -39,8 +39,8 @@ See [methodology page](site/methodology.html) for details and known gaps.
 
 ## Roadmap
 
-- v1.1: NYC Commission on Human Rights (OCR), NYPD Trials, Health Department, City Council testimony (via citymeetings.nyc)
-- v1.2: Saved-search email alerts (Postmark/Resend free tier)
+- v1.1: NYPD Trials (headless-browser scrape of nypdonline.org), NYC Commission on Human Rights (OCR), Health Department Board of Health, City Council testimony (via citymeetings.nyc)
+- v1.2: Backfill DOI, Comptroller, and Public Advocate archives
 - v2: Full-text PDF for OATH Trials Division written decisions
 - Later: NY State court coverage (out of scope unless someone wants to fund it)
 

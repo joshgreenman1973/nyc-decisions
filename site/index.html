@@ -17,6 +17,18 @@
 </header>
 
 <main class="wrap">
+  <section class="intro">
+    <p>
+      Every day, New York City and New York State agencies issue hundreds of rulings, audits, dispositions, and oversight reports. Most are legally public — but they live in dozens of incompatible places: PDFs filed in dated folders, JavaScript-rendered portals, fee-walled City Clerk archives, and the occasional Open Data dataset. Even seasoned reporters routinely lose hours hunting for them.
+    </p>
+    <p>
+      <strong>NYC Decisions</strong> pulls from a growing set of those sources, normalizes the records into a common shape, and lets you search across all of them in one place. The current index covers both divisions of the <a href="https://www.nyc.gov/site/oath/index.page">Office of Administrative Trials and Hearings (OATH)</a> — the Trials Division (which now houses NYPD disciplinary trials post-2021, plus Loft Board, TLC, and other agency adjudications) and the high-volume Hearings Division (summons court) — along with the <a href="https://www.nyc.gov/site/ccrb/index.page">Civilian Complaint Review Board (CCRB)</a> complaints and penalty recommendations, the <a href="https://www.nyc.gov/site/coib/index.page">Conflicts of Interest Board (COIB)</a>, the <a href="https://www.nyc.gov/site/doi/index.page">Department of Investigation (DOI)</a>, the <a href="https://comptroller.nyc.gov">NYC Comptroller</a>, and the <a href="https://advocate.nyc.gov">Public Advocate</a>. We chose these because they are public-records workhorses — lots of consequential decisions, lots of newsworthy material — and because they are <em>not</em> already well-aggregated elsewhere. (New York Law School's <a href="https://www.nyls.edu/cityadmin/">CityAdmin Online</a> handles a slice of administrative-law records, but no single tool indexes them alongside the oversight bodies above.)
+    </p>
+    <p style="font-size:0.92rem;color:var(--muted)">
+      Limitations to know before you cite anything you find here: OATH Hearings is capped at the last 180 days and 10,000 records; OATH Trials at the last 5 years; CCRB at the last 2 years; DOI, Comptroller, and Public Advocate currently include only what's linked from each agency's most-recent reports page (historical backfill is coming); we link out to the original document for every record and don't host PDFs ourselves; the OATH source data contains typos that we filter as best we can but can't fully repair. Several other bodies — the pre-2021 NYPD Deputy Commissioner of Trials archive, the Commission on Human Rights, the Department of Health Board of Health, and City Council hearing testimony — are explicitly on the to-do list, not yet indexed. See <a href="methodology.html">methodology</a> for the full picture.
+    </p>
+  </section>
+
   <section class="searchbox">
     <input id="q" type="search" placeholder="Search names, agencies, addresses, keywords…" autofocus>
     <div class="filters">
@@ -40,7 +52,7 @@
     <ul id="source-list"></ul>
     <p class="fineprint">
       Methodology and known gaps: <a href="methodology.html">methodology</a>.
-      Subscribe to RSS for any source above. Email alerts coming soon.
+      Subscribe to RSS for any source above using the RSS link next to the search filters.
     </p>
   </section>
 </main>

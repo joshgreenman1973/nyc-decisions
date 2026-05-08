@@ -16,8 +16,10 @@ from scrapers import _base as B
 
 # (module name, source key, display label, default cap)
 SOURCES = [
-    ("scrapers.oath", "oath-hearings", "OATH Hearings", {}),
+    ("scrapers.oath_trials", "oath-trials", "OATH Trials (incl. NYPD discipline)", {}),
+    ("scrapers.oath", "oath-hearings", "OATH Hearings (summons)", {}),
     ("scrapers.ccrb", "ccrb", "CCRB Complaints", {}),
+    ("scrapers.ccrb_penalties", "ccrb-penalties", "CCRB Penalty Recommendations", {}),
     ("scrapers.coib", "coib", "COIB Ethics", {}),
     ("scrapers.doi", "doi", "DOI Reports", {}),
     ("scrapers.comptroller", "nyc-comptroller", "NYC Comptroller", {}),

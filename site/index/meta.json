@@ -1,16 +1,26 @@
 {
-  "total": 18314,
-  "updated_at": "2026-05-08T01:44:29Z",
+  "total": 34713,
+  "updated_at": "2026-05-08T01:58:34Z",
   "sources": [
     {
+      "key": "oath-trials",
+      "label": "OATH Trials (incl. NYPD discipline)",
+      "count": 1630
+    },
+    {
       "key": "oath-hearings",
-      "label": "OATH Hearings",
+      "label": "OATH Hearings (summons)",
       "count": 9999
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
       "count": 8269
+    },
+    {
+      "key": "ccrb-penalties",
+      "label": "CCRB Penalty Recommendations",
+      "count": 14769
     },
     {
       "key": "coib",
@@ -36,7 +46,7 @@
   "top_agencies": [
     [
       "NYPD",
-      8269
+      23038
     ],
     [
       "SANITATION OTHERS",
@@ -67,8 +77,24 @@
       518
     ],
     [
+      "Forfeiture",
+      511
+    ],
+    [
+      "Taxi & Limousine",
+      404
+    ],
+    [
       "DOHMH - BFSCS",
       357
+    ],
+    [
+      "Section 75",
+      284
+    ],
+    [
+      "Business Integrity Commission",
+      260
     ],
     [
       "DEPT OF TRANSPORTATION",
@@ -91,12 +117,20 @@
       60
     ],
     [
+      "Administrative Code",
+      59
+    ],
+    [
       "DEP - BWSO",
       56
     ],
     [
       "SANITATION VENDOR ENFORCEMENT",
       56
+    ],
+    [
+      "Contract Dispute Resolution Board",
+      53
     ],
     [
       "DOHMH - CHILD CARE",
@@ -109,6 +143,10 @@
     [
       "SANITATION POLICE",
       47
+    ],
+    [
+      "Loft Board",
+      43
     ],
     [
       "NYPD TRANSPORT INTELLIGENCE DI",
@@ -125,34 +163,6 @@
     [
       "ASBESTOS CONTROL PROGRAM",
       22
-    ],
-    [
-      "NYC SHERIFF",
-      19
-    ],
-    [
-      "DCA - Grocery-Retail",
-      18
-    ],
-    [
-      "BIC - BUSINESS INTEGRITY COMMISSION",
-      17
-    ],
-    [
-      "DEP - IWC",
-      16
-    ],
-    [
-      "VETERINARY-DOHMH",
-      12
-    ],
-    [
-      "NYC Comptroller",
-      12
-    ],
-    [
-      "DOHMH - LEAD",
-      10
     ]
   ]
 }
