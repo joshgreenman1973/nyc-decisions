@@ -145,6 +145,20 @@ def build_index(records: list[dict]) -> None:
     (INDEX_DIR / "meta.json").write_text(json.dumps(meta, indent=2))
     print(f"[index] meta total={meta['total']}, shards={len(meta['sources'])}")
 
+    # Highlights: top N newest per source, merged + sorted, for the initial
+    # landing-page view. Lets the page show real records before any shard
+    # downloads.
+    HIGHLIGHTS_PER_SOURCE = 10
+    highlights = []
+    for src_key, docs in by_source_recs.items():
+        # docs are already sorted newest-first
+        highlights.extend(docs[:HIGHLIGHTS_PER_SOURCE])
+    highlights.sort(key=lambda d: d.get("decision_date", ""), reverse=True)
+    (INDEX_DIR / "highlights.json").write_text(
+        json.dumps(highlights, ensure_ascii=False)
+    )
+    print(f"[index] highlights: {len(highlights)} records")
+
 
 def build_feeds(records: list[dict]) -> None:
     from feedgen.feed import FeedGenerator

@@ -1,17 +1,16 @@
 /* The Rest of the Record — client-side search with lazy-loaded source shards */
 (async () => {
   const PAGE_SIZE = 25;
-  const PRELOAD_THRESHOLD_BYTES = 800_000; // shards under this load on demand without warning
   let meta = {};
   let mini = null;
   let docsBySource = {};       // src -> array of records (loaded on demand)
-  let allDocs = [];            // flat union of loaded docs
+  let allDocs = [];            // flat union of loaded shards
   let byId = new Map();
   let labelByKey = {};
   let page = 0;
   let lastResults = [];
-  let searchEnabled = false;
   let totalLoaded = 0;
+  let highlightMode = true;    // showing the landing-page recents until user acts
 
   const $ = (s) => document.querySelector(s);
   const results = $("#results");
@@ -20,10 +19,17 @@
   const srcSel = $("#source-filter");
   const dateSel = $("#date-filter");
   const metaEl = $("#meta");
+  const loadingBar = $("#loading-bar");
+  const loadingFill = loadingBar.querySelector(".loading-bar-fill");
+  const loadingLabel = loadingBar.querySelector(".loading-bar-label");
 
-  // 1. Load meta (small, fast).
+  // 1. Load meta + highlights in parallel.
+  let highlights = [];
   try {
-    meta = await fetch("index/meta.json").then(r => r.json());
+    [meta, highlights] = await Promise.all([
+      fetch("index/meta.json").then(r => r.json()),
+      fetch("index/highlights.json").then(r => r.json()),
+    ]);
   } catch (e) {
     results.innerHTML = `<p>Couldn't load index. (${e.message})</p>`;
     return;
@@ -31,7 +37,7 @@
 
   meta.sources.forEach(s => { labelByKey[s.key] = s.label; });
 
-  // Source filter
+  // Source filter dropdown
   for (const s of meta.sources) {
     if (s.count === 0) continue;
     const opt = document.createElement("option");
@@ -61,14 +67,40 @@
     },
   });
 
+  // Index highlights so they're searchable even before full shards load.
+  for (const d of highlights) byId.set(d.id, d);
+  mini.addAll(highlights);
+
+  function showLoading(label) {
+    loadingBar.hidden = false;
+    loadingFill.style.right = "100%";
+    loadingLabel.textContent = label;
+  }
+  function updateLoading(done, total, label) {
+    loadingFill.style.right = `${100 * (1 - done / total)}%`;
+    loadingLabel.textContent = label;
+  }
+  function hideLoading() {
+    loadingBar.hidden = true;
+  }
+
   async function loadShard(key) {
     if (docsBySource[key]) return docsBySource[key];
     const r = await fetch(`index/sources/${key}.json`);
     const docs = await r.json();
     docsBySource[key] = docs;
+    // Replace any highlight stubs with full records
+    for (const d of docs) {
+      if (byId.has(d.id) && highlights.length) {
+        // already indexed via highlights; don't re-add to mini
+      } else {
+        byId.set(d.id, d);
+        mini.add(d);
+      }
+    }
+    // Make sure all docs are in byId (even ones already indexed)
     for (const d of docs) byId.set(d.id, d);
     allDocs = allDocs.concat(docs);
-    mini.addAll(docs);
     totalLoaded += docs.length;
     return docs;
   }
@@ -80,20 +112,26 @@
   }
 
   async function ensureLoaded(forFilter) {
-    // forFilter is the selected source key (or "" for all).
     const needed = forFilter
       ? [forFilter]
       : meta.sources.map(s => s.key);
     const toLoad = needed.filter(k => !docsBySource[k]);
     if (toLoad.length === 0) return;
 
-    // Show loading state with byte estimate
     const totalBytes = toLoad.reduce((sum, k) => {
       const m = meta.sources.find(s => s.key === k);
       return sum + (m?.shard_bytes || 0);
     }, 0);
-    metaEl.textContent = `Loading ${toLoad.length} source${toLoad.length === 1 ? "" : "s"} (${formatBytes(totalBytes)})…`;
-    await Promise.all(toLoad.map(loadShard));
+
+    showLoading(`Loading ${toLoad.length} source${toLoad.length === 1 ? "" : "s"} (${formatBytes(totalBytes)})…`);
+    let done = 0;
+    await Promise.all(toLoad.map(async (k) => {
+      await loadShard(k);
+      done++;
+      const m = meta.sources.find(s => s.key === k);
+      updateLoading(done, toLoad.length, `Loaded ${labelByKey[k] || k} (${done} of ${toLoad.length})`);
+    }));
+    hideLoading();
   }
 
   // Initial state from URL
@@ -106,10 +144,13 @@
     const q = qEl.value.trim();
     const src = srcSel.value;
     const days = parseInt(dateSel.value || "0", 10);
+
     let candidates;
     if (q) {
       const hits = mini.search(q);
       candidates = hits.map(h => ({...byId.get(h.id), _score: h.score})).filter(d => d.id);
+    } else if (highlightMode && !src) {
+      candidates = highlights.slice();
     } else {
       candidates = (src ? (docsBySource[src] || []) : allDocs).slice();
       candidates.sort((a, b) => (b.decision_date || "").localeCompare(a.decision_date || ""));
@@ -168,10 +209,10 @@
     page = 0;
     const q = qEl.value.trim();
     const src = srcSel.value;
-    // Decide what to load:
-    // - if a source filter is active, only that source
-    // - if there's a query, load everything (so the query searches all sources)
-    // - if neither, load nothing yet (just show empty state)
+
+    // First user action breaks us out of highlight mode.
+    if (q || src) highlightMode = false;
+
     const needSource = src && !docsBySource[src];
     const needAll = !src && q && totalLoaded < meta.total;
     if (needSource || needAll) {
@@ -179,13 +220,14 @@
     }
 
     lastResults = filterAndRank();
-    metaEl.textContent =
-      `${lastResults.length.toLocaleString()} of ${meta.total.toLocaleString()} records` +
-      (totalLoaded < meta.total && !src && !q ? ` — pick a source or type to search` : "");
 
-    // Update RSS link
+    if (highlightMode && !q && !src) {
+      metaEl.textContent = `Showing ${lastResults.length} most-recent records across all sources — type to search ${meta.total.toLocaleString()} or pick a source`;
+    } else {
+      metaEl.textContent = `${lastResults.length.toLocaleString()} of ${meta.total.toLocaleString()} records`;
+    }
+
     $("#rss-link").href = src ? `feeds/${src}.xml` : "feeds/all.xml";
-    // Update URL
     const p = new URLSearchParams();
     if (q) p.set("q", q);
     if (src) p.set("source", src);
@@ -213,10 +255,6 @@
   }
   function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 
-  // Render initial state. If the URL had a query or source, kick off load.
-  if (qEl.value.trim() || srcSel.value) {
-    await update();
-  } else {
-    metaEl.textContent = `${meta.total.toLocaleString()} records across ${meta.sources.length} sources — pick a source or type to search`;
-  }
+  // Initial render: highlights, or jump straight to filtered results if URL has params.
+  await update();
 })();
