@@ -126,14 +126,14 @@ def build_feeds(records: list[dict]) -> None:
         fg.language("en")
         # newest first, cap to 50
         recs_sorted = sorted(
-            (r for r in records if r.get("decision_date")),
+            (r for r in records if r.get("decision_date") and r.get("title") and r.get("id")),
             key=lambda r: r["decision_date"], reverse=True,
         )[:50]
         for r in recs_sorted:
             fe = fg.add_entry()
-            fe.id(r.get("id"))
-            fe.title(r.get("title", "")[:200])
-            fe.link(href=r.get("doc_url") or r.get("source_url") or "https://example.com")
+            fe.id(r["id"])
+            fe.title(r["title"][:200])
+            fe.link(href=r.get("doc_url") or r.get("source_url") or f"https://joshgreenman1973.github.io/nyc-decisions/?q={r['id']}")
             desc = r.get("summary") or r.get("full_text", "")[:500]
             if r.get("outcome"): desc = f"Outcome: {r['outcome']}\n\n" + desc
             fe.description(desc)
