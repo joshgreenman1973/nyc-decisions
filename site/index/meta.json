@@ -1,6 +1,6 @@
 {
-  "total": 34688,
-  "updated_at": "2026-05-08T13:04:11Z",
+  "total": 35340,
+  "updated_at": "2026-05-08T13:20:07Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -30,12 +30,12 @@
     {
       "key": "doi",
       "label": "DOI Reports",
-      "count": 4
+      "count": 168
     },
     {
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
-      "count": 12
+      "count": 500
     },
     {
       "key": "public-advocate",
@@ -81,6 +81,10 @@
       511
     ],
     [
+      "NYC Comptroller",
+      500
+    ],
+    [
       "Taxi & Limousine",
       404
     ],
@@ -103,6 +107,10 @@
     [
       "SANITATION RECYCLING",
       212
+    ],
+    [
+      "DOI",
+      168
     ],
     [
       "DOH MENTAL HEALTH",
@@ -155,14 +163,6 @@
     [
       "HPD BED BUGS AND PESTS - DOHMH",
       30
-    ],
-    [
-      "NYC Public Advocate",
-      27
-    ],
-    [
-      "ASBESTOS CONTROL PROGRAM",
-      22
     ]
   ]
 }
