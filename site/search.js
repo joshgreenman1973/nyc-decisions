@@ -1,11 +1,17 @@
-/* The Rest of the Record — client-side search */
+/* The Rest of the Record — client-side search with lazy-loaded source shards */
 (async () => {
   const PAGE_SIZE = 25;
-  let docs = [];
+  const PRELOAD_THRESHOLD_BYTES = 800_000; // shards under this load on demand without warning
   let meta = {};
   let mini = null;
+  let docsBySource = {};       // src -> array of records (loaded on demand)
+  let allDocs = [];            // flat union of loaded docs
+  let byId = new Map();
+  let labelByKey = {};
   let page = 0;
   let lastResults = [];
+  let searchEnabled = false;
+  let totalLoaded = 0;
 
   const $ = (s) => document.querySelector(s);
   const results = $("#results");
@@ -13,19 +19,37 @@
   const qEl = $("#q");
   const srcSel = $("#source-filter");
   const dateSel = $("#date-filter");
+  const metaEl = $("#meta");
 
-  // Load index + meta
+  // 1. Load meta (small, fast).
   try {
-    [docs, meta] = await Promise.all([
-      fetch("index/documents.json").then(r => r.json()),
-      fetch("index/meta.json").then(r => r.json()),
-    ]);
+    meta = await fetch("index/meta.json").then(r => r.json());
   } catch (e) {
-    results.innerHTML = `<p>Couldn't load search index. (${e.message})</p>`;
+    results.innerHTML = `<p>Couldn't load index. (${e.message})</p>`;
     return;
   }
 
-  // Build index
+  meta.sources.forEach(s => { labelByKey[s.key] = s.label; });
+
+  // Source filter
+  for (const s of meta.sources) {
+    if (s.count === 0) continue;
+    const opt = document.createElement("option");
+    opt.value = s.key;
+    opt.textContent = `${s.label} (${s.count.toLocaleString()})`;
+    srcSel.appendChild(opt);
+  }
+
+  // Sources footer
+  const sourceList = $("#source-list");
+  for (const s of meta.sources) {
+    const li = document.createElement("li");
+    li.innerHTML = `<span>${s.label}</span><span class="count">${s.count.toLocaleString()}</span>`;
+    sourceList.appendChild(li);
+  }
+  $("#updated").textContent = (meta.updated_at || "").replace("T", " ").replace("Z", " UTC");
+
+  // Build empty MiniSearch index — we'll add shards as they load.
   mini = new MiniSearch({
     fields: ["title", "summary", "full_text", "agency", "respondent", "outcome"],
     storeFields: ["id"],
@@ -36,28 +60,41 @@
       combineWith: "AND",
     },
   });
-  mini.addAll(docs);
-  const byId = new Map(docs.map(d => [d.id, d]));
 
-  // Source filter
-  const labelByKey = {};
-  meta.sources.forEach(s => { labelByKey[s.key] = s.label; });
-  for (const s of meta.sources) {
-    if (s.count === 0) continue;
-    const opt = document.createElement("option");
-    opt.value = s.key;
-    opt.textContent = `${s.label} (${s.count.toLocaleString()})`;
-    srcSel.appendChild(opt);
+  async function loadShard(key) {
+    if (docsBySource[key]) return docsBySource[key];
+    const r = await fetch(`index/sources/${key}.json`);
+    const docs = await r.json();
+    docsBySource[key] = docs;
+    for (const d of docs) byId.set(d.id, d);
+    allDocs = allDocs.concat(docs);
+    mini.addAll(docs);
+    totalLoaded += docs.length;
+    return docs;
   }
 
-  // Source list footer
-  const sourceList = $("#source-list");
-  for (const s of meta.sources) {
-    const li = document.createElement("li");
-    li.innerHTML = `<span>${s.label}</span><span class="count">${s.count.toLocaleString()}</span>`;
-    sourceList.appendChild(li);
+  function formatBytes(n) {
+    if (n < 1024) return `${n} B`;
+    if (n < 1024 * 1024) return `${Math.round(n/1024)} KB`;
+    return `${(n/1024/1024).toFixed(1)} MB`;
   }
-  $("#updated").textContent = (meta.updated_at || "").replace("T", " ").replace("Z", " UTC");
+
+  async function ensureLoaded(forFilter) {
+    // forFilter is the selected source key (or "" for all).
+    const needed = forFilter
+      ? [forFilter]
+      : meta.sources.map(s => s.key);
+    const toLoad = needed.filter(k => !docsBySource[k]);
+    if (toLoad.length === 0) return;
+
+    // Show loading state with byte estimate
+    const totalBytes = toLoad.reduce((sum, k) => {
+      const m = meta.sources.find(s => s.key === k);
+      return sum + (m?.shard_bytes || 0);
+    }, 0);
+    metaEl.textContent = `Loading ${toLoad.length} source${toLoad.length === 1 ? "" : "s"} (${formatBytes(totalBytes)})…`;
+    await Promise.all(toLoad.map(loadShard));
+  }
 
   // Initial state from URL
   const params = new URLSearchParams(location.search);
@@ -74,7 +111,7 @@
       const hits = mini.search(q);
       candidates = hits.map(h => ({...byId.get(h.id), _score: h.score})).filter(d => d.id);
     } else {
-      candidates = docs.slice().map(d => ({...d, _score: 0}));
+      candidates = (src ? (docsBySource[src] || []) : allDocs).slice();
       candidates.sort((a, b) => (b.decision_date || "").localeCompare(a.decision_date || ""));
     }
     if (src) candidates = candidates.filter(d => d.source === src);
@@ -127,16 +164,30 @@
     $("#next").onclick = () => { page++; renderPage(); window.scrollTo(0, 0); };
   }
 
-  function update() {
+  async function update() {
     page = 0;
-    lastResults = filterAndRank();
-    $("#meta").textContent = `${lastResults.length.toLocaleString()} of ${docs.length.toLocaleString()} records`;
-    // Update RSS link
+    const q = qEl.value.trim();
     const src = srcSel.value;
+    // Decide what to load:
+    // - if a source filter is active, only that source
+    // - if there's a query, load everything (so the query searches all sources)
+    // - if neither, load nothing yet (just show empty state)
+    const needSource = src && !docsBySource[src];
+    const needAll = !src && q && totalLoaded < meta.total;
+    if (needSource || needAll) {
+      await ensureLoaded(src);
+    }
+
+    lastResults = filterAndRank();
+    metaEl.textContent =
+      `${lastResults.length.toLocaleString()} of ${meta.total.toLocaleString()} records` +
+      (totalLoaded < meta.total && !src && !q ? ` — pick a source or type to search` : "");
+
+    // Update RSS link
     $("#rss-link").href = src ? `feeds/${src}.xml` : "feeds/all.xml";
     // Update URL
     const p = new URLSearchParams();
-    if (qEl.value.trim()) p.set("q", qEl.value.trim());
+    if (q) p.set("q", q);
     if (src) p.set("source", src);
     if (dateSel.value) p.set("days", dateSel.value);
     const qs = p.toString();
@@ -145,7 +196,7 @@
   }
 
   let debounce;
-  qEl.addEventListener("input", () => { clearTimeout(debounce); debounce = setTimeout(update, 120); });
+  qEl.addEventListener("input", () => { clearTimeout(debounce); debounce = setTimeout(update, 200); });
   srcSel.addEventListener("change", update);
   dateSel.addEventListener("change", update);
 
@@ -162,5 +213,10 @@
   }
   function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 
-  update();
+  // Render initial state. If the URL had a query or source, kick off load.
+  if (qEl.value.trim() || srcSel.value) {
+    await update();
+  } else {
+    metaEl.textContent = `${meta.total.toLocaleString()} records across ${meta.sources.length} sources — pick a source or type to search`;
+  }
 })();

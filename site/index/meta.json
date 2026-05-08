@@ -1,81 +1,96 @@
 {
   "total": 58621,
-  "updated_at": "2026-05-08T16:42:07Z",
+  "updated_at": "2026-05-08T16:48:35Z",
   "sources": [
     {
       "key": "oath-trials",
       "label": "OATH Trials (incl. NYPD discipline)",
-      "count": 1630
+      "count": 1630,
+      "shard_bytes": 684631
     },
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9999
+      "count": 9999,
+      "shard_bytes": 5050399
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8244
+      "count": 8244,
+      "shard_bytes": 3030573
     },
     {
       "key": "ccrb-penalties",
       "label": "CCRB Penalty Recommendations",
-      "count": 14769
+      "count": 14769,
+      "shard_bytes": 6494259
     },
     {
       "key": "coib",
       "label": "COIB Ethics",
-      "count": 3
+      "count": 3,
+      "shard_bytes": 12168
     },
     {
       "key": "cchr",
       "label": "Commission on Human Rights",
-      "count": 40
+      "count": 40,
+      "shard_bytes": 130286
     },
     {
       "key": "tlc",
       "label": "TLC Chairperson Review",
-      "count": 38
+      "count": 38,
+      "shard_bytes": 49410
     },
     {
       "key": "dcwp",
       "label": "DCWP Final Decisions",
-      "count": 15
+      "count": 15,
+      "shard_bytes": 49443
     },
     {
       "key": "perb",
       "label": "PERB Labor Decisions",
-      "count": 635
+      "count": 635,
+      "shard_bytes": 264839
     },
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 7652
+      "count": 7652,
+      "shard_bytes": 5901803
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14827
+      "count": 14827,
+      "shard_bytes": 8985436
     },
     {
       "key": "doh",
       "label": "DOH Official Notices",
-      "count": 74
+      "count": 74,
+      "shard_bytes": 328933
     },
     {
       "key": "doi",
       "label": "DOI Reports",
-      "count": 168
+      "count": 168,
+      "shard_bytes": 540901
     },
     {
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
-      "count": 500
+      "count": 500,
+      "shard_bytes": 1968049
     },
     {
       "key": "public-advocate",
       "label": "Public Advocate",
-      "count": 27
+      "count": 27,
+      "shard_bytes": 16671
     }
   ],
   "top_agencies": [

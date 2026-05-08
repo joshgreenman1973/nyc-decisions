@@ -68,19 +68,22 @@ def load_all_records() -> list[dict]:
 
 
 def build_index(records: list[dict]) -> None:
+    """Build per-source shards and a small meta.json. The frontend lazy-loads
+    each shard on demand instead of pulling the whole 32 MB blob upfront."""
     INDEX_DIR.mkdir(parents=True, exist_ok=True)
-    # Dedupe by id (later record wins)
+    SHARD_DIR = INDEX_DIR / "sources"
+    SHARD_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Dedupe by id
     by_id = {}
     for r in records:
         rid = r.get("id")
         if rid:
             by_id[rid] = r
     records = list(by_id.values())
-    # Slim each record for the in-browser index (full_text gets truncated more
-    # aggressively; raw PDF stays in JSONL for download).
-    docs = []
-    for r in records:
-        docs.append({
+
+    def _slim(r: dict) -> dict:
+        return {
             "id": r.get("id"),
             "source": r.get("source", ""),
             "source_url": r.get("source_url", ""),
@@ -94,30 +97,53 @@ def build_index(records: list[dict]) -> None:
             "summary": r.get("summary", "")[:600],
             "full_text": r.get("full_text", "")[:3000],
             "doc_url": r.get("doc_url", ""),
-        })
-    out = INDEX_DIR / "documents.json"
-    out.write_text(json.dumps(docs, ensure_ascii=False))
-    print(f"[index] wrote {len(docs)} docs -> {out.relative_to(ROOT)}")
+        }
 
-    # Meta
-    by_source: dict[str, int] = {}
+    # Group by source, write one shard per source
+    by_source_recs: dict[str, list[dict]] = {}
+    by_source_count: dict[str, int] = {}
     by_agency: dict[str, int] = {}
     for r in records:
-        by_source[r.get("source", "")] = by_source.get(r.get("source", ""), 0) + 1
+        s = r.get("source", "")
+        by_source_recs.setdefault(s, []).append(_slim(r))
+        by_source_count[s] = by_source_count.get(s, 0) + 1
         agency = r.get("agency", "")
         if agency:
             by_agency[agency] = by_agency.get(agency, 0) + 1
+
+    shard_sizes = {}
+    for src_key, docs in by_source_recs.items():
+        if not src_key:
+            continue
+        # Sort newest-first so default-no-query results show recent records
+        docs.sort(key=lambda d: d.get("decision_date", ""), reverse=True)
+        out = SHARD_DIR / f"{src_key}.json"
+        out.write_text(json.dumps(docs, ensure_ascii=False))
+        shard_sizes[src_key] = out.stat().st_size
+        print(f"[index] {src_key}: {len(docs)} docs ({shard_sizes[src_key] // 1024} KB)")
+
+    # Remove old monolithic file if it exists from prior builds
+    legacy = INDEX_DIR / "documents.json"
+    if legacy.exists():
+        legacy.unlink()
+
     meta = {
         "total": len(records),
         "updated_at": B.now_iso(),
         "sources": [
-            {"key": key, "label": label, "count": by_source.get(key, 0)}
+            {
+                "key": key,
+                "label": label,
+                "count": by_source_count.get(key, 0),
+                "shard_bytes": shard_sizes.get(key, 0),
+            }
             for _, key, label, _ in SOURCES
+            if by_source_count.get(key, 0) > 0
         ],
         "top_agencies": sorted(by_agency.items(), key=lambda kv: -kv[1])[:30],
     }
     (INDEX_DIR / "meta.json").write_text(json.dumps(meta, indent=2))
-    print(f"[index] meta total={meta['total']}")
+    print(f"[index] meta total={meta['total']}, shards={len(meta['sources'])}")
 
 
 def build_feeds(records: list[dict]) -> None:
