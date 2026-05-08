@@ -31,6 +31,8 @@ SOURCES = [
     ("scrapers.claims", "claims", "Claims Against NYC", {}),
     ("scrapers.council_legislation", "council-legislation", "City Council Legislation", {}),
     ("scrapers.rezoning", "rezoning", "Rezoning Tracker", {}),
+    ("scrapers.dohmh_indoor", "dohmh-indoor", "DOHMH Indoor Complaints", {}),
+    ("scrapers.dcwp_complaints", "dcwp-complaints", "DCWP Consumer Complaints", {}),
     ("scrapers.doi", "doi", "DOI Reports", {}),
     ("scrapers.comptroller", "nyc-comptroller", "NYC Comptroller", {}),
     ("scrapers.public_advocate", "public-advocate", "Public Advocate", {}),

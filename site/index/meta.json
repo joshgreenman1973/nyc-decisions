@@ -1,6 +1,6 @@
 {
-  "total": 95780,
-  "updated_at": "2026-05-08T18:34:08Z",
+  "total": 140766,
+  "updated_at": "2026-05-08T19:20:45Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -93,6 +93,18 @@
       "shard_bytes": 3799504
     },
     {
+      "key": "dohmh-indoor",
+      "label": "DOHMH Indoor Complaints",
+      "count": 20000,
+      "shard_bytes": 9151367
+    },
+    {
+      "key": "dcwp-complaints",
+      "label": "DCWP Consumer Complaints",
+      "count": 24986,
+      "shard_bytes": 11454898
+    },
+    {
       "key": "doi",
       "label": "DOI Reports",
       "count": 168,
@@ -113,8 +125,16 @@
   ],
   "top_agencies": [
     [
+      "DCWP",
+      25001
+    ],
+    [
       "NYPD",
       23013
+    ],
+    [
+      "NYC Department of Health",
+      20074
     ],
     [
       "HPD",
@@ -223,14 +243,6 @@
     [
       "Taxi & Limousine",
       404
-    ],
-    [
-      "HOUSING PRESERVATION AND DEVELOPMENT (HPD)",
-      398
-    ],
-    [
-      "Environmental Protection",
-      396
     ]
   ]
 }
