@@ -1,6 +1,6 @@
 {
-  "total": 35340,
-  "updated_at": "2026-05-08T13:20:07Z",
+  "total": 35380,
+  "updated_at": "2026-05-08T13:24:29Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -26,6 +26,11 @@
       "key": "coib",
       "label": "COIB Ethics",
       "count": 3
+    },
+    {
+      "key": "cchr",
+      "label": "Commission on Human Rights",
+      "count": 40
     },
     {
       "key": "doi",
@@ -157,12 +162,12 @@
       43
     ],
     [
-      "NYPD TRANSPORT INTELLIGENCE DI",
-      39
+      "NYC Commission on Human Rights",
+      40
     ],
     [
-      "HPD BED BUGS AND PESTS - DOHMH",
-      30
+      "NYPD TRANSPORT INTELLIGENCE DI",
+      39
     ]
   ]
 }

@@ -21,6 +21,7 @@ SOURCES = [
     ("scrapers.ccrb", "ccrb", "CCRB Complaints", {}),
     ("scrapers.ccrb_penalties", "ccrb-penalties", "CCRB Penalty Recommendations", {}),
     ("scrapers.coib", "coib", "COIB Ethics", {}),
+    ("scrapers.cchr", "cchr", "Commission on Human Rights", {}),
     ("scrapers.doi", "doi", "DOI Reports", {}),
     ("scrapers.comptroller", "nyc-comptroller", "NYC Comptroller", {}),
     ("scrapers.public_advocate", "public-advocate", "Public Advocate", {}),
