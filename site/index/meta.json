@@ -1,6 +1,6 @@
 {
-  "total": 58621,
-  "updated_at": "2026-05-08T16:58:54Z",
+  "total": 95780,
+  "updated_at": "2026-05-08T18:34:08Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -75,6 +75,24 @@
       "shard_bytes": 328933
     },
     {
+      "key": "claims",
+      "label": "Claims Against NYC",
+      "count": 23582,
+      "shard_bytes": 11074201
+    },
+    {
+      "key": "council-legislation",
+      "label": "City Council Legislation",
+      "count": 11622,
+      "shard_bytes": 11813004
+    },
+    {
+      "key": "rezoning",
+      "label": "Rezoning Tracker",
+      "count": 1955,
+      "shard_bytes": 3799504
+    },
+    {
       "key": "doi",
       "label": "DOI Reports",
       "count": 168,
@@ -103,6 +121,26 @@
       14827
     ],
     [
+      "NYC City Council",
+      11622
+    ],
+    [
+      "Police Department",
+      6888
+    ],
+    [
+      "Department of Correction",
+      4463
+    ],
+    [
+      "Department of Transportation",
+      4172
+    ],
+    [
+      "Other",
+      2744
+    ],
+    [
       "SANITATION OTHERS",
       2340
     ],
@@ -111,12 +149,24 @@
       1419
     ],
     [
+      "Department of Education",
+      1315
+    ],
+    [
       "FIRE DEPARTMENT OF NYC",
       1308
     ],
     [
+      "Fire Department",
+      1261
+    ],
+    [
       "DEP - BUREAU OF ENV. COMPLIANC",
       1136
+    ],
+    [
+      "Department of Sanitation",
+      1120
     ],
     [
       "POLICE DEPARTMENT",
@@ -127,8 +177,16 @@
       770
     ],
     [
+      "Department of Parks & Recration",
+      759
+    ],
+    [
       "NY Public Employment Relations Board",
       635
+    ],
+    [
+      "NYC Health + Hospitals",
+      616
     ],
     [
       "Citywide Administrative Services",
@@ -155,6 +213,10 @@
       476
     ],
     [
+      "Department of Environmental Protection",
+      424
+    ],
+    [
       "Health and Mental Hygiene",
       419
     ],
@@ -163,56 +225,12 @@
       404
     ],
     [
+      "HOUSING PRESERVATION AND DEVELOPMENT (HPD)",
+      398
+    ],
+    [
       "Environmental Protection",
       396
-    ],
-    [
-      "DOHMH - BFSCS",
-      357
-    ],
-    [
-      "Mayor's Office of Contract Services",
-      346
-    ],
-    [
-      "Parks and Recreation",
-      345
-    ],
-    [
-      "Transportation",
-      337
-    ],
-    [
-      "Information Technology and Telecommunications",
-      326
-    ],
-    [
-      "Section 75",
-      284
-    ],
-    [
-      "Design and Construction",
-      280
-    ],
-    [
-      "Business Integrity Commission",
-      265
-    ],
-    [
-      "Administration for Children's Services",
-      250
-    ],
-    [
-      "DEPT OF TRANSPORTATION",
-      242
-    ],
-    [
-      "Office of the Mayor",
-      233
-    ],
-    [
-      "SANITATION RECYCLING",
-      212
     ]
   ]
 }
