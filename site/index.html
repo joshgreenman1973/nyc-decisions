@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NYC Decisions — search New York City rulings, audits, and oversight reports</title>
+<meta name="description" content="Search engine for New York City quasi-judicial decisions, oversight reports, and administrative rulings. OATH, CCRB, COIB, DOI, Comptroller, Public Advocate, and more.">
+<link rel="alternate" type="application/rss+xml" title="NYC Decisions — all sources" href="feeds/all.xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>NYC Decisions</h1>
+    <p class="tag">A search index for New York City rulings, oversight reports, and administrative decisions.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="searchbox">
+    <input id="q" type="search" placeholder="Search names, agencies, addresses, keywords…" autofocus>
+    <div class="filters">
+      <select id="source-filter"><option value="">All sources</option></select>
+      <select id="date-filter">
+        <option value="">All dates</option>
+        <option value="365">Past year</option>
+        <option value="180">Past 6 months</option>
+        <option value="30">Past 30 days</option>
+      </select>
+      <a id="rss-link" href="feeds/all.xml" class="rss" title="RSS feed of latest results">RSS</a>
+    </div>
+    <div id="meta" class="meta"></div>
+  </section>
+
+  <section id="results"></section>
+  <nav id="pager"></nav>
+
+  <section class="sources">
+    <h2>Sources currently indexed</h2>
+    <ul id="source-list"></ul>
+    <p class="fineprint">
+      Methodology and known gaps: <a href="methodology.html">methodology</a>.
+      Subscribe to RSS for any source above. Email alerts coming soon.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>NYC Decisions is an independent civic-data project. Data is republished from official NYC and NY State sources; we don't host originals — we link to them. Last index build: <span id="updated"></span>.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/minisearch@7.1.0/dist/umd/index.min.js"></script>
+<script src="search.js"></script>
+</body>
+</html>

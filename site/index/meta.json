@@ -1,0 +1,158 @@
+{
+  "total": 18314,
+  "updated_at": "2026-05-08T01:44:29Z",
+  "sources": [
+    {
+      "key": "oath-hearings",
+      "label": "OATH Hearings",
+      "count": 9999
+    },
+    {
+      "key": "ccrb",
+      "label": "CCRB Complaints",
+      "count": 8269
+    },
+    {
+      "key": "coib",
+      "label": "COIB Ethics",
+      "count": 3
+    },
+    {
+      "key": "doi",
+      "label": "DOI Reports",
+      "count": 4
+    },
+    {
+      "key": "nyc-comptroller",
+      "label": "NYC Comptroller",
+      "count": 12
+    },
+    {
+      "key": "public-advocate",
+      "label": "Public Advocate",
+      "count": 27
+    }
+  ],
+  "top_agencies": [
+    [
+      "NYPD",
+      8269
+    ],
+    [
+      "SANITATION OTHERS",
+      2340
+    ],
+    [
+      "DOS - ENFORCEMENT AGENTS",
+      1419
+    ],
+    [
+      "FIRE DEPARTMENT OF NYC",
+      1308
+    ],
+    [
+      "DEP - BUREAU OF ENV. COMPLIANC",
+      1136
+    ],
+    [
+      "POLICE DEPARTMENT",
+      881
+    ],
+    [
+      "DEPT. OF BUILDINGS",
+      770
+    ],
+    [
+      "PCS - DOHMH",
+      518
+    ],
+    [
+      "DOHMH - BFSCS",
+      357
+    ],
+    [
+      "DEPT OF TRANSPORTATION",
+      242
+    ],
+    [
+      "SANITATION RECYCLING",
+      212
+    ],
+    [
+      "DOH MENTAL HEALTH",
+      120
+    ],
+    [
+      "DCA - Tobacco Retail Dealer",
+      85
+    ],
+    [
+      "DCA - Electronic Cigarette Dealer",
+      60
+    ],
+    [
+      "DEP - BWSO",
+      56
+    ],
+    [
+      "SANITATION VENDOR ENFORCEMENT",
+      56
+    ],
+    [
+      "DOHMH - CHILD CARE",
+      50
+    ],
+    [
+      "PARKS DEPARTMENT",
+      50
+    ],
+    [
+      "SANITATION POLICE",
+      47
+    ],
+    [
+      "NYPD TRANSPORT INTELLIGENCE DI",
+      39
+    ],
+    [
+      "HPD BED BUGS AND PESTS - DOHMH",
+      30
+    ],
+    [
+      "NYC Public Advocate",
+      27
+    ],
+    [
+      "ASBESTOS CONTROL PROGRAM",
+      22
+    ],
+    [
+      "NYC SHERIFF",
+      19
+    ],
+    [
+      "DCA - Grocery-Retail",
+      18
+    ],
+    [
+      "BIC - BUSINESS INTEGRITY COMMISSION",
+      17
+    ],
+    [
+      "DEP - IWC",
+      16
+    ],
+    [
+      "VETERINARY-DOHMH",
+      12
+    ],
+    [
+      "NYC Comptroller",
+      12
+    ],
+    [
+      "DOHMH - LEAD",
+      10
+    ]
+  ]
+}
