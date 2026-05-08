@@ -1,8 +1,10 @@
-# NYC Decisions
+# The Rest of the Record
 
-A search index for New York City quasi-judicial decisions, oversight reports, and administrative rulings.
+A searchable microscope on NYC public records — the paper trail that lives beyond the news cycle.
 
-Aggregates public records from sources that are public but hard to track: OATH hearings, CCRB complaints, COIB ethics dispositions, DOI reports, NYC Comptroller audits, the Public Advocate's office, and (coming soon) more.
+Aggregates adjudications, audits, complaints, penalty recommendations, and oversight reports from sources that are public but hard to track: OATH (Trials and Hearings), CCRB complaints and penalties, COIB ethics dispositions, the Commission on Human Rights, DOI investigations, NYC Comptroller audits, the Public Advocate, TLC Chairperson reviews, DCWP final decisions, and PERB labor decisions.
+
+(Repo name `nyc-decisions` is preserved for URL stability.)
 
 ## What's here
 

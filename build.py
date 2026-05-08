@@ -123,10 +123,10 @@ def build_feeds(records: list[dict]) -> None:
 
     def _rss(records, title, key):
         fg = FeedGenerator()
-        fg.id(f"https://nyc-decisions.example/feeds/{key}.xml")
+        fg.id(f"https://joshgreenman1973.github.io/nyc-decisions/feeds/{key}.xml")
         fg.title(title)
-        fg.link(href=f"https://nyc-decisions.example/feeds/{key}.xml", rel="self")
-        fg.description(f"NYC Decisions feed: {title}")
+        fg.link(href=f"https://joshgreenman1973.github.io/nyc-decisions/feeds/{key}.xml", rel="self")
+        fg.description(f"The Rest of the Record feed: {title}")
         fg.language("en")
         # newest first, cap to 50
         recs_sorted = sorted(
@@ -149,11 +149,11 @@ def build_feeds(records: list[dict]) -> None:
         fg.rss_file(str(out))
         print(f"[feed] {key}.xml ({len(recs_sorted)} items)")
 
-    _rss(records, "NYC Decisions — All Sources", "all")
+    _rss(records, "The Rest of the Record — All Sources", "all")
     for _, key, label, _ in SOURCES:
         subset = [r for r in records if r.get("source") == key]
         if subset:
-            _rss(subset, f"NYC Decisions — {label}", key)
+            _rss(subset, f"The Rest of the Record — {label}", key)
 
 
 def main() -> None:

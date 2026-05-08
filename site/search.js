@@ -1,4 +1,4 @@
-/* NYC Decisions — client-side search */
+/* The Rest of the Record — client-side search */
 (async () => {
   const PAGE_SIZE = 25;
   let docs = [];
