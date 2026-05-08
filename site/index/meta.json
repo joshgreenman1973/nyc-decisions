@@ -1,6 +1,6 @@
 {
-  "total": 34713,
-  "updated_at": "2026-05-08T01:58:34Z",
+  "total": 34688,
+  "updated_at": "2026-05-08T07:22:29Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -15,7 +15,7 @@
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8269
+      "count": 8244
     },
     {
       "key": "ccrb-penalties",
@@ -46,7 +46,7 @@
   "top_agencies": [
     [
       "NYPD",
-      23038
+      23013
     ],
     [
       "SANITATION OTHERS",
