@@ -25,6 +25,9 @@ SOURCES = [
     ("scrapers.tlc", "tlc", "TLC Chairperson Review", {}),
     ("scrapers.dcwp", "dcwp", "DCWP Final Decisions", {}),
     ("scrapers.perb", "perb", "PERB Labor Decisions", {}),
+    ("scrapers.crol", "crol", "City Record Online", {}),
+    ("scrapers.hpd", "hpd-violations", "HPD Class C Violations", {}),
+    ("scrapers.doh", "doh", "DOH Official Notices", {}),
     ("scrapers.doi", "doi", "DOI Reports", {}),
     ("scrapers.comptroller", "nyc-comptroller", "NYC Comptroller", {}),
     ("scrapers.public_advocate", "public-advocate", "Public Advocate", {}),
@@ -119,7 +122,14 @@ def build_index(records: list[dict]) -> None:
 
 def build_feeds(records: list[dict]) -> None:
     from feedgen.feed import FeedGenerator
+    import re as _re
     FEED_DIR.mkdir(parents=True, exist_ok=True)
+
+    # XML 1.0 forbids most control chars; strip them from any string we feed
+    # to feedgen.
+    _BAD_CTRL = _re.compile(r"[\x00-\x08\x0B\x0C\x0E-\x1F]")
+    def _xml_safe(s: str) -> str:
+        return _BAD_CTRL.sub(" ", s or "")
 
     def _rss(records, title, key):
         fg = FeedGenerator()
@@ -135,12 +145,12 @@ def build_feeds(records: list[dict]) -> None:
         )[:50]
         for r in recs_sorted:
             fe = fg.add_entry()
-            fe.id(r["id"])
-            fe.title(r["title"][:200])
+            fe.id(_xml_safe(r["id"]))
+            fe.title(_xml_safe(r["title"])[:200])
             fe.link(href=r.get("doc_url") or r.get("source_url") or f"https://joshgreenman1973.github.io/nyc-decisions/?q={r['id']}")
             desc = r.get("summary") or r.get("full_text", "")[:500]
             if r.get("outcome"): desc = f"Outcome: {r['outcome']}\n\n" + desc
-            fe.description(desc)
+            fe.description(_xml_safe(desc))
             try:
                 fe.pubDate(f"{r['decision_date']}T12:00:00Z")
             except Exception:

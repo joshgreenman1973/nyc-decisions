@@ -1,6 +1,6 @@
 {
-  "total": 36068,
-  "updated_at": "2026-05-08T16:30:30Z",
+  "total": 58621,
+  "updated_at": "2026-05-08T16:42:07Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -48,6 +48,21 @@
       "count": 635
     },
     {
+      "key": "crol",
+      "label": "City Record Online",
+      "count": 7652
+    },
+    {
+      "key": "hpd-violations",
+      "label": "HPD Class C Violations",
+      "count": 14827
+    },
+    {
+      "key": "doh",
+      "label": "DOH Official Notices",
+      "count": 74
+    },
+    {
       "key": "doi",
       "label": "DOI Reports",
       "count": 168
@@ -67,6 +82,10 @@
     [
       "NYPD",
       23013
+    ],
+    [
+      "HPD",
+      14827
     ],
     [
       "SANITATION OTHERS",
@@ -97,6 +116,10 @@
       635
     ],
     [
+      "Citywide Administrative Services",
+      590
+    ],
+    [
       "PCS - DOHMH",
       518
     ],
@@ -105,84 +128,76 @@
       511
     ],
     [
+      "Youth and Community Development",
+      504
+    ],
+    [
       "NYC Comptroller",
       500
+    ],
+    [
+      "Dept. of Social Svcs/Human Resources Administration",
+      476
+    ],
+    [
+      "Health and Mental Hygiene",
+      419
     ],
     [
       "Taxi & Limousine",
       404
     ],
     [
+      "Environmental Protection",
+      396
+    ],
+    [
       "DOHMH - BFSCS",
       357
+    ],
+    [
+      "Mayor's Office of Contract Services",
+      346
+    ],
+    [
+      "Parks and Recreation",
+      345
+    ],
+    [
+      "Transportation",
+      337
+    ],
+    [
+      "Information Technology and Telecommunications",
+      326
     ],
     [
       "Section 75",
       284
     ],
     [
+      "Design and Construction",
+      280
+    ],
+    [
       "Business Integrity Commission",
-      260
+      265
+    ],
+    [
+      "Administration for Children's Services",
+      250
     ],
     [
       "DEPT OF TRANSPORTATION",
       242
     ],
     [
+      "Office of the Mayor",
+      233
+    ],
+    [
       "SANITATION RECYCLING",
       212
-    ],
-    [
-      "DOI",
-      168
-    ],
-    [
-      "DOH MENTAL HEALTH",
-      120
-    ],
-    [
-      "DCA - Tobacco Retail Dealer",
-      85
-    ],
-    [
-      "DCA - Electronic Cigarette Dealer",
-      60
-    ],
-    [
-      "Administrative Code",
-      59
-    ],
-    [
-      "DEP - BWSO",
-      56
-    ],
-    [
-      "SANITATION VENDOR ENFORCEMENT",
-      56
-    ],
-    [
-      "Contract Dispute Resolution Board",
-      53
-    ],
-    [
-      "DOHMH - CHILD CARE",
-      50
-    ],
-    [
-      "PARKS DEPARTMENT",
-      50
-    ],
-    [
-      "SANITATION POLICE",
-      47
-    ],
-    [
-      "Loft Board",
-      43
-    ],
-    [
-      "NYC Commission on Human Rights",
-      40
     ]
   ]
 }
