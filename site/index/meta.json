@@ -1,6 +1,6 @@
 {
-  "total": 140692,
-  "updated_at": "2026-05-09T08:12:45Z",
+  "total": 140784,
+  "updated_at": "2026-05-10T08:22:23Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -12,13 +12,13 @@
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
       "count": 9996,
-      "shard_bytes": 5114358
+      "shard_bytes": 5114411
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8214,
-      "shard_bytes": 3019527
+      "count": 8179,
+      "shard_bytes": 3006510
     },
     {
       "key": "ccrb-penalties",
@@ -59,14 +59,14 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 7611,
-      "shard_bytes": 5868274
+      "count": 7565,
+      "shard_bytes": 5829456
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14827,
-      "shard_bytes": 8989593
+      "count": 15000,
+      "shard_bytes": 9093216
     },
     {
       "key": "doh",
@@ -130,7 +130,7 @@
     ],
     [
       "NYPD",
-      22983
+      22948
     ],
     [
       "NYC Department of Health",
@@ -138,7 +138,7 @@
     ],
     [
       "HPD",
-      14827
+      15000
     ],
     [
       "NYC City Council",
@@ -178,7 +178,7 @@
     ],
     [
       "Fire Department",
-      1261
+      1252
     ],
     [
       "DOS - ENFORCEMENT AGENTS",
@@ -210,11 +210,11 @@
     ],
     [
       "NYC Health + Hospitals",
-      616
+      614
     ],
     [
       "Citywide Administrative Services",
-      587
+      581
     ],
     [
       "Forfeiture",
@@ -222,7 +222,7 @@
     ],
     [
       "Youth and Community Development",
-      501
+      500
     ],
     [
       "NYC Comptroller",
@@ -230,7 +230,7 @@
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
-      476
+      475
     ],
     [
       "Department of Environmental Protection",
@@ -238,7 +238,7 @@
     ],
     [
       "Health and Mental Hygiene",
-      414
+      411
     ],
     [
       "Taxi & Limousine",
