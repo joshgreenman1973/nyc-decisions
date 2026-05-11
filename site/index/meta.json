@@ -1,6 +1,6 @@
 {
-  "total": 140693,
-  "updated_at": "2026-05-11T17:21:36Z",
+  "total": 140691,
+  "updated_at": "2026-05-11T17:26:38Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -11,8 +11,8 @@
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9996,
-      "shard_bytes": 5044389
+      "count": 9999,
+      "shard_bytes": 5045549
     },
     {
       "key": "ccrb",
@@ -60,13 +60,13 @@
       "key": "crol",
       "label": "City Record Online",
       "count": 7595,
-      "shard_bytes": 11713386
+      "shard_bytes": 11718870
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14894,
-      "shard_bytes": 9026221
+      "count": 14889,
+      "shard_bytes": 9023258
     },
     {
       "key": "doh",
@@ -102,7 +102,7 @@
       "key": "dcwp-complaints",
       "label": "DCWP Consumer Complaints",
       "count": 24986,
-      "shard_bytes": 11704758
+      "shard_bytes": 11852928
     },
     {
       "key": "doi",
@@ -138,7 +138,7 @@
     ],
     [
       "HPD",
-      14894
+      14889
     ],
     [
       "NYC City Council",
@@ -166,7 +166,7 @@
     ],
     [
       "FIRE DEPARTMENT OF NYC",
-      1447
+      1448
     ],
     [
       "DEP - BUREAU OF ENV. COMPLIANC",
@@ -214,7 +214,7 @@
     ],
     [
       "Citywide Administrative Services",
-      581
+      580
     ],
     [
       "Forfeiture",
@@ -238,7 +238,7 @@
     ],
     [
       "Health and Mental Hygiene",
-      412
+      414
     ],
     [
       "Taxi & Limousine",

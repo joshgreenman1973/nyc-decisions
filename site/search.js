@@ -16,10 +16,15 @@
   const results = $("#results");
   const pager = $("#pager");
   const qEl = $("#q");
+  const addrEl = $("#addr");
+  const addrSugg = $("#addr-suggestions");
   const srcSel = $("#source-filter");
   const dateSel = $("#date-filter");
   const sortSel = $("#sort-filter");
   const metaEl = $("#meta");
+  let addressIndex = null;
+  let activeBbl = null;    // when an address is selected, all queries filter by its BBL
+  let activeBblLabel = ""; // human-readable label for the banner
   const loadingBar = $("#loading-bar");
   const loadingFill = loadingBar.querySelector(".loading-bar-fill");
   const loadingLabel = loadingBar.querySelector(".loading-bar-label");
@@ -173,7 +178,21 @@
     const { bare, phrases } = parseQuery(raw);
 
     let candidates;
-    if (bare || phrases.length) {
+    // Address mode: candidate set is records at this BBL only.
+    if (activeBbl) {
+      const refs = (addressIndex && addressIndex[activeBbl]) || [];
+      candidates = refs.map(ref => byId.get(ref.id)).filter(Boolean);
+      // Apply query/phrase filtering within the address subset
+      if (bare) {
+        const hits = mini.search(bare);
+        const hitIds = new Set(hits.map(h => h.id));
+        candidates = candidates.filter(d => hitIds.has(d.id));
+      }
+      if (phrases.length) {
+        candidates = candidates.filter(d => matchesPhrases(d, phrases));
+      }
+    }
+    else if (bare || phrases.length) {
       // If there are bare terms, run MiniSearch on them; otherwise (pure
       // phrase query) start from the full candidate pool.
       if (bare) {
@@ -192,7 +211,7 @@
       candidates = (src ? (docsBySource[src] || []) : allDocs).slice();
     }
 
-    if (src) candidates = candidates.filter(d => d.source === src);
+    if (src && !activeBbl) candidates = candidates.filter(d => d.source === src);
     if (days) {
       const cutoff = new Date(Date.now() - days * 86400000).toISOString().slice(0, 10);
       candidates = candidates.filter(d => (d.decision_date || "") >= cutoff);
@@ -279,7 +298,24 @@
 
     lastResults = filterAndRank();
 
-    if (highlightMode && !q && !src) {
+    // Banner for active address filter
+    let banner = $("#addr-banner");
+    if (activeBbl) {
+      if (!banner) {
+        banner = document.createElement("div");
+        banner.id = "addr-banner";
+        banner.className = "addr-banner";
+        results.parentNode.insertBefore(banner, results);
+      }
+      banner.innerHTML = `<strong>Records at ${esc(activeBblLabel)}</strong> (BBL ${esc(activeBbl)}) — ${lastResults.length.toLocaleString()} matches across all sources <button id="clear-addr">clear address</button>`;
+      $("#clear-addr").onclick = () => { clearAddress(); update(); };
+    } else if (banner) {
+      banner.remove();
+    }
+
+    if (activeBbl) {
+      metaEl.textContent = "";
+    } else if (highlightMode && !q && !src) {
       metaEl.textContent = `Showing ${lastResults.length} most-recent records across all sources — type to search ${meta.total.toLocaleString()} or pick a source`;
     } else {
       metaEl.textContent = `${lastResults.length.toLocaleString()} of ${meta.total.toLocaleString()} records`;
@@ -301,6 +337,90 @@
   srcSel.addEventListener("change", update);
   dateSel.addEventListener("change", update);
   sortSel.addEventListener("change", update);
+
+  // --- Address search via NYC Planning GeoSearch ---
+  let addrDebounce;
+  let addrCache = new Map();
+  async function geosearchAutocomplete(text) {
+    if (text.length < 3) return [];
+    if (addrCache.has(text)) return addrCache.get(text);
+    try {
+      const r = await fetch(`https://geosearch.planninglabs.nyc/v2/autocomplete?text=${encodeURIComponent(text)}&size=8`);
+      const j = await r.json();
+      const features = (j.features || []).filter(f => f.properties && f.properties.pad_bbl);
+      addrCache.set(text, features);
+      return features;
+    } catch (e) {
+      return [];
+    }
+  }
+  function renderSuggestions(features) {
+    if (!features.length) { addrSugg.hidden = true; addrSugg.innerHTML = ""; return; }
+    addrSugg.hidden = false;
+    addrSugg.innerHTML = features.map((f, i) => {
+      const p = f.properties;
+      const label = p.label || p.name || "";
+      const sub = `BBL ${p.pad_bbl} — ${p.borough || ""}`;
+      const hasRecords = (addressIndex && addressIndex[p.pad_bbl]) ? `${addressIndex[p.pad_bbl].length} records` : "no records";
+      return `<div class="addr-suggestion" data-bbl="${esc(p.pad_bbl)}" data-label="${esc(label)}" data-i="${i}">
+        <div class="label">${esc(label)}</div>
+        <div class="sub">${esc(sub)} — <em>${hasRecords}</em></div>
+      </div>`;
+    }).join("");
+    addrSugg.querySelectorAll(".addr-suggestion").forEach(el => {
+      el.addEventListener("click", () => {
+        selectAddress(el.dataset.bbl, el.dataset.label);
+      });
+    });
+  }
+  async function ensureAddressIndex() {
+    if (addressIndex) return;
+    try {
+      addressIndex = await fetch("index/address-index.json").then(r => r.json());
+    } catch (e) {
+      addressIndex = {};
+    }
+  }
+  function clearAddress() {
+    activeBbl = null;
+    activeBblLabel = "";
+    addrEl.value = "";
+    addrSugg.hidden = true;
+    addrSugg.innerHTML = "";
+  }
+  async function selectAddress(bbl, label) {
+    activeBbl = bbl;
+    activeBblLabel = label;
+    addrEl.value = label;
+    addrSugg.hidden = true;
+    addrSugg.innerHTML = "";
+    // Make sure the relevant source shards are loaded so we have the records
+    const refs = (addressIndex && addressIndex[bbl]) || [];
+    const sources = Array.from(new Set(refs.map(r => r.source)));
+    const toLoad = sources.filter(s => !docsBySource[s]);
+    if (toLoad.length) {
+      showLoading(`Loading records at ${label}…`);
+      await Promise.all(toLoad.map(loadShard));
+      hideLoading();
+    }
+    highlightMode = false;
+    update();
+  }
+  addrEl.addEventListener("input", () => {
+    clearTimeout(addrDebounce);
+    const text = addrEl.value.trim();
+    if (!text) { addrSugg.hidden = true; return; }
+    addrDebounce = setTimeout(async () => {
+      await ensureAddressIndex();
+      const features = await geosearchAutocomplete(text);
+      renderSuggestions(features);
+    }, 220);
+  });
+  document.addEventListener("click", (e) => {
+    if (!addrEl.contains(e.target) && !addrSugg.contains(e.target)) {
+      addrSugg.hidden = true;
+    }
+  });
 
   function esc(s) {
     return String(s == null ? "" : s)

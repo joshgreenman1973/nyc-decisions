@@ -53,16 +53,20 @@ def scrape(days_back: int = 90, page_size: int = 5000, max_records: int = 15000)
                     addr += f", {row['boro']}"
                 desc = (row.get("novdescription") or "")[:400]
                 status = row.get("violationstatus") or row.get("currentstatus") or ""
+                bbl = f"{row.get('boroid','')}{(row.get('block') or '').zfill(5)}{(row.get('lot') or '').zfill(4)}"
                 rec = B.Record(
                     id=B.stable_id(SOURCE, vid),
                     source=SOURCE,
-                    source_url=f"https://hpdonline.nyc.gov/hpdonline/?bbl={row.get('boroid','')}{(row.get('block') or '').zfill(5)}{(row.get('lot') or '').zfill(4)}",
+                    source_url=f"https://hpdonline.nyc.gov/hpdonline/?bbl={bbl}",
                     title=f"HPD Class C violation — {addr}"[:280],
                     decision_date=date,
                     summary=desc,
                     agency="HPD",
                     respondent=addr,
                     outcome=status or "Open",
+                    address=addr,
+                    bbl=bbl if len(bbl) == 10 and bbl.isdigit() else "",
+                    borough=row.get("boro") or "",
                     scraped_at=B.now_iso(),
                 )
                 yield rec.to_dict()

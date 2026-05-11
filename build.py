@@ -179,6 +179,23 @@ def build_index(records: list[dict]) -> None:
     )
     print(f"[index] highlights: {len(highlights)} records")
 
+    # Address index: BBL -> [{id, source}]. Lets the frontend resolve an
+    # autocompleted address to every record at that property across sources.
+    address_index: dict[str, list[dict]] = {}
+    for r in records:
+        bbl = (r.get("bbl") or "").strip()
+        if not bbl or len(bbl) != 10 or not bbl.isdigit():
+            continue
+        address_index.setdefault(bbl, []).append({
+            "id": r["id"],
+            "source": r.get("source", ""),
+        })
+    (INDEX_DIR / "address-index.json").write_text(
+        json.dumps(address_index, ensure_ascii=False)
+    )
+    print(f"[index] address index: {len(address_index)} BBLs covering "
+          f"{sum(len(v) for v in address_index.values())} records")
+
 
 def build_feeds(records: list[dict]) -> None:
     from feedgen.feed import FeedGenerator

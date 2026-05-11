@@ -45,6 +45,64 @@ header .tag { margin: 0.35rem 0 0; color: var(--muted); font-size: 1rem; }
 }
 #q:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
 
+.addr-search {
+  position: relative;
+  margin-top: 0.4rem;
+}
+#addr {
+  width: 100%;
+  font-size: 0.95rem;
+  padding: 0.55rem 0.85rem;
+  border: 1.5px solid var(--rule);
+  border-radius: 6px;
+  background: #fff;
+}
+#addr:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.addr-suggestions {
+  position: absolute;
+  z-index: 10;
+  left: 0; right: 0;
+  top: 100%;
+  background: #fff;
+  border: 1px solid var(--rule);
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  max-height: 280px;
+  overflow-y: auto;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+.addr-suggestion {
+  padding: 0.5rem 0.85rem;
+  cursor: pointer;
+  font-size: 0.92rem;
+  border-bottom: 1px solid #ecebe6;
+}
+.addr-suggestion:last-child { border-bottom: none; }
+.addr-suggestion:hover, .addr-suggestion[aria-selected="true"] {
+  background: var(--accent-soft);
+}
+.addr-suggestion .label { color: var(--ink); }
+.addr-suggestion .sub { color: var(--muted); font-size: 0.82rem; }
+
+.addr-banner {
+  background: #fff8e1;
+  border: 1px solid #f0d990;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0 0.5rem;
+  font-size: 0.95rem;
+}
+.addr-banner strong { font-weight: 600; }
+.addr-banner button {
+  margin-left: 0.75rem;
+  border: none;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 0.85rem;
+  text-decoration: underline;
+}
+
 .filters {
   display: flex;
   gap: 0.5rem;

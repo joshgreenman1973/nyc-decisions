@@ -51,6 +51,8 @@ def scrape(years_back: int = 5, page_size: int = 5000, max_records: int = 25000)
                 addr = " ".join(addr_parts)
                 if row.get("borough"):
                     addr += f", {row['borough']}"
+                if row.get("postcode"):
+                    addr += f" {row['postcode']}"
                 rec = B.Record(
                     id=B.stable_id(SOURCE, rid),
                     source=SOURCE,
@@ -61,6 +63,9 @@ def scrape(years_back: int = 5, page_size: int = 5000, max_records: int = 25000)
                     agency="DCWP",
                     respondent=business,
                     outcome=result,
+                    address=addr,
+                    bbl=(row.get("bbl") or "") if (row.get("bbl") or "").isdigit() else "",
+                    borough=row.get("borough") or "",
                     scraped_at=B.now_iso(),
                 )
                 yield rec.to_dict()

@@ -24,7 +24,11 @@
   </section>
 
   <section class="searchbox">
-    <input id="q" type="search" placeholder="Search names, agencies, addresses, keywords…" autofocus>
+    <input id="q" type="search" placeholder="Search names, agencies, keywords…" autofocus>
+    <div class="addr-search">
+      <input id="addr" type="search" placeholder="…or look up everything at a specific address" autocomplete="off">
+      <div id="addr-suggestions" class="addr-suggestions" hidden></div>
+    </div>
     <div class="filters">
       <select id="source-filter"><option value="">All sources</option></select>
       <select id="date-filter">

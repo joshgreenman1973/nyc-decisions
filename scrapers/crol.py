@@ -84,6 +84,19 @@ def scrape(days_back: int = 365, page_size: int = 5000, max_records: int = 15000
                 if agency:
                     title = f"{agency} — {title}"
                 detail_url = f"https://a856-cityrecord.nyc.gov/RequestDetail/{rid}"
+                # Address: CROL records sometimes include building_name + street.
+                addr_parts = [p for p in (
+                    row.get("building_name") or "",
+                    row.get("street_address_1") or "",
+                    row.get("street_address_2") or "",
+                ) if p]
+                addr_line = ", ".join(addr_parts)
+                locality = ", ".join(p for p in (
+                    row.get("city") or "",
+                    row.get("state") or "",
+                    row.get("zip_code") or "",
+                ) if p)
+                addr = (f"{addr_line}, {locality}" if addr_line and locality else (addr_line or locality)).strip(", ")
                 rec = B.Record(
                     id=B.stable_id(SOURCE, rid),
                     source=SOURCE,
@@ -95,6 +108,7 @@ def scrape(days_back: int = 365, page_size: int = 5000, max_records: int = 15000
                     doc_url=detail_url,
                     agency=agency,
                     outcome=section,
+                    address=addr,
                     scraped_at=B.now_iso(),
                 )
                 yield rec.to_dict()

@@ -44,6 +44,12 @@ class Record:
     judge: str = ""
     outcome: str = ""
     penalty: str = ""
+    # Address fields — populated when the source record has a street address.
+    # `address` is a human-readable string ("350 E 30th St, Manhattan, NY 10016").
+    # `bbl` is NYC's Borough-Block-Lot 10-digit canonical property key when known.
+    address: str = ""
+    bbl: str = ""
+    borough: str = ""
     scraped_at: str = ""
 
     def to_dict(self) -> dict:
