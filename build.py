@@ -14,28 +14,28 @@ from pathlib import Path
 
 from scrapers import _base as B
 
-# (module name, source key, display label, default cap)
+# (module name, source key, display label, coverage description, scraper kwargs)
 SOURCES = [
-    ("scrapers.oath_trials", "oath-trials", "OATH Trials (incl. NYPD discipline)", {}),
-    ("scrapers.oath", "oath-hearings", "OATH Hearings (summons)", {}),
-    ("scrapers.ccrb", "ccrb", "CCRB Complaints", {}),
-    ("scrapers.ccrb_penalties", "ccrb-penalties", "CCRB Penalty Recommendations", {}),
-    ("scrapers.coib", "coib", "COIB Ethics", {}),
-    ("scrapers.cchr", "cchr", "Commission on Human Rights", {}),
-    ("scrapers.tlc", "tlc", "TLC Chairperson Review", {}),
-    ("scrapers.dcwp", "dcwp", "DCWP Final Decisions", {}),
-    ("scrapers.perb", "perb", "PERB Labor Decisions", {}),
-    ("scrapers.crol", "crol", "City Record Online", {}),
-    ("scrapers.hpd", "hpd-violations", "HPD Class C Violations", {}),
-    ("scrapers.doh", "doh", "DOH Official Notices", {}),
-    ("scrapers.claims", "claims", "Claims Against NYC", {}),
-    ("scrapers.council_legislation", "council-legislation", "City Council Legislation", {}),
-    ("scrapers.rezoning", "rezoning", "Rezoning Tracker", {}),
-    ("scrapers.dohmh_indoor", "dohmh-indoor", "DOHMH Indoor Complaints", {}),
-    ("scrapers.dcwp_complaints", "dcwp-complaints", "DCWP Consumer Complaints", {}),
-    ("scrapers.doi", "doi", "DOI Reports", {}),
-    ("scrapers.comptroller", "nyc-comptroller", "NYC Comptroller", {}),
-    ("scrapers.public_advocate", "public-advocate", "Public Advocate", {}),
+    ("scrapers.oath_trials", "oath-trials", "OATH Trials (incl. NYPD discipline)", "Last 5 years (capped 20,000)", {}),
+    ("scrapers.oath", "oath-hearings", "OATH Hearings (summons)", "Last 180 days (capped 10,000)", {}),
+    ("scrapers.ccrb", "ccrb", "CCRB Complaints", "Last 2 years (capped 15,000)", {}),
+    ("scrapers.ccrb_penalties", "ccrb-penalties", "CCRB Penalty Recommendations", "All available (capped 20,000)", {}),
+    ("scrapers.coib", "coib", "COIB Ethics", "All published PDFs", {}),
+    ("scrapers.cchr", "cchr", "Commission on Human Rights", "All decisions, 2015–present", {}),
+    ("scrapers.tlc", "tlc", "TLC Chairperson Review", "All currently linked PDFs", {}),
+    ("scrapers.dcwp", "dcwp", "DCWP Final Decisions", "All currently linked PDFs", {}),
+    ("scrapers.perb", "perb", "PERB Labor Decisions", "All, 1974–present", {}),
+    ("scrapers.crol", "crol", "City Record Online", "Last 365 days, substantive notices only (capped 15,000)", {}),
+    ("scrapers.hpd", "hpd-violations", "HPD Class C Violations", "Last 90 days (capped 15,000); live lookup by address covers all classes", {}),
+    ("scrapers.doh", "doh", "DOH Official Notices", "All currently linked PDFs", {}),
+    ("scrapers.claims", "claims", "Claims Against NYC", "Last 5 years (capped 25,000)", {}),
+    ("scrapers.council_legislation", "council-legislation", "City Council Legislation", "All bills + local laws since 1998", {}),
+    ("scrapers.rezoning", "rezoning", "Rezoning Tracker", "All projects", {}),
+    ("scrapers.dohmh_indoor", "dohmh-indoor", "DOHMH Indoor Complaints", "Last 5 years (capped 20,000)", {}),
+    ("scrapers.dcwp_complaints", "dcwp-complaints", "DCWP Consumer Complaints", "Last 5 years (capped 25,000)", {}),
+    ("scrapers.doi", "doi", "DOI Reports", "All reports, 2002–present (via Wayback CDX)", {}),
+    ("scrapers.comptroller", "nyc-comptroller", "NYC Comptroller", "Most recent 500 reports", {}),
+    ("scrapers.public_advocate", "public-advocate", "Public Advocate", "Full corpus from advocate.nyc.gov/reports", {}),
 ]
 
 ROOT = Path(__file__).resolve().parent
@@ -156,8 +156,9 @@ def build_index(records: list[dict]) -> None:
                 "label": label,
                 "count": by_source_count.get(key, 0),
                 "shard_bytes": shard_sizes.get(key, 0),
+                "coverage": coverage,
             }
-            for _, key, label, _, _ in SOURCES
+            for _, key, label, coverage, _ in SOURCES
             if by_source_count.get(key, 0) > 0
         ],
         "top_agencies": sorted(by_agency.items(), key=lambda kv: -kv[1])[:30],

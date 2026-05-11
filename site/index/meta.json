@@ -1,126 +1,146 @@
 {
   "total": 140691,
-  "updated_at": "2026-05-11T17:26:38Z",
+  "updated_at": "2026-05-11T18:08:05Z",
   "sources": [
     {
       "key": "oath-trials",
       "label": "OATH Trials (incl. NYPD discipline)",
       "count": 1626,
-      "shard_bytes": 694326
+      "shard_bytes": 694326,
+      "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
       "count": 9999,
-      "shard_bytes": 5045549
+      "shard_bytes": 5045549,
+      "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
       "count": 8168,
-      "shard_bytes": 3174104
+      "shard_bytes": 3174104,
+      "coverage": "Last 2 years (capped 15,000)"
     },
     {
       "key": "ccrb-penalties",
       "label": "CCRB Penalty Recommendations",
       "count": 14769,
-      "shard_bytes": 6804408
+      "shard_bytes": 6804408,
+      "coverage": "All available (capped 20,000)"
     },
     {
       "key": "coib",
       "label": "COIB Ethics",
       "count": 3,
-      "shard_bytes": 12168
+      "shard_bytes": 12168,
+      "coverage": "All published PDFs"
     },
     {
       "key": "cchr",
       "label": "Commission on Human Rights",
       "count": 40,
-      "shard_bytes": 130286
+      "shard_bytes": 130286,
+      "coverage": "All decisions, 2015\u2013present"
     },
     {
       "key": "tlc",
       "label": "TLC Chairperson Review",
       "count": 38,
-      "shard_bytes": 49410
+      "shard_bytes": 49410,
+      "coverage": "All currently linked PDFs"
     },
     {
       "key": "dcwp",
       "label": "DCWP Final Decisions",
       "count": 15,
-      "shard_bytes": 49443
+      "shard_bytes": 49443,
+      "coverage": "All currently linked PDFs"
     },
     {
       "key": "perb",
       "label": "PERB Labor Decisions",
       "count": 635,
-      "shard_bytes": 264839
+      "shard_bytes": 264839,
+      "coverage": "All, 1974\u2013present"
     },
     {
       "key": "crol",
       "label": "City Record Online",
       "count": 7595,
-      "shard_bytes": 11718870
+      "shard_bytes": 11718870,
+      "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
       "count": 14889,
-      "shard_bytes": 9023258
+      "shard_bytes": 9023258,
+      "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
       "key": "doh",
       "label": "DOH Official Notices",
       "count": 74,
-      "shard_bytes": 328933
+      "shard_bytes": 328933,
+      "coverage": "All currently linked PDFs"
     },
     {
       "key": "claims",
       "label": "Claims Against NYC",
       "count": 23582,
-      "shard_bytes": 10885545
+      "shard_bytes": 10885545,
+      "coverage": "Last 5 years (capped 25,000)"
     },
     {
       "key": "council-legislation",
       "label": "City Council Legislation",
       "count": 11622,
-      "shard_bytes": 11813004
+      "shard_bytes": 11813004,
+      "coverage": "All bills + local laws since 1998"
     },
     {
       "key": "rezoning",
       "label": "Rezoning Tracker",
       "count": 1955,
-      "shard_bytes": 3835033
+      "shard_bytes": 3835033,
+      "coverage": "All projects"
     },
     {
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9071921
+      "shard_bytes": 9071921,
+      "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "dcwp-complaints",
       "label": "DCWP Consumer Complaints",
       "count": 24986,
-      "shard_bytes": 11852928
+      "shard_bytes": 11852928,
+      "coverage": "Last 5 years (capped 25,000)"
     },
     {
       "key": "doi",
       "label": "DOI Reports",
       "count": 168,
-      "shard_bytes": 540901
+      "shard_bytes": 540901,
+      "coverage": "All reports, 2002\u2013present (via Wayback CDX)"
     },
     {
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
-      "shard_bytes": 1968049
+      "shard_bytes": 1968049,
+      "coverage": "Most recent 500 reports"
     },
     {
       "key": "public-advocate",
       "label": "Public Advocate",
       "count": 27,
-      "shard_bytes": 16671
+      "shard_bytes": 16671,
+      "coverage": "Full corpus from advocate.nyc.gov/reports"
     }
   ],
   "top_agencies": [
