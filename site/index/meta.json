@@ -1,24 +1,24 @@
 {
-  "total": 140784,
-  "updated_at": "2026-05-10T08:22:23Z",
+  "total": 140664,
+  "updated_at": "2026-05-11T09:49:35Z",
   "sources": [
     {
       "key": "oath-trials",
       "label": "OATH Trials (incl. NYPD discipline)",
-      "count": 1630,
-      "shard_bytes": 684631
+      "count": 1626,
+      "shard_bytes": 682944
     },
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9996,
-      "shard_bytes": 5114411
+      "count": 9997,
+      "shard_bytes": 5114798
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8179,
-      "shard_bytes": 3006510
+      "count": 8168,
+      "shard_bytes": 3002576
     },
     {
       "key": "ccrb-penalties",
@@ -65,8 +65,8 @@
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 15000,
-      "shard_bytes": 9093216
+      "count": 14894,
+      "shard_bytes": 9026221
     },
     {
       "key": "doh",
@@ -130,7 +130,7 @@
     ],
     [
       "NYPD",
-      22948
+      22937
     ],
     [
       "NYC Department of Health",
@@ -138,7 +138,7 @@
     ],
     [
       "HPD",
-      15000
+      14894
     ],
     [
       "NYC City Council",
@@ -162,7 +162,7 @@
     ],
     [
       "SANITATION OTHERS",
-      2002
+      2001
     ],
     [
       "FIRE DEPARTMENT OF NYC",
@@ -218,7 +218,7 @@
     ],
     [
       "Forfeiture",
-      511
+      510
     ],
     [
       "Youth and Community Development",
