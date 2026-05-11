@@ -18,6 +18,7 @@
   const qEl = $("#q");
   const srcSel = $("#source-filter");
   const dateSel = $("#date-filter");
+  const sortSel = $("#sort-filter");
   const metaEl = $("#meta");
   const loadingBar = $("#loading-bar");
   const loadingFill = loadingBar.querySelector(".loading-bar-fill");
@@ -139,26 +140,83 @@
   qEl.value = params.get("q") || "";
   if (params.get("source")) srcSel.value = params.get("source");
   if (params.get("days")) dateSel.value = params.get("days");
+  if (params.get("sort")) sortSel.value = params.get("sort");
+
+  // Split a raw query into bare terms and quoted phrases.
+  //   police "use of force" misconduct
+  //   -> { bare: 'police misconduct', phrases: ['use of force'] }
+  function parseQuery(raw) {
+    const phrases = [];
+    const bare = raw.replace(/"([^"]+)"/g, (_, p) => {
+      const t = p.trim();
+      if (t) phrases.push(t.toLowerCase());
+      return " ";
+    }).replace(/\s+/g, " ").trim();
+    return { bare, phrases };
+  }
+
+  // Quoted-phrase filter: every phrase must appear, case-insensitively, in
+  // the document's title/summary/full_text/agency/respondent/outcome.
+  function matchesPhrases(d, phrases) {
+    if (!phrases.length) return true;
+    const hay = [
+      d.title, d.summary, d.full_text, d.agency, d.respondent, d.outcome,
+    ].join(" ").toLowerCase();
+    return phrases.every(p => hay.includes(p));
+  }
 
   function filterAndRank() {
-    const q = qEl.value.trim();
+    const raw = qEl.value.trim();
     const src = srcSel.value;
     const days = parseInt(dateSel.value || "0", 10);
+    const sort = sortSel.value || "relevance";
+    const { bare, phrases } = parseQuery(raw);
 
     let candidates;
-    if (q) {
-      const hits = mini.search(q);
-      candidates = hits.map(h => ({...byId.get(h.id), _score: h.score})).filter(d => d.id);
+    if (bare || phrases.length) {
+      // If there are bare terms, run MiniSearch on them; otherwise (pure
+      // phrase query) start from the full candidate pool.
+      if (bare) {
+        const hits = mini.search(bare);
+        candidates = hits.map(h => ({...byId.get(h.id), _score: h.score})).filter(d => d.id);
+      } else {
+        candidates = (src ? (docsBySource[src] || []) : allDocs).map(d => ({...d, _score: 0}));
+      }
+      // Phrase filter
+      if (phrases.length) {
+        candidates = candidates.filter(d => matchesPhrases(d, phrases));
+      }
     } else if (highlightMode && !src) {
       candidates = highlights.slice();
     } else {
       candidates = (src ? (docsBySource[src] || []) : allDocs).slice();
-      candidates.sort((a, b) => (b.decision_date || "").localeCompare(a.decision_date || ""));
     }
+
     if (src) candidates = candidates.filter(d => d.source === src);
     if (days) {
       const cutoff = new Date(Date.now() - days * 86400000).toISOString().slice(0, 10);
       candidates = candidates.filter(d => (d.decision_date || "") >= cutoff);
+    }
+
+    // Sort
+    if (sort === "newest") {
+      candidates.sort((a, b) => (b.decision_date || "").localeCompare(a.decision_date || ""));
+    } else if (sort === "oldest") {
+      candidates.sort((a, b) => (a.decision_date || "9999").localeCompare(b.decision_date || "9999"));
+    } else if (sort === "source") {
+      candidates.sort((a, b) => {
+        const A = (labelByKey[a.source] || a.source || "").toLowerCase();
+        const B = (labelByKey[b.source] || b.source || "").toLowerCase();
+        if (A !== B) return A.localeCompare(B);
+        return (b.decision_date || "").localeCompare(a.decision_date || "");
+      });
+    } else {
+      // relevance: keep MiniSearch score order if we have one, else newest
+      if (raw) {
+        candidates.sort((a, b) => (b._score || 0) - (a._score || 0));
+      } else {
+        candidates.sort((a, b) => (b.decision_date || "").localeCompare(a.decision_date || ""));
+      }
     }
     return candidates;
   }
@@ -232,6 +290,7 @@
     if (q) p.set("q", q);
     if (src) p.set("source", src);
     if (dateSel.value) p.set("days", dateSel.value);
+    if (sortSel.value && sortSel.value !== "relevance") p.set("sort", sortSel.value);
     const qs = p.toString();
     history.replaceState(null, "", qs ? "?" + qs : location.pathname);
     renderPage();
@@ -241,6 +300,7 @@
   qEl.addEventListener("input", () => { clearTimeout(debounce); debounce = setTimeout(update, 200); });
   srcSel.addEventListener("change", update);
   dateSel.addEventListener("change", update);
+  sortSel.addEventListener("change", update);
 
   function esc(s) {
     return String(s == null ? "" : s)
@@ -249,9 +309,14 @@
   }
   function highlight(text, q) {
     if (!q) return text;
-    const terms = q.split(/\s+/).filter(t => t.length > 1).map(escRe).join("|");
-    if (!terms) return text;
-    return text.replace(new RegExp(`(${terms})`, "gi"), "<mark>$1</mark>");
+    const { bare, phrases } = parseQuery(q);
+    const tokens = [];
+    for (const ph of phrases) tokens.push(escRe(ph));
+    for (const t of bare.split(/\s+/)) {
+      if (t.length > 1) tokens.push(escRe(t));
+    }
+    if (!tokens.length) return text;
+    return text.replace(new RegExp(`(${tokens.join("|")})`, "gi"), "<mark>$1</mark>");
   }
   function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 

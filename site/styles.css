@@ -74,6 +74,17 @@ header .tag { margin: 0.35rem 0 0; color: var(--muted); font-size: 1rem; }
   font-size: 0.85rem;
   color: var(--muted);
 }
+.hint {
+  margin: 0.4rem 0 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+.hint code {
+  background: #f1efe7;
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-size: 0.82rem;
+}
 
 #results { margin-top: 1rem; }
 .result {
