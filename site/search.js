@@ -322,7 +322,7 @@
         banner.className = "addr-banner";
         results.parentNode.insertBefore(banner, results);
       }
-      banner.innerHTML = `<strong>Records at ${esc(activeBblLabel)}</strong> (BBL ${esc(activeBbl)}) — ${lastResults.length.toLocaleString()} matches across all sources <button id="clear-addr">clear address</button>`;
+      banner.innerHTML = `<strong>Records at ${esc(activeBblLabel)}</strong> (BBL ${esc(activeBbl)}) — ${lastResults.length.toLocaleString()} matches across all sources. <a href="https://whoownswhat.justfix.org/en/bbl/${esc(activeBbl)}" target="_blank" rel="noopener">Building profile on Who Owns What ↗</a> <button id="clear-addr">clear address</button>`;
       $("#clear-addr").onclick = () => { clearAddress(); update(); };
     } else if (banner) {
       banner.remove();
@@ -383,7 +383,10 @@
       const bbl = extractBbl(f);
       const label = p.label || p.name || "";
       const sub = `BBL ${bbl} — ${p.borough || ""}`;
-      const hasRecords = (addressIndex && addressIndex[bbl]) ? `${addressIndex[bbl].length} records` : "no records";
+      const staticCount = (addressIndex && addressIndex[bbl]) ? addressIndex[bbl].length : 0;
+      const hasRecords = staticCount > 0
+        ? `${staticCount} record${staticCount === 1 ? "" : "s"} indexed — plus live lookup`
+        : `click for live HPD + DCWP lookup`;
       return `<div class="addr-suggestion" data-bbl="${esc(bbl)}" data-label="${esc(label)}" data-i="${i}">
         <div class="label">${esc(label)}</div>
         <div class="sub">${esc(sub)} — <em>${hasRecords}</em></div>
@@ -434,8 +437,8 @@
       return rows.map(row => ({
         id: `live-hpd-${row.violationid}`,
         source: "hpd-violations-live",
-        source_url: `https://hpdonline.nyc.gov/hpdonline/?bbl=${bbl}`,
-        doc_url: `https://hpdonline.nyc.gov/hpdonline/?bbl=${bbl}`,
+        source_url: `https://data.cityofnewyork.us/d/wvxf-dwi5/explore?q=${row.violationid}`,
+        doc_url: `https://data.cityofnewyork.us/d/wvxf-dwi5/explore?q=${row.violationid}`,
         title: `HPD Class ${row.class || "?"} violation — ${row.novdescription ? row.novdescription.slice(0,180) : "(no description)"}`,
         decision_date: (row.novissueddate || "").slice(0,10),
         agency: "HPD",
@@ -487,8 +490,8 @@
       return rows.map(row => ({
         id: `live-hpdcompl-${row.complaint_id}`,
         source: "hpd-complaints-live",
-        source_url: `https://hpdonline.nyc.gov/hpdonline/?bbl=${bbl}`,
-        doc_url: `https://hpdonline.nyc.gov/hpdonline/?bbl=${bbl}`,
+        source_url: `https://data.cityofnewyork.us/d/ygpa-z7cr/explore?q=${row.complaint_id}`,
+        doc_url: `https://data.cityofnewyork.us/d/ygpa-z7cr/explore?q=${row.complaint_id}`,
         title: `HPD complaint #${row.complaint_id}: ${row.minor_category || row.major_category || "complaint"}`,
         decision_date: (row.received_date || "").slice(0,10),
         agency: "HPD",
