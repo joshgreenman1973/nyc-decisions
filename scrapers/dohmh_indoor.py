@@ -50,7 +50,7 @@ def scrape(years_back: int = 5, page_size: int = 5000, max_records: int = 20000)
                 rec = B.Record(
                     id=B.stable_id(SOURCE, cid),
                     source=SOURCE,
-                    source_url="https://www.nyc.gov/site/doh/services/indoor-environmental-hazards.page",
+                    source_url=f"https://data.cityofnewyork.us/d/{DATASET}/explore?q={cid}",
                     title=f"DOHMH indoor complaint #{cid}: {ctype}"[:280],
                     decision_date=date,
                     summary=" / ".join(p for p in (desc, addr) if p)[:300],

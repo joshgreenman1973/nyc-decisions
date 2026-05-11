@@ -1,30 +1,30 @@
 {
-  "total": 140694,
-  "updated_at": "2026-05-11T17:17:13Z",
+  "total": 140693,
+  "updated_at": "2026-05-11T17:21:36Z",
   "sources": [
     {
       "key": "oath-trials",
       "label": "OATH Trials (incl. NYPD discipline)",
       "count": 1626,
-      "shard_bytes": 682944
+      "shard_bytes": 694326
     },
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9997,
-      "shard_bytes": 5114748
+      "count": 9996,
+      "shard_bytes": 5044389
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
       "count": 8168,
-      "shard_bytes": 3002576
+      "shard_bytes": 3174104
     },
     {
       "key": "ccrb-penalties",
       "label": "CCRB Penalty Recommendations",
       "count": 14769,
-      "shard_bytes": 6494259
+      "shard_bytes": 6804408
     },
     {
       "key": "coib",
@@ -78,7 +78,7 @@
       "key": "claims",
       "label": "Claims Against NYC",
       "count": 23582,
-      "shard_bytes": 11074201
+      "shard_bytes": 10885545
     },
     {
       "key": "council-legislation",
@@ -90,19 +90,19 @@
       "key": "rezoning",
       "label": "Rezoning Tracker",
       "count": 1955,
-      "shard_bytes": 3799504
+      "shard_bytes": 3835033
     },
     {
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9151367
+      "shard_bytes": 9071921
     },
     {
       "key": "dcwp-complaints",
       "label": "DCWP Consumer Complaints",
       "count": 24986,
-      "shard_bytes": 11454898
+      "shard_bytes": 11704758
     },
     {
       "key": "doi",
@@ -162,7 +162,7 @@
     ],
     [
       "SANITATION OTHERS",
-      2001
+      2002
     ],
     [
       "FIRE DEPARTMENT OF NYC",

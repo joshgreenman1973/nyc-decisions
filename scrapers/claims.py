@@ -66,7 +66,7 @@ def scrape(years_back: int = 5, page_size: int = 5000, max_records: int = 25000)
                 rec = B.Record(
                     id=B.stable_id(SOURCE, f"{claim}:{filed}"),
                     source=SOURCE,
-                    source_url=f"https://data.cityofnewyork.us/resource/{DATASET}.json?claim={claim}",
+                    source_url=f"https://data.cityofnewyork.us/d/{DATASET}/explore?q={claim}",
                     title=f"Claim against {agency}: {ctype}"[:280] if agency else f"Claim {claim}: {ctype}"[:280],
                     decision_date=date,
                     summary=" — ".join(summary_parts)[:500],

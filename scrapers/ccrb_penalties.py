@@ -49,7 +49,7 @@ def scrape(page_size: int = 5000, max_records: int = 20000) -> Iterator[dict]:
                 rec = B.Record(
                     id=B.stable_id(SOURCE, key),
                     source=SOURCE,
-                    source_url="https://www.nyc.gov/site/ccrb/index.page",
+                    source_url=f"https://data.cityofnewyork.us/d/{DATASET}/explore?q={cid}",
                     title=f"CCRB penalty recommendation — complaint #{cid}, officer tax #{tax}",
                     decision_date=date,
                     summary=f"CCRB: {ccrb_dispo}" + (f" / Board: {board_rec}" if board_rec and board_rec != ccrb_dispo else ""),

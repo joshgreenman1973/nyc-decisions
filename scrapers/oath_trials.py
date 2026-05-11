@@ -53,7 +53,7 @@ def scrape(years_back: int = 5, page_size: int = 5000, max_records: int = 20000)
                 rec = B.Record(
                     id=B.stable_id(SOURCE, f"{case}:{row.get('filing_agency_case_id','')}"),
                     source=SOURCE,
-                    source_url="https://www.nyc.gov/site/oath/trials/decisions.page",
+                    source_url=f"https://data.cityofnewyork.us/d/{DATASET}/explore?q={case}",
                     title=title[:280],
                     decision_date=date,
                     summary=" — ".join(summary_parts)[:300],

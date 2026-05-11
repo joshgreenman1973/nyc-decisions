@@ -79,7 +79,7 @@ def scrape(days_back: int = 180, page_size: int = 5000, max_records: int = 10000
                 rec = B.Record(
                     id=B.stable_id(SOURCE, ticket),
                     source=SOURCE,
-                    source_url=f"https://nycserv.nyc.gov/NYCServWeb/ViolationServlet?summonsNo={ticket}",
+                    source_url=f"https://a836-citypay.nyc.gov/citypay/ecb?summonsNumber={ticket}",
                     title=_build_title(row),
                     decision_date=date,
                     summary=(row.get("violation_details") or "")[:500],

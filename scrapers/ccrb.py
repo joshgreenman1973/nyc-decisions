@@ -40,7 +40,7 @@ def scrape(days_back: int = 730, page_size: int = 5000, max_records: int = 15000
                 rec = B.Record(
                     id=B.stable_id(SOURCE, cid),
                     source=SOURCE,
-                    source_url="https://www.nyc.gov/site/ccrb/index.page",
+                    source_url=f"https://data.cityofnewyork.us/d/{DATASET}/explore?q={cid}",
                     title=f"CCRB complaint #{cid} — {reason or 'civilian complaint'}"[:200],
                     decision_date=date,
                     summary=(row.get("location_type_of_incident") or "")[:200],

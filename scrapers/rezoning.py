@@ -44,7 +44,7 @@ def scrape(page_size: int = 5000, max_records: int = 5000) -> Iterator[dict]:
                 rec = B.Record(
                     id=B.stable_id(SOURCE, key),
                     source=SOURCE,
-                    source_url="https://www.nyc.gov/site/planning/index.page",
+                    source_url=f"https://data.cityofnewyork.us/d/{DATASET}/explore?q={area.replace(' ', '+') if area else ''}",
                     title=f"{area}: {title}"[:280] if title else area[:280],
                     decision_date=date,
                     summary=summary,
