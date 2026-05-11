@@ -10,9 +10,21 @@ Volume: 1.08M records total. We filter aggressively:
 from __future__ import annotations
 
 import datetime as dt
+import html
+import re
 from typing import Iterator
 
 from . import _base as B
+
+_TAG_RE = re.compile(r"<[^>]+>")
+_WS_RE = re.compile(r"\s+")
+
+
+def _clean(s: str) -> str:
+    if not s:
+        return ""
+    # Drop HTML tags, decode entities, collapse whitespace.
+    return _WS_RE.sub(" ", html.unescape(_TAG_RE.sub(" ", s))).strip()
 
 DATASET = "dg92-zbpx"
 ENDPOINT = f"https://data.cityofnewyork.us/resource/{DATASET}.json"
@@ -62,22 +74,25 @@ def scrape(days_back: int = 365, page_size: int = 5000, max_records: int = 15000
                 short = (row.get("short_title") or "").strip()
                 agency = row.get("agency_name") or ""
                 date = (row.get("start_date") or "")[:10]
-                desc_parts = [p for p in (
-                    row.get("additional_description_1"),
-                    row.get("additional_description_2"),
-                    row.get("additional_description_3"),
-                ) if p]
-                summary = " ".join(desc_parts)[:600]
+                desc_parts = [_clean(row.get(k, "")) for k in (
+                    "additional_description_1",
+                    "additional_description_2",
+                    "additional_description_3",
+                ) if row.get(k)]
+                summary_text = " ".join(p for p in desc_parts if p)
                 title = f"{section}: {short}" if short else section
                 if agency:
                     title = f"{agency} — {title}"
+                detail_url = f"https://a856-cityrecord.nyc.gov/RequestDetail/{rid}"
                 rec = B.Record(
                     id=B.stable_id(SOURCE, rid),
                     source=SOURCE,
-                    source_url="https://a856-cityrecord.nyc.gov/",
+                    source_url=detail_url,
                     title=title[:280],
                     decision_date=date,
-                    summary=summary,
+                    summary=summary_text[:600],
+                    full_text=summary_text[:8000],
+                    doc_url=detail_url,
                     agency=agency,
                     outcome=section,
                     scraped_at=B.now_iso(),

@@ -1,6 +1,6 @@
 {
-  "total": 140664,
-  "updated_at": "2026-05-11T17:09:25Z",
+  "total": 140694,
+  "updated_at": "2026-05-11T17:17:13Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -59,8 +59,8 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 7565,
-      "shard_bytes": 5829456
+      "count": 7595,
+      "shard_bytes": 11713386
     },
     {
       "key": "hpd-violations",
@@ -178,7 +178,7 @@
     ],
     [
       "Fire Department",
-      1252
+      1253
     ],
     [
       "DOS - ENFORCEMENT AGENTS",
@@ -222,7 +222,7 @@
     ],
     [
       "Youth and Community Development",
-      500
+      508
     ],
     [
       "NYC Comptroller",
@@ -230,7 +230,7 @@
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
-      475
+      477
     ],
     [
       "Department of Environmental Protection",
@@ -238,7 +238,7 @@
     ],
     [
       "Health and Mental Hygiene",
-      411
+      412
     ],
     [
       "Taxi & Limousine",
