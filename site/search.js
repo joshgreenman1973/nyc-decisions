@@ -341,13 +341,19 @@
   // --- Address search via NYC Planning GeoSearch ---
   let addrDebounce;
   let addrCache = new Map();
+  function extractBbl(feature) {
+    const p = feature?.properties;
+    return p?.addendum?.pad?.bbl || "";
+  }
   async function geosearchAutocomplete(text) {
     if (text.length < 3) return [];
     if (addrCache.has(text)) return addrCache.get(text);
     try {
       const r = await fetch(`https://geosearch.planninglabs.nyc/v2/autocomplete?text=${encodeURIComponent(text)}&size=8`);
       const j = await r.json();
-      const features = (j.features || []).filter(f => f.properties && f.properties.pad_bbl);
+      // GeoSearch returns address, venue, and street layers; we keep anything
+      // that has a BBL in the addendum (the per-property records).
+      const features = (j.features || []).filter(f => extractBbl(f));
       addrCache.set(text, features);
       return features;
     } catch (e) {
@@ -359,10 +365,11 @@
     addrSugg.hidden = false;
     addrSugg.innerHTML = features.map((f, i) => {
       const p = f.properties;
+      const bbl = extractBbl(f);
       const label = p.label || p.name || "";
-      const sub = `BBL ${p.pad_bbl} — ${p.borough || ""}`;
-      const hasRecords = (addressIndex && addressIndex[p.pad_bbl]) ? `${addressIndex[p.pad_bbl].length} records` : "no records";
-      return `<div class="addr-suggestion" data-bbl="${esc(p.pad_bbl)}" data-label="${esc(label)}" data-i="${i}">
+      const sub = `BBL ${bbl} — ${p.borough || ""}`;
+      const hasRecords = (addressIndex && addressIndex[bbl]) ? `${addressIndex[bbl].length} records` : "no records";
+      return `<div class="addr-suggestion" data-bbl="${esc(bbl)}" data-label="${esc(label)}" data-i="${i}">
         <div class="label">${esc(label)}</div>
         <div class="sub">${esc(sub)} — <em>${hasRecords}</em></div>
       </div>`;
