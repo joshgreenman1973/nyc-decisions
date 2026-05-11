@@ -1,5 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>The Rest of the Record — All Sources</title><link>https://joshgreenman1973.github.io/nyc-decisions/feeds/all.xml</link><description>The Rest of the Record feed: The Rest of the Record — All Sources</description><atom:link href="https://joshgreenman1973.github.io/nyc-decisions/feeds/all.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Mon, 11 May 2026 09:49:35 +0000</lastBuildDate><item><title>CCRB penalty recommendation — complaint #200004225, officer tax #889934</title><link>https://www.nyc.gov/site/ccrb/index.page</link><description>Outcome: Substantiated (Charges)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>The Rest of the Record — All Sources</title><link>https://joshgreenman1973.github.io/nyc-decisions/feeds/all.xml</link><description>The Rest of the Record feed: The Rest of the Record — All Sources</description><atom:link href="https://joshgreenman1973.github.io/nyc-decisions/feeds/all.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Mon, 11 May 2026 17:09:25 +0000</lastBuildDate><item><title>CCRB penalty recommendation — complaint #202308249, officer tax #972928</title><link>https://www.nyc.gov/site/ccrb/index.page</link><description>Outcome: Substantiated (Formalized Training)
+
+CCRB: Substantiated (Formalized Training)</description><guid isPermaLink="false">ccrb-penalties-a529134c5850</guid><pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201500442, officer tax #907213</title><link>https://www.nyc.gov/site/ccrb/index.page</link><description>Outcome: Substantiated (Command Discipline B)
+
+CCRB: Substantiated (Command Discipline B)</description><guid isPermaLink="false">ccrb-penalties-b87c67fa30f3</guid><pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201201700, officer tax #948717</title><link>https://www.nyc.gov/site/ccrb/index.page</link><description>Outcome: Substantiated (Charges)
+
+CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-fc0362ae7e7d</guid><pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200300269, officer tax #906787</title><link>https://www.nyc.gov/site/ccrb/index.page</link><description>Outcome: Substantiated (Charges)
+
+CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-0b922fa83757</guid><pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200301806, officer tax #899889</title><link>https://www.nyc.gov/site/ccrb/index.page</link><description>Outcome: Substantiated (Charges)
+
+CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-a5588ac4d43c</guid><pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200004225, officer tax #889934</title><link>https://www.nyc.gov/site/ccrb/index.page</link><description>Outcome: Substantiated (Charges)
 
 CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-e6158cfe1791</guid><pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202301981, officer tax #967931</title><link>https://www.nyc.gov/site/ccrb/index.page</link><description>Outcome: Substantiated (Command Discipline A)
 
@@ -89,14 +99,4 @@ CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalt
 
 CCRB: Substantiated (Formalized Training)</description><guid isPermaLink="false">ccrb-penalties-f1025f290e18</guid><pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202107188, officer tax #960342</title><link>https://www.nyc.gov/site/ccrb/index.page</link><description>Outcome: Substantiated (Command Discipline B)
 
-CCRB: Substantiated (Command Discipline B)</description><guid isPermaLink="false">ccrb-penalties-3ad77a6dd80a</guid><pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate></item><item><title>DOS - ENFORCEMENT AGENTS v. 040105494Z: ILLEGAL POSTING OF HANDBILL NOTICE</title><link>https://nycserv.nyc.gov/NYCServWeb/ViolationServlet?summonsNo=040105494Z</link><description>Outcome: WRITTEN OFF
-
-20100820N</description><guid isPermaLink="false">oath-hearings-0d6dc7410d86</guid><pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate></item><item><title>DOS - ENFORCEMENT AGENTS v. 040105495K: ILLEGAL POSTING OF HANDBILL NOTICE</title><link>https://nycserv.nyc.gov/NYCServWeb/ViolationServlet?summonsNo=040105495K</link><description>Outcome: WRITTEN OFF
-
-20100820N</description><guid isPermaLink="false">oath-hearings-8ff576c37635</guid><pubDate>Fri, 20 Aug 2027 12:00:00 +0000</pubDate></item><item><title>DOS - ENFORCEMENT AGENTS v. 040105496M: ILLEGAL POSTING OF HANDBILL NOTICE</title><link>https://nycserv.nyc.gov/NYCServWeb/ViolationServlet?summonsNo=040105496M</link><description>Outcome: WRITTEN OFF
-
-20100820N</description><guid isPermaLink="false">oath-hearings-2d98e87d8fb0</guid><pubDate>Sun, 20 Aug 2028 12:00:00 +0000</pubDate></item><item><title>DOS - ENFORCEMENT AGENTS v. 040105497Y: ILLEGAL POSTING OF HANDBILL NOTICE</title><link>https://nycserv.nyc.gov/NYCServWeb/ViolationServlet?summonsNo=040105497Y</link><description>Outcome: WRITTEN OFF
-
-20100820N</description><guid isPermaLink="false">oath-hearings-d0bd74914d98</guid><pubDate>Mon, 20 Aug 2029 12:00:00 +0000</pubDate></item><item><title>DOS - ENFORCEMENT AGENTS v. 040105498X: ILLEGAL POSTING OF HANDBILL NOTICE</title><link>https://nycserv.nyc.gov/NYCServWeb/ViolationServlet?summonsNo=040105498X</link><description>Outcome: WRITTEN OFF
-
-20100820N</description><guid isPermaLink="false">oath-hearings-7e30ee086fdf</guid><pubDate>Tue, 20 Aug 2030 12:00:00 +0000</pubDate></item></channel></rss>
+CCRB: Substantiated (Command Discipline B)</description><guid isPermaLink="false">ccrb-penalties-3ad77a6dd80a</guid><pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate></item></channel></rss>

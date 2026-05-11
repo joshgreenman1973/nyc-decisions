@@ -79,6 +79,21 @@ def build_index(records: list[dict]) -> None:
     SHARD_DIR = INDEX_DIR / "sources"
     SHARD_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Clamp impossible future dates. Source datasets — especially OATH —
+    # occasionally have typo'd dates like 2030-08-20 or 2099-12-31. A
+    # decision/complaint cannot legitimately be dated more than today + a
+    # small grace window for clock skew.
+    import datetime as _dt
+    _max_date = (_dt.date.today() + _dt.timedelta(days=14)).isoformat()
+    dropped_future = 0
+    for r in records:
+        d = r.get("decision_date") or ""
+        if d and d > _max_date:
+            r["decision_date"] = ""
+            dropped_future += 1
+    if dropped_future:
+        print(f"[index] cleared {dropped_future} impossible future dates")
+
     # Dedupe by id
     by_id = {}
     for r in records:

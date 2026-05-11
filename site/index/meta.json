@@ -1,6 +1,6 @@
 {
   "total": 140664,
-  "updated_at": "2026-05-11T09:49:35Z",
+  "updated_at": "2026-05-11T17:09:25Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -12,7 +12,7 @@
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
       "count": 9997,
-      "shard_bytes": 5114798
+      "shard_bytes": 5114748
     },
     {
       "key": "ccrb",
