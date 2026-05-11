@@ -45,7 +45,7 @@ FEED_DIR = SITE_DIR / "feeds"
 
 
 def run_scrapers(only: set[str] | None) -> None:
-    for module_name, key, label, kwargs in SOURCES:
+    for module_name, key, label, _coverage, kwargs in SOURCES:
         if only and key not in only:
             continue
         print(f"\n=== {label} ({key}) ===")
@@ -58,7 +58,7 @@ def run_scrapers(only: set[str] | None) -> None:
 
 def load_all_records() -> list[dict]:
     records = []
-    for _, key, _, _ in SOURCES:
+    for _, key, _, _, _ in SOURCES:
         f = B.NORMALIZED_DIR / f"{key}.jsonl"
         if not f.exists():
             continue
@@ -157,7 +157,7 @@ def build_index(records: list[dict]) -> None:
                 "count": by_source_count.get(key, 0),
                 "shard_bytes": shard_sizes.get(key, 0),
             }
-            for _, key, label, _ in SOURCES
+            for _, key, label, _, _ in SOURCES
             if by_source_count.get(key, 0) > 0
         ],
         "top_agencies": sorted(by_agency.items(), key=lambda kv: -kv[1])[:30],
@@ -237,7 +237,7 @@ def build_feeds(records: list[dict]) -> None:
         print(f"[feed] {key}.xml ({len(recs_sorted)} items)")
 
     _rss(records, "The Rest of the Record — All Sources", "all")
-    for _, key, label, _ in SOURCES:
+    for _, key, label, _, _ in SOURCES:
         subset = [r for r in records if r.get("source") == key]
         if subset:
             _rss(subset, f"The Rest of the Record — {label}", key)

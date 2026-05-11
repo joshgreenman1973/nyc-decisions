@@ -188,17 +188,25 @@ header .tag { margin: 0.35rem 0 0; color: var(--muted); font-size: 1rem; }
   padding-top: 1.25rem;
 }
 .sources h2 { font-size: 1.1rem; margin: 0 0 0.6rem; }
+.coverage-intro {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin: 0 0 1rem;
+}
 #source-list {
   list-style: none;
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 0.4rem 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.7rem 1.25rem;
   font-size: 0.9rem;
 }
-#source-list li { display: flex; justify-content: space-between; }
+#source-list li { line-height: 1.35; }
+#source-list .source-row { display: flex; justify-content: space-between; gap: 0.5rem; }
+#source-list .source-name { font-weight: 500; }
 #source-list .count { color: var(--muted); font-variant-numeric: tabular-nums; }
+#source-list .source-coverage { color: var(--muted); font-size: 0.78rem; }
 .fineprint { font-size: 0.82rem; color: var(--muted); margin-top: 1rem; }
 
 .loading-bar {

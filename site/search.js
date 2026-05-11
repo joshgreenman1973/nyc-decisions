@@ -52,11 +52,17 @@
     srcSel.appendChild(opt);
   }
 
-  // Sources footer
+  // Sources footer with coverage windows
   const sourceList = $("#source-list");
   for (const s of meta.sources) {
     const li = document.createElement("li");
-    li.innerHTML = `<span>${s.label}</span><span class="count">${s.count.toLocaleString()}</span>`;
+    li.innerHTML = `
+      <div class="source-row">
+        <span class="source-name">${esc(s.label)}</span>
+        <span class="count">${s.count.toLocaleString()}</span>
+      </div>
+      <div class="source-coverage">${esc(s.coverage || "")}</div>
+    `;
     sourceList.appendChild(li);
   }
   $("#updated").textContent = (meta.updated_at || "").replace("T", " ").replace("Z", " UTC");
@@ -178,15 +184,24 @@
     const { bare, phrases } = parseQuery(raw);
 
     let candidates;
-    // Address mode: candidate set is records at this BBL only.
+    // Address mode: candidate set is records at this BBL only (static index
+    // plus the live Socrata queries we fired on address-select).
     if (activeBbl) {
       const refs = (addressIndex && addressIndex[activeBbl]) || [];
-      candidates = refs.map(ref => byId.get(ref.id)).filter(Boolean);
+      const staticDocs = refs.map(ref => byId.get(ref.id)).filter(Boolean);
+      candidates = [...staticDocs, ...liveResultsForBbl];
       // Apply query/phrase filtering within the address subset
       if (bare) {
+        // For static docs use MiniSearch; for live docs do simple substring
         const hits = mini.search(bare);
         const hitIds = new Set(hits.map(h => h.id));
-        candidates = candidates.filter(d => hitIds.has(d.id));
+        candidates = candidates.filter(d => {
+          if (d._live) {
+            const hay = [d.title, d.summary, d.full_text, d.agency, d.respondent, d.outcome].join(" ").toLowerCase();
+            return bare.toLowerCase().split(/\s+/).every(t => hay.includes(t));
+          }
+          return hitIds.has(d.id);
+        });
       }
       if (phrases.length) {
         candidates = candidates.filter(d => matchesPhrases(d, phrases));
@@ -250,7 +265,7 @@
     }
     const q = qEl.value.trim().toLowerCase();
     results.innerHTML = slice.map(d => {
-      const label = labelByKey[d.source] || d.source;
+      const label = labelByKey[d.source] || liveLabelsByKey[d.source] || d.source;
       const link = d.doc_url || d.source_url || "#";
       const meta = [
         d.decision_date,
@@ -395,24 +410,132 @@
     addrSugg.hidden = true;
     addrSugg.innerHTML = "";
   }
+  // Map a 10-digit BBL to (boroid, block, lot) for live HPD/DOB queries.
+  function splitBbl(bbl) {
+    if (!bbl || bbl.length !== 10) return null;
+    return { boroid: bbl[0], block: bbl.slice(1, 6), lot: bbl.slice(6, 10) };
+  }
+
+  // Live Socrata queries by BBL — these reach into the underlying datasets at
+  // click-time, so a property's complete history surfaces even when our
+  // scoped static index is empty for that address.
+  async function liveLookupHPD(bbl) {
+    const p = splitBbl(bbl);
+    if (!p) return [];
+    const where = `boroid='${p.boroid}' AND block='${parseInt(p.block,10)}' AND lot='${parseInt(p.lot,10)}'`;
+    try {
+      const r = await fetch(
+        `https://data.cityofnewyork.us/resource/wvxf-dwi5.json` +
+        `?$select=violationid,novissueddate,novdescription,class,violationstatus,currentstatus,housenumber,streetname,apartment,boro` +
+        `&$where=${encodeURIComponent(where)}` +
+        `&$order=novissueddate DESC&$limit=200`
+      );
+      const rows = await r.json();
+      return rows.map(row => ({
+        id: `live-hpd-${row.violationid}`,
+        source: "hpd-violations-live",
+        source_url: `https://hpdonline.nyc.gov/hpdonline/?bbl=${bbl}`,
+        doc_url: `https://hpdonline.nyc.gov/hpdonline/?bbl=${bbl}`,
+        title: `HPD Class ${row.class || "?"} violation — ${row.novdescription ? row.novdescription.slice(0,180) : "(no description)"}`,
+        decision_date: (row.novissueddate || "").slice(0,10),
+        agency: "HPD",
+        outcome: row.violationstatus || row.currentstatus || "",
+        respondent: [row.housenumber, row.streetname, row.apartment ? `Apt ${row.apartment}` : ""].filter(Boolean).join(" "),
+        summary: row.novdescription || "",
+        full_text: row.novdescription || "",
+        _live: true,
+      }));
+    } catch (e) { return []; }
+  }
+  async function liveLookupDCWP(bbl) {
+    try {
+      const r = await fetch(
+        `https://data.cityofnewyork.us/resource/nre2-6m2s.json` +
+        `?$select=record_id,intake_date,business_name,business_category,complaint_code,result,building_nbr,street1,borough` +
+        `&$where=bbl='${bbl}'` +
+        `&$order=intake_date DESC&$limit=100`
+      );
+      const rows = await r.json();
+      return rows.map(row => ({
+        id: `live-dcwp-${row.record_id}`,
+        source: "dcwp-complaints-live",
+        source_url: `https://data.cityofnewyork.us/d/nre2-6m2s/explore?q=${row.record_id}`,
+        doc_url: `https://data.cityofnewyork.us/d/nre2-6m2s/explore?q=${row.record_id}`,
+        title: `DCWP complaint vs. ${row.business_name || "(business)"}: ${row.complaint_code || ""}`,
+        decision_date: (row.intake_date || "").slice(0,10),
+        agency: "DCWP",
+        respondent: row.business_name || "",
+        outcome: row.result || "",
+        summary: [row.business_category, [row.building_nbr, row.street1].filter(Boolean).join(" "), row.borough].filter(Boolean).join(" / "),
+        _live: true,
+      }));
+    } catch (e) { return []; }
+  }
+  async function liveLookupComplaints(bbl) {
+    // HPD complaints (not just violations) — heat/hot water, repairs, etc.
+    const p = splitBbl(bbl);
+    if (!p) return [];
+    const where = `borough_id='${p.boroid}' AND block='${parseInt(p.block,10)}' AND lot='${parseInt(p.lot,10)}'`;
+    try {
+      const r = await fetch(
+        `https://data.cityofnewyork.us/resource/ygpa-z7cr.json` +
+        `?$select=complaint_id,received_date,major_category,minor_category,problem_code,complaint_status,house_number,street_name,apartment,borough` +
+        `&$where=${encodeURIComponent(where)}` +
+        `&$order=received_date DESC&$limit=100`
+      );
+      const rows = await r.json();
+      return rows.map(row => ({
+        id: `live-hpdcompl-${row.complaint_id}`,
+        source: "hpd-complaints-live",
+        source_url: `https://hpdonline.nyc.gov/hpdonline/?bbl=${bbl}`,
+        doc_url: `https://hpdonline.nyc.gov/hpdonline/?bbl=${bbl}`,
+        title: `HPD complaint #${row.complaint_id}: ${row.minor_category || row.major_category || "complaint"}`,
+        decision_date: (row.received_date || "").slice(0,10),
+        agency: "HPD",
+        respondent: [row.house_number, row.street_name, row.apartment ? `Apt ${row.apartment}` : ""].filter(Boolean).join(" "),
+        outcome: row.complaint_status || "",
+        summary: [row.major_category, row.minor_category, row.problem_code].filter(Boolean).join(" / "),
+        _live: true,
+      }));
+    } catch (e) { return []; }
+  }
+
   async function selectAddress(bbl, label) {
     activeBbl = bbl;
     activeBblLabel = label;
     addrEl.value = label;
     addrSugg.hidden = true;
     addrSugg.innerHTML = "";
-    // Make sure the relevant source shards are loaded so we have the records
-    const refs = (addressIndex && addressIndex[bbl]) || [];
-    const sources = Array.from(new Set(refs.map(r => r.source)));
-    const toLoad = sources.filter(s => !docsBySource[s]);
-    if (toLoad.length) {
-      showLoading(`Loading records at ${label}…`);
-      await Promise.all(toLoad.map(loadShard));
-      hideLoading();
-    }
     highlightMode = false;
+
+    // Load static-index shards for any records we already have at this BBL.
+    const refs = (addressIndex && addressIndex[bbl]) || [];
+    const staticSources = Array.from(new Set(refs.map(r => r.source)));
+    const toLoad = staticSources.filter(s => !docsBySource[s]);
+
+    showLoading(`Looking up records at ${label}…`);
+    const [, , hpd, dcwp, hpdCompl] = await Promise.all([
+      Promise.all(toLoad.map(loadShard)),
+      Promise.resolve(),
+      liveLookupHPD(bbl),
+      liveLookupDCWP(bbl),
+      liveLookupComplaints(bbl),
+    ]);
+    const live = [...hpd, ...dcwp, ...hpdCompl];
+    // Cache live results into byId so renderPage/sort/etc. all work uniformly
+    liveLabelsByKey["hpd-violations-live"] = "HPD Violations (all classes, live)";
+    liveLabelsByKey["dcwp-complaints-live"] = "DCWP Consumer Complaints (live)";
+    liveLabelsByKey["hpd-complaints-live"]  = "HPD Complaints (live)";
+    liveResultsForBbl = live;
+    for (const d of live) byId.set(d.id, d);
+
+    hideLoading();
     update();
   }
+
+  // Buckets holding the most recent live result set (re-fetched per address)
+  let liveResultsForBbl = [];
+  const liveLabelsByKey = {};
   addrEl.addEventListener("input", () => {
     clearTimeout(addrDebounce);
     const text = addrEl.value.trim();
