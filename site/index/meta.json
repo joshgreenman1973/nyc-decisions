@@ -1,6 +1,6 @@
 {
-  "total": 140485,
-  "updated_at": "2026-05-14T08:51:09Z",
+  "total": 140527,
+  "updated_at": "2026-05-15T08:58:16Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -13,14 +13,14 @@
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
       "count": 9997,
-      "shard_bytes": 5185627,
+      "shard_bytes": 5185643,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8302,
-      "shard_bytes": 3224980,
+      "count": 8266,
+      "shard_bytes": 3210705,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
@@ -29,34 +29,6 @@
       "count": 14794,
       "shard_bytes": 6815959,
       "coverage": "All available (capped 20,000)"
-    },
-    {
-      "key": "coib",
-      "label": "COIB Ethics",
-      "count": 3,
-      "shard_bytes": 12168,
-      "coverage": "All published PDFs"
-    },
-    {
-      "key": "cchr",
-      "label": "Commission on Human Rights",
-      "count": 40,
-      "shard_bytes": 130286,
-      "coverage": "All decisions, 2015\u2013present"
-    },
-    {
-      "key": "tlc",
-      "label": "TLC Chairperson Review",
-      "count": 38,
-      "shard_bytes": 49410,
-      "coverage": "All currently linked PDFs"
-    },
-    {
-      "key": "dcwp",
-      "label": "DCWP Final Decisions",
-      "count": 15,
-      "shard_bytes": 49443,
-      "coverage": "All currently linked PDFs"
     },
     {
       "key": "perb",
@@ -68,23 +40,16 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 7615,
-      "shard_bytes": 11747729,
+      "count": 7630,
+      "shard_bytes": 11779523,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14674,
-      "shard_bytes": 8884944,
+      "count": 14744,
+      "shard_bytes": 8920635,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
-    },
-    {
-      "key": "doh",
-      "label": "DOH Official Notices",
-      "count": 74,
-      "shard_bytes": 328933,
-      "coverage": "All currently linked PDFs"
     },
     {
       "key": "claims",
@@ -111,7 +76,7 @@
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9071486,
+      "shard_bytes": 9072090,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
@@ -124,15 +89,15 @@
     {
       "key": "doi",
       "label": "DOI Reports",
-      "count": 4,
-      "shard_bytes": 16207,
+      "count": 167,
+      "shard_bytes": 67335,
       "coverage": "All reports, 2002\u2013present (via Wayback CDX)"
     },
     {
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
-      "shard_bytes": 1968008,
+      "shard_bytes": 1904723,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -146,19 +111,19 @@
   "top_agencies": [
     [
       "DCWP",
-      25001
+      24986
     ],
     [
       "NYPD",
-      23096
+      23060
     ],
     [
       "NYC Department of Health",
-      20074
+      20000
     ],
     [
       "HPD",
-      14674
+      14744
     ],
     [
       "NYC City Council",
@@ -190,7 +155,7 @@
     ],
     [
       "SANITATION OTHERS",
-      1514
+      1516
     ],
     [
       "Department of Education",
@@ -198,7 +163,7 @@
     ],
     [
       "Fire Department",
-      1252
+      1255
     ],
     [
       "Department of Sanitation",
@@ -218,7 +183,7 @@
     ],
     [
       "DOS - ENFORCEMENT AGENTS",
-      689
+      693
     ],
     [
       "PCS - DOHMH",
@@ -234,11 +199,11 @@
     ],
     [
       "Citywide Administrative Services",
-      580
+      577
     ],
     [
       "Youth and Community Development",
-      516
+      520
     ],
     [
       "Forfeiture",
