@@ -1,6 +1,6 @@
 {
-  "total": 140761,
-  "updated_at": "2026-05-16T08:13:04Z",
+  "total": 140699,
+  "updated_at": "2026-05-17T08:29:55Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -19,15 +19,15 @@
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8241,
-      "shard_bytes": 3201000,
+      "count": 8230,
+      "shard_bytes": 3196602,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
       "key": "ccrb-penalties",
       "label": "CCRB Penalty Recommendations",
       "count": 14794,
-      "shard_bytes": 6815913,
+      "shard_bytes": 6815893,
       "coverage": "All available (capped 20,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 7635,
-      "shard_bytes": 11802799,
+      "count": 7584,
+      "shard_bytes": 11687415,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
       "count": 15000,
-      "shard_bytes": 9079445,
+      "shard_bytes": 9080718,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -115,7 +115,7 @@
     ],
     [
       "NYPD",
-      23035
+      23024
     ],
     [
       "NYC Department of Health",
@@ -167,7 +167,7 @@
     ],
     [
       "Fire Department",
-      1255
+      1253
     ],
     [
       "Department of Sanitation",
@@ -191,11 +191,11 @@
     ],
     [
       "NYC Health + Hospitals",
-      614
+      613
     ],
     [
       "Citywide Administrative Services",
-      579
+      576
     ],
     [
       "DOS - ENFORCEMENT AGENTS",
@@ -203,7 +203,7 @@
     ],
     [
       "Youth and Community Development",
-      527
+      526
     ],
     [
       "Forfeiture",
@@ -223,7 +223,7 @@
     ],
     [
       "Health and Mental Hygiene",
-      413
+      409
     ],
     [
       "Taxi & Limousine",
