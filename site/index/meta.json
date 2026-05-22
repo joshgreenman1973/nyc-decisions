@@ -1,6 +1,6 @@
 {
-  "total": 140773,
-  "updated_at": "2026-05-21T09:44:39Z",
+  "total": 140651,
+  "updated_at": "2026-05-22T09:10:07Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -13,14 +13,14 @@
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
       "count": 9996,
-      "shard_bytes": 5284200,
+      "shard_bytes": 5284133,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8231,
-      "shard_bytes": 3196961,
+      "count": 8211,
+      "shard_bytes": 3189173,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 7645,
-      "shard_bytes": 11792419,
+      "count": 7642,
+      "shard_bytes": 11805340,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 15000,
-      "shard_bytes": 9115328,
+      "count": 14901,
+      "shard_bytes": 9038434,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -76,7 +76,7 @@
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9071865,
+      "shard_bytes": 9071548,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
@@ -97,7 +97,7 @@
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
-      "shard_bytes": 1904594,
+      "shard_bytes": 1904596,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -115,7 +115,7 @@
     ],
     [
       "NYPD",
-      23038
+      23018
     ],
     [
       "NYC Department of Health",
@@ -123,7 +123,7 @@
     ],
     [
       "HPD",
-      15000
+      14901
     ],
     [
       "NYC City Council",
@@ -131,7 +131,7 @@
     ],
     [
       "Police Department",
-      6886
+      6885
     ],
     [
       "Department of Correction",
@@ -167,7 +167,7 @@
     ],
     [
       "Fire Department",
-      1254
+      1252
     ],
     [
       "Department of Sanitation",
@@ -195,15 +195,15 @@
     ],
     [
       "Citywide Administrative Services",
-      577
+      572
+    ],
+    [
+      "Youth and Community Development",
+      546
     ],
     [
       "DOS - ENFORCEMENT AGENTS",
       540
-    ],
-    [
-      "Youth and Community Development",
-      538
     ],
     [
       "Forfeiture",
@@ -223,7 +223,7 @@
     ],
     [
       "Health and Mental Hygiene",
-      414
+      416
     ],
     [
       "DOHMH - BFSCS",
