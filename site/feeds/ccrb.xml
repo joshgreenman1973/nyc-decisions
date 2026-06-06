@@ -1,75 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>The Rest of the Record — CCRB Complaints</title><link>https://joshgreenman1973.github.io/nyc-decisions/feeds/ccrb.xml</link><description>The Rest of the Record feed: The Rest of the Record — CCRB Complaints</description><atom:link href="https://joshgreenman1973.github.io/nyc-decisions/feeds/ccrb.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 05 Jun 2026 07:50:01 +0000</lastBuildDate><item><title>CCRB complaint #202603555 — C/V at PCT to file complaint of crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603555</link><description>Outcome: SRAD Closure
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>The Rest of the Record — CCRB Complaints</title><link>https://joshgreenman1973.github.io/nyc-decisions/feeds/ccrb.xml</link><description>The Rest of the Record feed: The Rest of the Record — CCRB Complaints</description><atom:link href="https://joshgreenman1973.github.io/nyc-decisions/feeds/ccrb.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sat, 06 Jun 2026 07:26:16 +0000</lastBuildDate><item><title>CCRB complaint #202603889 — PD suspected C/V of violation/crime - bldg</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603889</link><description>Outcome: Complaint Withdrawn
 
-Police building</description><guid isPermaLink="false">ccrb-f32ca90fe762</guid><pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603570 — C/V telephoned PCT</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603570</link><description>Outcome: SRAD Closure
-
-Phone</description><guid isPermaLink="false">ccrb-c650e5649849</guid><pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603612 — C/V requested investigation of crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603612</link><description>Outcome: SRAD Closure
-
-Police building</description><guid isPermaLink="false">ccrb-4faa6a058868</guid><pubDate>Thu, 16 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603618 — C/V telephoned PCT</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603618</link><description>Outcome: SRAD Closure
-
-Phone</description><guid isPermaLink="false">ccrb-123a6fb2e4ee</guid><pubDate>Thu, 16 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603622 — C/V requested investigation of crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603622</link><description>Outcome: SRAD Closure
-
-Phone</description><guid isPermaLink="false">ccrb-c6a9322b4469</guid><pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603510 — Traffic accident</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603510</link><description>Outcome: SRAD Closure
-
-Phone</description><guid isPermaLink="false">ccrb-f808073a09b6</guid><pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603650 — C/V requested investigation of crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603650</link><description>Outcome: SRAD Closure
-
-Residential building</description><guid isPermaLink="false">ccrb-7fb744dab2c9</guid><pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603654 — C/V requested investigation of crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603654</link><description>Outcome: SRAD Closure
-
-Residential building</description><guid isPermaLink="false">ccrb-15576c4fac85</guid><pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603699 — C/V requested investigation of crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603699</link><description>Outcome: SRAD Closure
-
-Phone</description><guid isPermaLink="false">ccrb-d455cec4f1a8</guid><pubDate>Sun, 19 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603670 — Parking violation</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603670</link><description>Outcome: SRAD Closure
-
-Street/highway</description><guid isPermaLink="false">ccrb-6d8727c01f88</guid><pubDate>Sun, 19 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603643 — C/V requested info from officer</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603643</link><description>Outcome: SRAD Closure
-
-Street/highway</description><guid isPermaLink="false">ccrb-e75157e2a13d</guid><pubDate>Sun, 19 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603686 — C/V requested investigation of crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603686</link><description>Outcome: Mediated
-
-Apartment/house</description><guid isPermaLink="false">ccrb-87da20b47fc6</guid><pubDate>Sun, 19 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603647 — Other</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603647</link><description>Outcome: SRAD Closure
-
-Hospital</description><guid isPermaLink="false">ccrb-a83e46da16b3</guid><pubDate>Sun, 19 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603672 — C/V at PCT to file complaint of crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603672</link><description>Outcome: Mediated
-
-Police building</description><guid isPermaLink="false">ccrb-dfd666f41616</guid><pubDate>Mon, 20 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603668 — Execution of arrest/bench warrant</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603668</link><description>Outcome: SRAD Closure
-
-Apartment/house</description><guid isPermaLink="false">ccrb-9184bfa039eb</guid><pubDate>Mon, 20 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603671 — civilian complaint</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603671</link><description>Outcome: Closed - Pending Litigation
-
-</description><guid isPermaLink="false">ccrb-2b201699f5dd</guid><pubDate>Mon, 20 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603713 — PD suspected C/V of violation/crime - bldg</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603713</link><description>Outcome: SRAD Closure
-
-Commercial building</description><guid isPermaLink="false">ccrb-460d563feb6c</guid><pubDate>Mon, 20 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603735 — PD suspected C/V of violation/crime - street</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603735</link><description>Outcome: Mediated
-
-Street/highway</description><guid isPermaLink="false">ccrb-4c247f4dff17</guid><pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603731 — Other</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603731</link><description>Outcome: SRAD Closure
-
-Phone</description><guid isPermaLink="false">ccrb-6760476c44a6</guid><pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603725 — PD suspected C/V of violation/crime - auto</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603725</link><description>Outcome: Closed - Pending Litigation
-
-Street/highway</description><guid isPermaLink="false">ccrb-b9d1cc365d6c</guid><pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603732 — C/V at PCT to file complaint of crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603732</link><description>Outcome: SRAD Closure
-
-Street/highway</description><guid isPermaLink="false">ccrb-c1f2e281bcef</guid><pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603744 — C/V requested investigation of crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603744</link><description>Outcome: SRAD Closure
-
-Apartment/house</description><guid isPermaLink="false">ccrb-1aa8c9bad61f</guid><pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603736 — PD suspected C/V of violation/crime - subway</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603736</link><description>Outcome: SRAD Closure
-
-Subway station/train</description><guid isPermaLink="false">ccrb-c77d7873378f</guid><pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603742 — CV already in custody</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603742</link><description>Outcome: SRAD Closure
-
-Police building</description><guid isPermaLink="false">ccrb-8af760a5d7d4</guid><pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603757 — PD suspected C/V of violation/crime - street</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603757</link><description>Outcome: Mediated
-
-Street/highway</description><guid isPermaLink="false">ccrb-50261d087f37</guid><pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603765 — Execution of arrest/bench warrant</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603765</link><description>Outcome: SRAD Closure
-
-Police building</description><guid isPermaLink="false">ccrb-b9d8159bae0a</guid><pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603779 — Other</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603779</link><description>Outcome: SRAD Closure
-
-Street/highway</description><guid isPermaLink="false">ccrb-6510f39ef12e</guid><pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603852 — Other</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603852</link><description>Outcome: SRAD Closure
-
-Police building</description><guid isPermaLink="false">ccrb-f8de25040691</guid><pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603798 — CV already in custody</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603798</link><description>Outcome: Closed - Pending Litigation
-
-Ambulance</description><guid isPermaLink="false">ccrb-a9b03d85b8be</guid><pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603790 — C/V at PCT to file complaint of crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603790</link><description>Outcome: SRAD Closure
-
-Police building</description><guid isPermaLink="false">ccrb-11b2c6e0a512</guid><pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603807 — PD suspected C/V of violation/crime - street</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603807</link><description>Outcome: Closed - Pending Litigation
-
-Police building</description><guid isPermaLink="false">ccrb-af1b59992721</guid><pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603837 — PD suspected C/V of violation/crime - auto</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603837</link><description>Outcome: SRAD Closure
-
-Street/highway</description><guid isPermaLink="false">ccrb-89f9a934ab29</guid><pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603831 — C/V requested investigation of crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603831</link><description>Outcome: SRAD Closure
-
-Street/highway</description><guid isPermaLink="false">ccrb-2e24e9b696e4</guid><pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603842 — PD suspected C/V of violation/crime - auto</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603842</link><description>Outcome: SRAD Closure
-
-Street/highway</description><guid isPermaLink="false">ccrb-a87ea3127219</guid><pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603877 — Report-dispute</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603877</link><description>Outcome: SRAD Closure
-
-Apartment/house</description><guid isPermaLink="false">ccrb-fcd4a4275a2f</guid><pubDate>Fri, 24 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603893 — Report-domestic dispute</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603893</link><description>Outcome: SRAD Closure
+NYCHA</description><guid isPermaLink="false">ccrb-0cd19b2f99c6</guid><pubDate>Fri, 24 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603893 — Report-domestic dispute</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603893</link><description>Outcome: SRAD Closure
 
 </description><guid isPermaLink="false">ccrb-80950c798dfd</guid><pubDate>Fri, 24 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603886 — civilian complaint</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603886</link><description>Outcome: Closed - Pending Litigation
 
@@ -95,8 +27,76 @@ Apartment/house</description><guid isPermaLink="false">ccrb-10e05119627c</guid><
 
 </description><guid isPermaLink="false">ccrb-de98dd536b1c</guid><pubDate>Mon, 27 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603954 — C/V telephoned PCT</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603954</link><description>Outcome: SRAD Closure
 
-Phone</description><guid isPermaLink="false">ccrb-d1ad6118f70b</guid><pubDate>Mon, 27 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604021 — Report of other crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604021</link><description>Outcome: SRAD Closure
+Phone</description><guid isPermaLink="false">ccrb-d1ad6118f70b</guid><pubDate>Mon, 27 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603996 — PD suspected C/V of violation/crime - subway</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603996</link><description>Outcome: Closed - Pending Litigation
 
-Commercial building</description><guid isPermaLink="false">ccrb-643c50621332</guid><pubDate>Tue, 28 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604147 — CV already in custody</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604147</link><description>Outcome: Complainant Uncooperative
+Subway station/train</description><guid isPermaLink="false">ccrb-fd937890d590</guid><pubDate>Mon, 27 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604018 — PD suspected C/V of violation/crime - street</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604018</link><description>Outcome: Complainant Uncooperative
 
-Police building</description><guid isPermaLink="false">ccrb-338bb1251606</guid><pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate></item></channel></rss>
+Street/highway</description><guid isPermaLink="false">ccrb-8bed9cae04d9</guid><pubDate>Mon, 27 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604027 — Execution of arrest/bench warrant</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604027</link><description>Outcome: Complainant Unavailable
+
+Street/highway</description><guid isPermaLink="false">ccrb-7e501df61c28</guid><pubDate>Mon, 27 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202603974 — CV already in custody</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202603974</link><description>Outcome: Closed - Pending Litigation
+
+Police building</description><guid isPermaLink="false">ccrb-3ba9a41e758b</guid><pubDate>Tue, 28 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604021 — Report of other crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604021</link><description>Outcome: SRAD Closure
+
+Commercial building</description><guid isPermaLink="false">ccrb-643c50621332</guid><pubDate>Tue, 28 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604088 — C/V intervened on behalf of/observed encounter w/3rd party</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604088</link><description>Outcome: Complaint Withdrawn
+
+Other</description><guid isPermaLink="false">ccrb-b3aeff7bf2f3</guid><pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604081 — Other</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604081</link><description>Outcome: Complaint Withdrawn
+
+Apartment/house</description><guid isPermaLink="false">ccrb-35c011e50033</guid><pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604142 — Report-dispute</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604142</link><description>Outcome: Complainant Unavailable
+
+Street/highway</description><guid isPermaLink="false">ccrb-7284554f7f4d</guid><pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604141 — Report-dispute</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604141</link><description>Outcome: Complainant Unavailable
+
+Street/highway</description><guid isPermaLink="false">ccrb-6e8220d0bece</guid><pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604147 — CV already in custody</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604147</link><description>Outcome: Complainant Uncooperative
+
+Police building</description><guid isPermaLink="false">ccrb-338bb1251606</guid><pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604161 — Other</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604161</link><description>Outcome: Complainant Unavailable
+
+Street/highway</description><guid isPermaLink="false">ccrb-eb60d0e106bb</guid><pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604178 — PD suspected C/V of violation/crime - street</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604178</link><description>Outcome: Closed - Pending Litigation
+
+Residential building</description><guid isPermaLink="false">ccrb-52c175541f06</guid><pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604203 — PD suspected C/V of violation/crime - subway</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604203</link><description>Outcome: Closed - Pending Litigation
+
+Subway station/train</description><guid isPermaLink="false">ccrb-f461839b9325</guid><pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604153 — Report of other crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604153</link><description>Outcome: Complainant Unavailable
+
+Street/highway</description><guid isPermaLink="false">ccrb-4b6b86b5f1b0</guid><pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604196 — CV already in custody</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604196</link><description>Outcome: Closed - Pending Litigation
+
+Street/highway</description><guid isPermaLink="false">ccrb-f36d5c9def41</guid><pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604176 — Other</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604176</link><description>Outcome: Complainant Unavailable
+
+Street/highway</description><guid isPermaLink="false">ccrb-2a2822ad810f</guid><pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604179 — PD suspected C/V of violation/crime - bldg</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604179</link><description>Outcome: Complaint Withdrawn
+
+NYCHA</description><guid isPermaLink="false">ccrb-b67e3ca022cd</guid><pubDate>Sat, 02 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604166 — Report-dispute</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604166</link><description>Outcome: Closed - Pending Litigation
+
+Police building</description><guid isPermaLink="false">ccrb-d0227b20a2d3</guid><pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604223 — Other</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604223</link><description>Outcome: Complainant Unavailable
+
+Apartment/house</description><guid isPermaLink="false">ccrb-18d84070d330</guid><pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604283 — Report-dispute</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604283</link><description>Outcome: Closed - Pending Litigation
+
+Police building</description><guid isPermaLink="false">ccrb-09dacbc005e5</guid><pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604362 — Other</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604362</link><description>Outcome: Complainant Uncooperative
+
+Police building</description><guid isPermaLink="false">ccrb-6a77300fe9fb</guid><pubDate>Thu, 07 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604373 — PD suspected C/V of violation/crime - auto</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604373</link><description>Outcome: Complainant Unavailable
+
+Street/highway</description><guid isPermaLink="false">ccrb-bcd57353533a</guid><pubDate>Thu, 07 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604423 — Parking violation</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604423</link><description>Outcome: SRAD Closure
+
+</description><guid isPermaLink="false">ccrb-7a5afd7f8431</guid><pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604485 — C/V intervened on behalf of/observed encounter w/3rd party</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604485</link><description>Outcome: Complainant Unavailable
+
+</description><guid isPermaLink="false">ccrb-8f81626a9187</guid><pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604508 — Moving violation</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604508</link><description>Outcome: SRAD Closure
+
+Street/highway</description><guid isPermaLink="false">ccrb-11bdf62efbe1</guid><pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604588 — Other</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604588</link><description>Outcome: SRAD Closure
+
+</description><guid isPermaLink="false">ccrb-cf743a6b66d5</guid><pubDate>Wed, 13 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604611 — C/V requested investigation of crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604611</link><description>Outcome: SRAD Closure
+
+Street/highway</description><guid isPermaLink="false">ccrb-4fc0daf24be2</guid><pubDate>Wed, 13 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604675 — CV already in custody</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604675</link><description>Outcome: SRAD Closure
+
+Street/highway</description><guid isPermaLink="false">ccrb-0497162b0803</guid><pubDate>Thu, 14 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604831 — CV already in custody</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604831</link><description>Outcome: Complainant Unavailable
+
+Police building</description><guid isPermaLink="false">ccrb-7263bda44938</guid><pubDate>Tue, 19 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604909 — C/V telephoned PCT</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604909</link><description>Outcome: SRAD Closure
+
+Phone</description><guid isPermaLink="false">ccrb-261411997a42</guid><pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604916 — C/V at PCT to obtain information</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604916</link><description>Outcome: SRAD Closure
+
+Police building</description><guid isPermaLink="false">ccrb-60754a428e65</guid><pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604996 — Report of other crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604996</link><description>Outcome: SRAD Closure
+
+Police building</description><guid isPermaLink="false">ccrb-a00b8183361c</guid><pubDate>Mon, 25 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202604987 — Report of other crime</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202604987</link><description>Outcome: Complaint Withdrawn
+
+Street/highway</description><guid isPermaLink="false">ccrb-c99b944a61d4</guid><pubDate>Tue, 26 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202605072 — PD suspected C/V of violation/crime - street</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202605072</link><description>Outcome: Closed - Pending Litigation
+
+NYCHA</description><guid isPermaLink="false">ccrb-86966a3832ce</guid><pubDate>Wed, 27 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202605323 — Parking violation</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202605323</link><description>Outcome: SRAD Closure
+
+Street/highway</description><guid isPermaLink="false">ccrb-35a3df27ad2d</guid><pubDate>Sat, 30 May 2026 12:00:00 +0000</pubDate></item><item><title>CCRB complaint #202605286 — Report-dispute</title><link>https://data.cityofnewyork.us/d/2mby-ccnw/explore?q=202605286</link><description>Outcome: SRAD Closure
+
+Residential building</description><guid isPermaLink="false">ccrb-cc96c954939b</guid><pubDate>Sat, 30 May 2026 12:00:00 +0000</pubDate></item></channel></rss>
