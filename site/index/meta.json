@@ -1,6 +1,6 @@
 {
-  "total": 113065,
-  "updated_at": "2026-06-06T07:26:16Z",
+  "total": 139393,
+  "updated_at": "2026-06-07T07:40:28Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -12,22 +12,22 @@
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9991,
-      "shard_bytes": 5096147,
+      "count": 8683,
+      "shard_bytes": 4416760,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8167,
-      "shard_bytes": 3171525,
+      "count": 8127,
+      "shard_bytes": 3155755,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
       "key": "ccrb-penalties",
       "label": "CCRB Penalty Recommendations",
-      "count": 5000,
-      "shard_bytes": 2302792,
+      "count": 14867,
+      "shard_bytes": 6850250,
       "coverage": "All available (capped 20,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 5000,
-      "shard_bytes": 7986561,
+      "count": 7598,
+      "shard_bytes": 11782217,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14957,
-      "shard_bytes": 9067865,
+      "count": 15000,
+      "shard_bytes": 9092396,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -75,8 +75,8 @@
     {
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
-      "count": 5000,
-      "shard_bytes": 2274477,
+      "count": 20000,
+      "shard_bytes": 9072367,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
@@ -85,6 +85,13 @@
       "count": 24987,
       "shard_bytes": 11858836,
       "coverage": "Last 5 years (capped 25,000)"
+    },
+    {
+      "key": "doi",
+      "label": "DOI Reports",
+      "count": 168,
+      "shard_bytes": 67754,
+      "coverage": "All reports, 2002\u2013present (via Wayback CDX)"
     },
     {
       "key": "nyc-comptroller",
@@ -107,12 +114,16 @@
       24987
     ],
     [
-      "HPD",
-      14957
+      "NYPD",
+      22994
     ],
     [
-      "NYPD",
-      13167
+      "NYC Department of Health",
+      20000
+    ],
+    [
+      "HPD",
+      15000
     ],
     [
       "NYC City Council",
@@ -120,11 +131,7 @@
     ],
     [
       "Police Department",
-      6843
-    ],
-    [
-      "NYC Department of Health",
-      5000
+      6888
     ],
     [
       "Department of Correction",
@@ -140,55 +147,63 @@
     ],
     [
       "SANITATION OTHERS",
-      2241
+      1810
     ],
     [
       "Department of Education",
       1315
     ],
     [
-      "DEPT. OF BUILDINGS",
-      1241
-    ],
-    [
       "Fire Department",
-      1196
-    ],
-    [
-      "FIRE DEPARTMENT OF NYC",
-      1190
-    ],
-    [
-      "DEP - BUREAU OF ENV. COMPLIANC",
-      1170
+      1256
     ],
     [
       "Department of Sanitation",
       1120
     ],
     [
-      "POLICE DEPARTMENT",
-      836
+      "DEPT. OF BUILDINGS",
+      1113
     ],
     [
-      "PCS - DOHMH",
-      781
+      "FIRE DEPARTMENT OF NYC",
+      1066
+    ],
+    [
+      "DEP - BUREAU OF ENV. COMPLIANC",
+      906
+    ],
+    [
+      "POLICE DEPARTMENT",
+      825
     ],
     [
       "Department of Parks & Recration",
       759
     ],
     [
+      "PCS - DOHMH",
+      711
+    ],
+    [
       "NY Public Employment Relations Board",
       642
     ],
     [
-      "DOS - ENFORCEMENT AGENTS",
-      616
+      "NYC Health + Hospitals",
+      613
     ],
     [
-      "NYC Health + Hospitals",
-      602
+      "Citywide Administrative Services",
+      565
+    ],
+    [
+      "Youth and Community Development",
+      524
+    ],
+    [
+      "Dept. of Social Svcs/Human Resources Administration",
+      521
     ],
     [
       "Forfeiture",
@@ -199,28 +214,20 @@
       500
     ],
     [
+      "DOS - ENFORCEMENT AGENTS",
+      477
+    ],
+    [
       "Department of Environmental Protection",
       424
     ],
     [
+      "Health and Mental Hygiene",
+      405
+    ],
+    [
       "Taxi & Limousine",
       402
-    ],
-    [
-      "HOUSING PRESERVATION AND DEVELOPMENT (HPD)",
-      398
-    ],
-    [
-      "DOHMH - BFSCS",
-      392
-    ],
-    [
-      "Dept. of Social Svcs/Human Resources Administration",
-      351
-    ],
-    [
-      "Citywide Administrative Services",
-      347
     ]
   ]
 }
