@@ -1,6 +1,6 @@
 {
-  "total": 137723,
-  "updated_at": "2026-06-14T07:55:14Z",
+  "total": 140511,
+  "updated_at": "2026-06-15T08:14:28Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -12,15 +12,15 @@
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 7181,
-      "shard_bytes": 3638625,
+      "count": 9990,
+      "shard_bytes": 5111122,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8204,
-      "shard_bytes": 3184141,
+      "count": 8183,
+      "shard_bytes": 3175844,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
@@ -48,7 +48,7 @@
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
       "count": 14951,
-      "shard_bytes": 9062438,
+      "shard_bytes": 9075086,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -115,7 +115,7 @@
     ],
     [
       "NYPD",
-      23102
+      23081
     ],
     [
       "NYC Department of Health",
@@ -146,48 +146,48 @@
       2744
     ],
     [
+      "SANITATION OTHERS",
+      2108
+    ],
+    [
+      "FIRE DEPARTMENT OF NYC",
+      1459
+    ],
+    [
       "Department of Education",
       1315
+    ],
+    [
+      "DEP - BUREAU OF ENV. COMPLIANC",
+      1287
     ],
     [
       "Fire Department",
       1255
     ],
     [
-      "SANITATION OTHERS",
-      1191
+      "DEPT. OF BUILDINGS",
+      1168
     ],
     [
       "Department of Sanitation",
       1120
     ],
     [
-      "FIRE DEPARTMENT OF NYC",
-      1039
-    ],
-    [
-      "DEPT. OF BUILDINGS",
-      907
+      "POLICE DEPARTMENT",
+      903
     ],
     [
       "Department of Parks & Recration",
       759
     ],
     [
-      "POLICE DEPARTMENT",
-      748
-    ],
-    [
-      "DEP - BUREAU OF ENV. COMPLIANC",
-      664
+      "DOS - ENFORCEMENT AGENTS",
+      743
     ],
     [
       "NY Public Employment Relations Board",
       642
-    ],
-    [
-      "PCS - DOHMH",
-      637
     ],
     [
       "NYC Health + Hospitals",
@@ -196,6 +196,10 @@
     [
       "Citywide Administrative Services",
       553
+    ],
+    [
+      "PCS - DOHMH",
+      538
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
@@ -208,10 +212,6 @@
     [
       "NYC Comptroller",
       500
-    ],
-    [
-      "DOS - ENFORCEMENT AGENTS",
-      466
     ],
     [
       "Youth and Community Development",
