@@ -1,33 +1,33 @@
 {
-  "total": 140672,
-  "updated_at": "2026-06-23T07:28:53Z",
+  "total": 140523,
+  "updated_at": "2026-06-24T07:27:02Z",
   "sources": [
     {
       "key": "oath-trials",
       "label": "OATH Trials (incl. NYPD discipline)",
-      "count": 1626,
-      "shard_bytes": 694501,
+      "count": 1623,
+      "shard_bytes": 693185,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9999,
-      "shard_bytes": 4982789,
+      "count": 10000,
+      "shard_bytes": 4927113,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8159,
-      "shard_bytes": 3166016,
+      "count": 8152,
+      "shard_bytes": 3163283,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
       "key": "ccrb-penalties",
       "label": "CCRB Penalty Recommendations",
-      "count": 14921,
-      "shard_bytes": 6875664,
+      "count": 14920,
+      "shard_bytes": 6875195,
       "coverage": "All available (capped 20,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 7820,
-      "shard_bytes": 12217747,
+      "count": 7830,
+      "shard_bytes": 12236254,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14663,
-      "shard_bytes": 8897169,
+      "count": 14514,
+      "shard_bytes": 8845951,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -76,7 +76,7 @@
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9073286,
+      "shard_bytes": 9072734,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
@@ -97,7 +97,7 @@
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
-      "shard_bytes": 1900788,
+      "shard_bytes": 1897226,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -115,7 +115,7 @@
     ],
     [
       "NYPD",
-      23080
+      23072
     ],
     [
       "NYC Department of Health",
@@ -123,7 +123,7 @@
     ],
     [
       "HPD",
-      14663
+      14514
     ],
     [
       "NYC City Council",
@@ -131,7 +131,7 @@
     ],
     [
       "Police Department",
-      6886
+      6884
     ],
     [
       "Department of Correction",
@@ -143,7 +143,7 @@
     ],
     [
       "SANITATION OTHERS",
-      2888
+      3074
     ],
     [
       "Other",
@@ -154,28 +154,28 @@
       1315
     ],
     [
-      "FIRE DEPARTMENT OF NYC",
-      1274
-    ],
-    [
       "Fire Department",
-      1261
+      1260
     ],
     [
-      "DEPT. OF BUILDINGS",
-      1159
+      "DOS - ENFORCEMENT AGENTS",
+      1135
     ],
     [
       "Department of Sanitation",
       1120
     ],
     [
-      "DOS - ENFORCEMENT AGENTS",
-      919
+      "FIRE DEPARTMENT OF NYC",
+      1008
+    ],
+    [
+      "DEPT. OF BUILDINGS",
+      917
     ],
     [
       "DEP - BUREAU OF ENV. COMPLIANC",
-      882
+      867
     ],
     [
       "Department of Parks & Recration",
@@ -183,7 +183,7 @@
     ],
     [
       "POLICE DEPARTMENT",
-      671
+      743
     ],
     [
       "NY Public Employment Relations Board",
@@ -194,16 +194,16 @@
       615
     ],
     [
+      "PCS - DOHMH",
+      577
+    ],
+    [
       "Citywide Administrative Services",
-      570
+      565
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
-      544
-    ],
-    [
-      "PCS - DOHMH",
-      542
+      548
     ],
     [
       "Forfeiture",
@@ -215,11 +215,11 @@
     ],
     [
       "Youth and Community Development",
-      490
+      481
     ],
     [
       "Health and Mental Hygiene",
-      430
+      427
     ],
     [
       "Department of Environmental Protection",
@@ -227,7 +227,7 @@
     ],
     [
       "Environmental Protection",
-      402
+      403
     ]
   ]
 }
