@@ -1,49 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>The Rest of the Record — OATH Trials (incl. NYPD discipline)</title><link>https://joshgreenman1973.github.io/nyc-decisions/feeds/oath-trials.xml</link><description>The Rest of the Record feed: The Rest of the Record — OATH Trials (incl. NYPD discipline)</description><atom:link href="https://joshgreenman1973.github.io/nyc-decisions/feeds/oath-trials.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sun, 05 Jul 2026 07:22:14 +0000</lastBuildDate><item><title>Taxi and Limousine Commission v. Bassiony, Walid (01/07/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260957</link><description>Outcome: 112 - License Suspended
-
-01 - Susp. Arrest</description><guid isPermaLink="false">oath-trials-e3c291f3659b</guid><pubDate>Wed, 07 Jan 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. WILLIAMS, RUFUS (01/12/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260559</link><description>Outcome: U - Recommendation upheld in full
-
-04 - Fitness Drug Use</description><guid isPermaLink="false">oath-trials-8b7195a70de4</guid><pubDate>Mon, 12 Jan 2026 12:00:00 +0000</pubDate></item><item><title>Fire Department v. Steed, Rawl (01/14/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=251609</link><description>Outcome: 31 - Sec 75 --Terminated
-
-K1 - Criminal activity off-duty or beyond scope of duties</description><guid isPermaLink="false">oath-trials-273c957f391f</guid><pubDate>Wed, 14 Jan 2026 12:00:00 +0000</pubDate></item><item><title>Police Department v. Animashaun, Akorede (01/15/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=261044</link><description>Outcome: N/A
-
-X10 - Forefeiture - Vehicles</description><guid isPermaLink="false">oath-trials-9412705f0976</guid><pubDate>Thu, 15 Jan 2026 12:00:00 +0000</pubDate></item><item><title>Police Department v. Howard, Phillip (01/21/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=261156</link><description>Outcome: N/A
-
-X10 - Forefeiture - Vehicles</description><guid isPermaLink="false">oath-trials-9482e3d45021</guid><pubDate>Wed, 21 Jan 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. Sutradhar, Babul (01/23/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=261144</link><description>Outcome: 112 - License Suspended
-
-01 - Susp. Arrest</description><guid isPermaLink="false">oath-trials-2b4ac639dd84</guid><pubDate>Fri, 23 Jan 2026 12:00:00 +0000</pubDate></item><item><title>Elmhurst Hospital Center v. Oazibullah, SM (01/26/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=251254</link><description>Outcome: U - Recommendation upheld in full
-
-N1 - Absent without official leave</description><guid isPermaLink="false">oath-trials-b625b10b3cac</guid><pubDate>Mon, 26 Jan 2026 12:00:00 +0000</pubDate></item><item><title>Business Integrity Commission v. Super Clean Rubbish Removal Inc. (01/30/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260024</link><description>Outcome: 128 - BIC -- Violation and Fine
-
-BI - BIC</description><guid isPermaLink="false">oath-trials-6632bea017f0</guid><pubDate>Fri, 30 Jan 2026 12:00:00 +0000</pubDate></item><item><title>Harlem Hospital Center v. Colquhoun, Pauline (02/02/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260480</link><description>Outcome: 31 - Sec 75 --Terminated
-
-N1 - Absent without official leave</description><guid isPermaLink="false">oath-trials-f27074d09f0d</guid><pubDate>Mon, 02 Feb 2026 12:00:00 +0000</pubDate></item><item><title>Department of Parks and Recreation v. Wilkinson, Parris (02/02/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260697</link><description>Outcome: U - Recommendation upheld in full
-
-N1 - Absent without official leave</description><guid isPermaLink="false">oath-trials-c42c033b4542</guid><pubDate>Mon, 02 Feb 2026 12:00:00 +0000</pubDate></item><item><title>All other HHC facilities and Administrative Offices v. Augustin, Anita (02/06/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260334</link><description>Outcome: 31 - Sec 75 --Terminated
-
-K4 - Insubordination -- failure to obey orders or agency rules</description><guid isPermaLink="false">oath-trials-52c841576713</guid><pubDate>Fri, 06 Feb 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. Singh, Lovepreet (02/09/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260619</link><description>Outcome: U - Recommendation upheld in full
-
-01 - Susp. Arrest</description><guid isPermaLink="false">oath-trials-1bffc37f1254</guid><pubDate>Mon, 09 Feb 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. Bhuiyan, MD (02/10/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=261240</link><description>Outcome: U - Recommendation upheld in full
-
-01 - Susp. Arrest</description><guid isPermaLink="false">oath-trials-bad9079b5fd5</guid><pubDate>Tue, 10 Feb 2026 12:00:00 +0000</pubDate></item><item><title>Department of Correction v. Polidor, Mackson (02/13/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260219</link><description>Outcome: 31 - Sec 75 --Terminated
-
-J15 - Undue familiarity with inmate</description><guid isPermaLink="false">oath-trials-d61780125694</guid><pubDate>Fri, 13 Feb 2026 12:00:00 +0000</pubDate></item><item><title>Department of Housing Preservation and Development v. Geylik, Michael (02/20/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=251984</link><description>Outcome: U - Recommendation upheld in full
-
-QD - SRO Harassment cases (HPD) — 109 East 9th Street , NY NY 100003</description><guid isPermaLink="false">oath-trials-b549782b35bd</guid><pubDate>Fri, 20 Feb 2026 12:00:00 +0000</pubDate></item><item><title>Department of Social Services v. Falcon, Luis (02/23/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260276</link><description>Outcome: 31 - Sec 75 --Terminated
-
-N1 - Absent without official leave</description><guid isPermaLink="false">oath-trials-33ab591a7d13</guid><pubDate>Mon, 23 Feb 2026 12:00:00 +0000</pubDate></item><item><title>Fire Department v. Neese, James (02/25/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260520</link><description>Outcome: 36 - Sec 75 --Not Guilty (charges dismissed)
-
-K4 - Insubordination -- failure to obey orders or agency rules</description><guid isPermaLink="false">oath-trials-8f7fa5fb0f8a</guid><pubDate>Wed, 25 Feb 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. LARA, LEONARDO C (02/27/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260903</link><description>Outcome: U - Recommendation upheld in full
-
-04 - Fitness Drug Use</description><guid isPermaLink="false">oath-trials-5d782f17af03</guid><pubDate>Fri, 27 Feb 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. Fernandez, Jose (03/02/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260486</link><description>Outcome: 111 - License Revoked
-
-06 - Fitness Conviction</description><guid isPermaLink="false">oath-trials-6aec1ebc1a5c</guid><pubDate>Mon, 02 Mar 2026 12:00:00 +0000</pubDate></item><item><title>Business Integrity Commission v. Around the clock construction group inc. (03/04/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260200</link><description>Outcome: 128 - BIC -- Violation and Fine
-
-BI - BIC</description><guid isPermaLink="false">oath-trials-6eca766f752a</guid><pubDate>Wed, 04 Mar 2026 12:00:00 +0000</pubDate></item><item><title>Coler Memorial Hospital v. Tindal , Rudolph (03/05/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=250367</link><description>Outcome: 32 - Sec 75 --Suspended
-
-K4 - Insubordination -- failure to obey orders or agency rules</description><guid isPermaLink="false">oath-trials-9d6e3090f5a0</guid><pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate></item><item><title>Matter of Tamara Ochoa &amp; Jason Randall (03/09/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=242954</link><description>Outcome: 85 - Loft Board -- Application Granted
-
-PO - LFT - Protected Occupancy Status — 476 Jefferson Street, Brooklyn</description><guid isPermaLink="false">oath-trials-64e8aaa757a5</guid><pubDate>Fri, 06 Mar 2026 12:00:00 +0000</pubDate></item><item><title>Matter of Tamara Ochoa &amp; Jason Randall (03/06/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=242955</link><description>Outcome: 85 - Loft Board -- Application Granted
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>The Rest of the Record — OATH Trials (incl. NYPD discipline)</title><link>https://joshgreenman1973.github.io/nyc-decisions/feeds/oath-trials.xml</link><description>The Rest of the Record feed: The Rest of the Record — OATH Trials (incl. NYPD discipline)</description><atom:link href="https://joshgreenman1973.github.io/nyc-decisions/feeds/oath-trials.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Mon, 06 Jul 2026 07:48:50 +0000</lastBuildDate><item><title>Matter of Tamara Ochoa &amp; Jason Randall (03/06/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=242955</link><description>Outcome: 85 - Loft Board -- Application Granted
 
 TA - LFT - Rent (Tenant) — 476 Jefferson Street, Brooklyn</description><guid isPermaLink="false">oath-trials-840f03c66c9d</guid><pubDate>Fri, 06 Mar 2026 12:00:00 +0000</pubDate></item><item><title>Department of Social Services v. Morrison, Marcia (03/06/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260895</link><description>Outcome: 31 - Sec 75 --Terminated
 
@@ -77,11 +33,11 @@ BI - BIC</description><guid isPermaLink="false">oath-trials-85b1bb05c2c7</guid><
 
 K1 - Criminal activity off-duty or beyond scope of duties</description><guid isPermaLink="false">oath-trials-b4d6121ea2b0</guid><pubDate>Mon, 20 Apr 2026 12:00:00 +0000</pubDate></item><item><title>Department of Social Services v. Bryant, Jason (04/20/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=261037</link><description>Outcome: 31 - Sec 75 --Terminated
 
-N1 - Absent without official leave</description><guid isPermaLink="false">oath-trials-6988336e9683</guid><pubDate>Mon, 20 Apr 2026 12:00:00 +0000</pubDate></item><item><title>Coney Island Hospital v. Savchuk, Vasyl (04/23/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260750</link><description>Outcome: 31 - Sec 75 --Terminated
+N1 - Absent without official leave</description><guid isPermaLink="false">oath-trials-6988336e9683</guid><pubDate>Mon, 20 Apr 2026 12:00:00 +0000</pubDate></item><item><title>Coney Island Hospital v. Savchuk, Vasyl (04/23/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260750</link><description>Outcome: U - Recommendation upheld in full
 
 M1 - Failure to perform work properly</description><guid isPermaLink="false">oath-trials-af72b5ac5d8b</guid><pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate></item><item><title>Department of Education v. Modesto, Kaity (04/24/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=252509</link><description>Outcome: 36 - Sec 75 --Not Guilty (charges dismissed)
 
-J7 - Discourteous or offensive behavior or language</description><guid isPermaLink="false">oath-trials-38b20a73c6de</guid><pubDate>Fri, 24 Apr 2026 12:00:00 +0000</pubDate></item><item><title>All other HHC facilities and Administrative Offices v. Fulgence, Shaniqua (04/24/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260645</link><description>Outcome: 31 - Sec 75 --Terminated
+J7 - Discourteous or offensive behavior or language</description><guid isPermaLink="false">oath-trials-38b20a73c6de</guid><pubDate>Fri, 24 Apr 2026 12:00:00 +0000</pubDate></item><item><title>All other HHC facilities and Administrative Offices v. Fulgence, Shaniqua (04/24/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260645</link><description>Outcome: U - Recommendation upheld in full
 
 N1 - Absent without official leave</description><guid isPermaLink="false">oath-trials-b4aaf17587b2</guid><pubDate>Fri, 24 Apr 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. Pina Sanchez, Johan (04/28/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260648</link><description>Outcome: U - Recommendation upheld in full
 
@@ -97,6 +53,50 @@ Q1 - License matters (other than TLC)</description><guid isPermaLink="false">oat
 
 Q1 - License matters (other than TLC)</description><guid isPermaLink="false">oath-trials-dc3096e3927b</guid><pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate></item><item><title>Judlau Contracting, Inc v. Department of Transportation (05/21/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=250981</link><description>Outcome: N/A
 
-P4 - CD - Construction Contract</description><guid isPermaLink="false">oath-trials-202b0d4ac0e1</guid><pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. PAN, JIAN (05/26/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260786</link><description>Outcome: 111 - License Revoked
+P4 - CD - Construction Contract</description><guid isPermaLink="false">oath-trials-202b0d4ac0e1</guid><pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. PAN, JIAN (05/26/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260786</link><description>Outcome: U - Recommendation upheld in full
 
-04 - Fitness Drug Use</description><guid isPermaLink="false">oath-trials-43bc5ac6466b</guid><pubDate>Tue, 26 May 2026 12:00:00 +0000</pubDate></item></channel></rss>
+04 - Fitness Drug Use</description><guid isPermaLink="false">oath-trials-43bc5ac6466b</guid><pubDate>Tue, 26 May 2026 12:00:00 +0000</pubDate></item><item><title>Fire Department v. Murphy, Carla (05/27/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=232860</link><description>Outcome: 32 - Sec 75 --Suspended
+
+J12 - False report or statement</description><guid isPermaLink="false">oath-trials-b6a64b11fc64</guid><pubDate>Wed, 27 May 2026 12:00:00 +0000</pubDate></item><item><title>Department of Sanitation v. LUMAS, CHRISTOPHER (05/28/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260896</link><description>Outcome: 31 - Sec 75 --Terminated
+
+N1 - Absent without official leave</description><guid isPermaLink="false">oath-trials-140c08797953</guid><pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate></item><item><title>Administration for Children's Services v. Nedderman, Jamel (05/29/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=250601</link><description>Outcome: 32 - Sec 75 --Suspended
+
+K6 - Sexual harrassment</description><guid isPermaLink="false">oath-trials-96f1ff757bb3</guid><pubDate>Fri, 29 May 2026 12:00:00 +0000</pubDate></item><item><title>Office of Administrative Trials and Hearings v. Robertson , Felice (05/29/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260666</link><description>Outcome: 32 - Sec 75 --Suspended
+
+K4 - Insubordination -- failure to obey orders or agency rules</description><guid isPermaLink="false">oath-trials-9a6d833fab85</guid><pubDate>Fri, 29 May 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. Sanraj Singh, FNU (06/01/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=261951</link><description>Outcome: R - Reversed
+
+01 - Susp. Arrest</description><guid isPermaLink="false">oath-trials-041aa37ca4d8</guid><pubDate>Mon, 01 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Office of City Clerk / Clerk of the Council v. Stellar Printing. AI Inc. (06/02/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=252491</link><description>Outcome: 122 - Lobby Client Fined
+
+Q11 - Lobbyist client reg (OCC)</description><guid isPermaLink="false">oath-trials-a3f3b5a2c1c1</guid><pubDate>Tue, 02 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. DZHASHIASHVILI, NIKOLOZ (06/02/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=261253</link><description>Outcome: U - Recommendation upheld in full
+
+04 - Fitness Drug Use</description><guid isPermaLink="false">oath-trials-550781a1546e</guid><pubDate>Tue, 02 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Department of Finance v. Krishnamurthy, Vivekanand (06/05/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=261777</link><description>Outcome: 31 - Sec 75 --Terminated
+
+N1 - Absent without official leave</description><guid isPermaLink="false">oath-trials-2084477c5eed</guid><pubDate>Fri, 05 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. Bechami, Abdelhak (06/05/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=262073</link><description>Outcome: U - Recommendation upheld in full
+
+01 - Susp. Arrest</description><guid isPermaLink="false">oath-trials-4ab837d61f8a</guid><pubDate>Fri, 05 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. Alonzo, Joel (06/09/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=262084</link><description>Outcome: 112 - License Suspended
+
+01 - Susp. Arrest</description><guid isPermaLink="false">oath-trials-dbdcf8d9fcc0</guid><pubDate>Tue, 09 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Department of Parks and Recreation v. Sanchez, Edward (06/10/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260698</link><description>Outcome: 31 - Sec 75 --Terminated
+
+J3 - Use of force against co-worker</description><guid isPermaLink="false">oath-trials-2c824cce9cf2</guid><pubDate>Wed, 10 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Department of Parks and Recreation v. Dunnell, Leroy (06/12/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=261140</link><description>Outcome: 32 - Sec 75 --Suspended
+
+K6 - Sexual harrassment</description><guid isPermaLink="false">oath-trials-2b073ffc9b42</guid><pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Department of Consumer and  Worker Protection v. Schultz, Mirka (06/17/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=252231</link><description>Outcome: 53 - Licensee Fined
+
+Q1 - License matters (other than TLC)</description><guid isPermaLink="false">oath-trials-d025d1cc1c76</guid><pubDate>Mon, 15 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. Hernandez, Oscar (06/18/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=262184</link><description>Outcome: U - Recommendation upheld in full
+
+01 - Susp. Arrest</description><guid isPermaLink="false">oath-trials-65cfab6dfc8e</guid><pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Department of Buildings v. Singh, Pritam (06/23/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=252299</link><description>Outcome: 51 - License Revoked
+
+Q1 - License matters (other than TLC)</description><guid isPermaLink="false">oath-trials-9747eb8922a7</guid><pubDate>Tue, 23 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Navesink Prestige LLC v. Department of Design and Construction (06/24/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=241426</link><description>Outcome: N/A
+
+P4 - CD - Construction Contract</description><guid isPermaLink="false">oath-trials-31b06521e4bf</guid><pubDate>Wed, 24 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Navesink Prestige LLC v. Department of Design and Construction (06/24/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=241427</link><description>Outcome: N/A
+
+P4 - CD - Construction Contract</description><guid isPermaLink="false">oath-trials-7d8e482b11d4</guid><pubDate>Wed, 24 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Taxi and Limousine Commission v. Nomamien, Owen (06/24/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=262188</link><description>Outcome: 116 - Licensee not in Violation
+
+01 - Susp. Arrest</description><guid isPermaLink="false">oath-trials-b1fb30af6ac7</guid><pubDate>Wed, 24 Jun 2026 12:00:00 +0000</pubDate></item><item><title>IPC Resiliency Partners  v. Department of Design and Construction (06/25/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=251707</link><description>Outcome: N/A
+
+P4 - CD - Construction Contract</description><guid isPermaLink="false">oath-trials-3a680eb57891</guid><pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Jacobi Hospital Center v. Yap, Gerard N (06/25/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260009</link><description>Outcome: 31 - Sec 75 --Terminated
+
+N1 - Absent without official leave</description><guid isPermaLink="false">oath-trials-0ff7e181fb13</guid><pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Police Department v. Cromwell, Zavien (06/25/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=262251</link><description>Outcome: N/A
+
+X10 - Forefeiture - Vehicles</description><guid isPermaLink="false">oath-trials-5901905cdfec</guid><pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate></item><item><title>Department of Correction v. Saul, Sasha (06/26/2026)</title><link>https://data.cityofnewyork.us/d/y3hw-z6bm/explore?q=260678</link><description>Outcome: 32 - Sec 75 --Suspended
+
+N3 - Sick leave violations -- leaving residence without authorization</description><guid isPermaLink="false">oath-trials-757d3c49644c</guid><pubDate>Fri, 26 Jun 2026 12:00:00 +0000</pubDate></item></channel></rss>
