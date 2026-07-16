@@ -1,26 +1,26 @@
 {
-  "total": 140696,
-  "updated_at": "2026-07-15T07:05:04Z",
+  "total": 141091,
+  "updated_at": "2026-07-16T07:06:01Z",
   "sources": [
     {
       "key": "oath-trials",
       "label": "OATH Trials (incl. NYPD discipline)",
-      "count": 1622,
-      "shard_bytes": 692732,
+      "count": 1618,
+      "shard_bytes": 690975,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9995,
-      "shard_bytes": 5006075,
+      "count": 10000,
+      "shard_bytes": 4871356,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8024,
-      "shard_bytes": 3113211,
+      "count": 7981,
+      "shard_bytes": 3096347,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 8007,
-      "shard_bytes": 12537025,
+      "count": 8019,
+      "shard_bytes": 12546556,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14574,
-      "shard_bytes": 8845889,
+      "count": 15000,
+      "shard_bytes": 9097294,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -76,14 +76,14 @@
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9072093,
+      "shard_bytes": 9071732,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "dcwp-complaints",
       "label": "DCWP Consumer Complaints",
-      "count": 24985,
-      "shard_bytes": 11865788,
+      "count": 24984,
+      "shard_bytes": 11865313,
       "coverage": "Last 5 years (capped 25,000)"
     },
     {
@@ -97,7 +97,7 @@
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
-      "shard_bytes": 1900789,
+      "shard_bytes": 1900866,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -111,11 +111,11 @@
   "top_agencies": [
     [
       "DCWP",
-      24985
+      24984
     ],
     [
       "NYPD",
-      23015
+      22972
     ],
     [
       "NYC Department of Health",
@@ -123,7 +123,7 @@
     ],
     [
       "HPD",
-      14574
+      15000
     ],
     [
       "NYC City Council",
@@ -131,7 +131,7 @@
     ],
     [
       "Police Department",
-      6885
+      6886
     ],
     [
       "Department of Correction",
@@ -142,16 +142,12 @@
       4172
     ],
     [
+      "SANITATION OTHERS",
+      3147
+    ],
+    [
       "Other",
       2744
-    ],
-    [
-      "SANITATION OTHERS",
-      1954
-    ],
-    [
-      "FIRE DEPARTMENT OF NYC",
-      1407
     ],
     [
       "Department of Education",
@@ -159,39 +155,39 @@
     ],
     [
       "Fire Department",
-      1263
+      1264
     ],
     [
       "Department of Sanitation",
       1120
     ],
     [
-      "POLICE DEPARTMENT",
-      1036
-    ],
-    [
-      "DEPT. OF BUILDINGS",
-      1012
-    ],
-    [
-      "DEP - BUREAU OF ENV. COMPLIANC",
-      979
+      "FIRE DEPARTMENT OF NYC",
+      1094
     ],
     [
       "DOS - ENFORCEMENT AGENTS",
-      804
+      927
+    ],
+    [
+      "POLICE DEPARTMENT",
+      837
     ],
     [
       "DEPT OF TRANSPORTATION",
-      776
+      804
+    ],
+    [
+      "DEPT. OF BUILDINGS",
+      784
     ],
     [
       "Department of Parks & Recration",
       759
     ],
     [
-      "PCS - DOHMH",
-      665
+      "DEP - BUREAU OF ENV. COMPLIANC",
+      694
     ],
     [
       "NY Public Employment Relations Board",
@@ -199,19 +195,23 @@
     ],
     [
       "NYC Health + Hospitals",
-      617
-    ],
-    [
-      "Dept. of Social Svcs/Human Resources Administration",
-      557
+      615
     ],
     [
       "Youth and Community Development",
-      549
+      556
+    ],
+    [
+      "Dept. of Social Svcs/Human Resources Administration",
+      555
     ],
     [
       "Citywide Administrative Services",
       539
+    ],
+    [
+      "PCS - DOHMH",
+      514
     ],
     [
       "Forfeiture",
@@ -223,7 +223,7 @@
     ],
     [
       "Health and Mental Hygiene",
-      444
+      442
     ],
     [
       "Administration for Children's Services",

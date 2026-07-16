@@ -1,102 +1,412 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>The Rest of the Record — All Sources</title><link>https://joshgreenman1973.github.io/nyc-decisions/feeds/all.xml</link><description>The Rest of the Record feed: The Rest of the Record — All Sources</description><atom:link href="https://joshgreenman1973.github.io/nyc-decisions/feeds/all.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 15 Jul 2026 07:05:04 +0000</lastBuildDate><item><title>CCRB penalty recommendation — complaint #202302427, officer tax #952256</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202302427</link><description>Outcome: Substantiated (Command Discipline B)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>The Rest of the Record — All Sources</title><link>https://joshgreenman1973.github.io/nyc-decisions/feeds/all.xml</link><description>The Rest of the Record feed: The Rest of the Record — All Sources</description><atom:link href="https://joshgreenman1973.github.io/nyc-decisions/feeds/all.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 16 Jul 2026 07:06:02 +0000</lastBuildDate><item><title>AI and New York City’s Fiscal Future</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/AI-and-NYCs-Fiscal-Future.pdf</link><description>Office of the New York City Comptroller Mark Levine 1 
+ 
+ 
+BUREAU OF BUDGET 
+AI and New York City’s 
+Fiscal Future 
+Planning Scenarios for an Uncertain 
+Economy 
+MAY 21, 2026 
+ 
+ 
+ 
+DAVID N. DINKINS MUNICIPAL BUILDING, 1 CENTRE STREET, NEW YORK, NY 10007 | COMPTROLLER.NYC.GOV 
+ 
 
-CCRB: Substantiated (Command Discipline B)</description><guid isPermaLink="false">ccrb-penalties-2809c44b37a2</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201407556, officer tax #948997</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201407556</link><description>Outcome: Substantiated (Charges)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AI and New York City’s Fiscal 
+Future 
+Planning Scenarios for an 
+Uncertain Economy 
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-049b62328e9f</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200007675, officer tax #879871</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200007675</link><description>Outcome: Substantiated (Command Discipline)
+ 
+Office of the New York City Comptroller Mark Levine 3 
+Contents 
+A Message from the Comptroller…</description><guid isPermaLink="false">nyc-comptroller-56fdd37c98b5</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Who’s Minding the Storefronts?</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/Whos-Minding-the-Storefronts.pdf</link><description>BUREAU OF POLICY 
+ 
+ 
+ 
+ Who's Minding the 
+Storefronts? 
+An Analysis of Storefront Vacancies 
+in New York City 
+June 2026 
+DAVID N. DINKINS MUNICIPAL BUILDING, 1 CENTRE STREET, NEW YORK, NY 10007 | COMPTROLLER.NYC.GOV 
+ 
+ 
+ 
+ 
+ 
 
-CCRB: Substantiated (Command Discipline)</description><guid isPermaLink="false">ccrb-penalties-4f7d5c77a4b7</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200814086, officer tax #918073</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200814086</link><description>Outcome: Substantiated (Command Discipline)
+ 
+ 
+Contents 
+Letter from the Comptroller .................................... 1 
+Executive Summary................................................ 2 
+Findings ................................................................. 2 
+Citywide Storefront Vacancies…</description><guid isPermaLink="false">nyc-comptroller-0fede101eae1</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>A Framework for Structural NYPD Overtime Reform</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/A-Framework-for-Structural-NYPD-Overtime-Reform.pdf</link><description>BUREAU OF POLICY 
+ 
+ 
+ 
+A Framework for 
+Structural NYPD 
+Overtime Reform 
+An Analysis and Accountability Plan for 
+Overtime Spending, Controls, and Risk 
+June 2026 
+DAVID N. DINKINS MUNICIPAL BUILDING, 1 CENTRE STREET, NEW YORK, NY 10007 | COMPTROLLER.NYC.GOV 
+ 
+ 
+ 
+ 
+ 
 
-CCRB: Substantiated (Command Discipline)</description><guid isPermaLink="false">ccrb-penalties-778b679d253a</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200802859, officer tax #935970</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200802859</link><description>Outcome: Substantiated (Charges)
+ 
+ 
+Contents 
+Executive Summary................................................ 1 
+Key Findings .......................................................... 1 
+Recommendations................................................. 3…</description><guid isPermaLink="false">nyc-comptroller-f9ca5d08a737</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>New York City Quarterly Cash Report</title><link>https://www.nyc.gov/assets/hra/downloads/pdf/ca_recipients.pdf</link><guid isPermaLink="false">nyc-comptroller-0fd84190aebc</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>New York City Cash Balance ProjectionJune 1, 2026</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/Cash-Letter-June-2026-_Final.pdf</link><description>Office of the New York City Comptroller Mark Levine 
+ 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+During the first three quarters of FY 2026, the City collected $108.489 billion in revenues and incurred 
+$110.161 billion in expenditures, for a net shortfall of $1.672 billion. Total revenues increased 2.8%, or 
+$2.922 billion, compared to the same period last fiscal year, while expenditures rose 8%, or $8.153 billion. 
+The largest factor behind weaker receipts was the anticipated drop in COVID -related funding.…</description><guid isPermaLink="false">nyc-comptroller-95221f98c21c</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Letter to the London Stock Exchange Group and FTSE Russell Re: SpaceX</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/LSEG_Russell_Fast_Entry-SpaceX-Don-Robert-Fiona-Bassett-061026.pdf</link><guid isPermaLink="false">nyc-comptroller-fc48637b4815</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Audit on the Timeliness of Civilian Complaint Review Board’s Investigations and New York City Police Department’s Implementation of the Board’s Recommendations</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/CCRB-NYPD-Final-Report-FK25PAR20005.pdf</link><guid isPermaLink="false">nyc-comptroller-b6e02901e19a</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Audit Report of the Department of Design and Construction’s Mitigation of Delays and Cost Overruns on Capital Construction Projects</title><link>https://comptroller.nyc.gov/wp-content/uploads/2026/02/SE23-073A.pdf</link><description>1 
+ 
+ 
+ 
+ 
+ 
+Audit Report of the Department 
+of Design and Construction’s 
+Mitigation of Delays and Cost 
+Overruns on Capital 
+Construction Projects 
+SE23-073A | December 26, 2025 
+Maura Hayes-Chaffe 
+Deputy Comptroller for Audit 
+ 
+1 Centre Street, New York, NY 10007 • (212) 669-3916 • www.comptroller.nyc.gov • @NYCComptroller 
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-0004f962f19c</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201212349, officer tax #925899</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201212349</link><description>Outcome: Substantiated (Command Discipline)
+ 
+ 
+ 
 
-CCRB: Substantiated (Command Discipline)</description><guid isPermaLink="false">ccrb-penalties-b394a30e7b11</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202003636, officer tax #949938</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202003636</link><description>Outcome: Substantiated (Charges)
+ 
+ 
+THE CITY OF NEW YORK 
+OFFICE OF THE COMPTROLLER 
+BRAD LAND ER 
+DAVID N. DINKINS MUNICIPAL BUILDING • 1 CENTRE STREET, 5TH Floor • NEW YORK, NY 10007 
+PHONE:…</description><guid isPermaLink="false">nyc-comptroller-39e0605fc911</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Review of Schools’ Food Donation and Composting Efforts</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/MH25-077S.pdf</link><description>Maura Hayes-Chaffe 
+Deputy Comptroller for Audit 
+ 
+ 
+ 
+ 
+ 
+ 
+Review of Schools’ Food 
+Donation and Composting 
+Efforts 
+New York City Public Schools 
+MH25-077S | April 21, 2026 
+1 Centre Street, New York, NY 10007 
+(212) 669-3916 
+www.comptroller.nyc.gov 
+@NYCComptroller 
+ 
+ 
+ 
 
-CCRB: Substantiated (Command Discipline B) / Board: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-58f3e4abe9af</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202405819, officer tax #978186</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202405819</link><description>Outcome: Substantiated (Command Discipline A)
+THE CITY OF NEW YORK 
+OFFICE OF THE COMPTROLLER 
+MARK D. LEVINE 
+ 
+DAVID N. DINKINS MUNICIPAL BUILDING • 1 CENTRE STREET , 5TH Floor • NEW YORK, NY 10007 
+PHONE: (212) 669-3500 • @NYCCOMPTROLLER…</description><guid isPermaLink="false">nyc-comptroller-3ae0afe0dc3b</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Review of the City’s Animal Population Control Efforts</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/ME25-078S-1.pdf</link><description>Maura Hayes-Chaffe 
+Deputy Comptroller for Audit 
+ 
+ 
+ 
+ 
+ 
+ 
+Review of the City ’s 
+Animal Population 
+Control Efforts 
+Department of Health and Mental 
+Hygiene 
+ME25-078S | May 8, 2026 
+1 Centre Street, New York, NY 10007 
+(212) 669-3916 
+www.comptroller.nyc.gov 
+@NYCComptroller 
+ 
+ 
+ 
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-286ba75e264f</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200907056, officer tax #941471</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200907056</link><description>Outcome: Substantiated (No Recommendations)
+THE CITY OF NEW YORK 
+OFFICE OF THE COMPTROLLER 
+MARK D. LEVINE 
+ 
+DAVID N. DINKINS MUNICIPAL BUILDING • 1 CENTRE STREET, 5TH Floor • NEW YORK, NY 10007 
+PHONE: (212) 669-3500 • @NYCCOMPTROLLER…</description><guid isPermaLink="false">nyc-comptroller-b9bdc9d0a763</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Audit Report on the NYC Department of Veterans’ Services’ Coordination of Housing Assistance</title><link>https://comptroller.nyc.gov/wp-content/uploads/2026/02/FP25-066A.pdf</link><description>1 
+ 
+ 
+ 
+ 
+ 
+Audit Report on the NYC 
+Department of Veterans’ 
+Services’ Coordination of 
+Housing Assistance 
+FP25-066A | December 26, 2025 
+Maura Hayes-Chaffe 
+Deputy Comptroller for Audit 
+ 
+ 
+1 Centre Street, New York, NY 10007 • (212) 669-3916 • www.comptroller.nyc.gov • @NYCComptroller 
+ 
+ 
 
-CCRB: Substantiated (No Recommendations)</description><guid isPermaLink="false">ccrb-penalties-5171ec4d9953</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202008339, officer tax #959050</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202008339</link><description>Outcome: Substantiated (Formalized Training)
+ 
+ 
+ 
 
-CCRB: Substantiated (Formalized Training)</description><guid isPermaLink="false">ccrb-penalties-cdf3113d6d51</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202302244, officer tax #970253</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202302244</link><description>Outcome: Substantiated (Charges)
+ 
+ 
+THE CITY OF NEW YORK 
+OFFICE OF THE COMPTROLLER 
+BRAD LAND ER 
+DAVID N. DINKINS MUNICIPAL BUILDING • 1 CENTRE STREET, 5TH Floor • NEW YORK, NY 10007 
+PHONE: (212) 669-3500 • @NYCCOMPTROLLER…</description><guid isPermaLink="false">nyc-comptroller-81e678f5d106</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Final Audit Letter Report on the Office of Administrative Tax Appeals’ Equitable Handling of Appeals of Real Property Assessment</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/OATA-Final-Letter-Report_12.29.25.pdf</link><description>DAVID N. DINKINS MUNICIPAL BUILDING • ONE CENTRE STREET • NEW YORK, NY 10007 
+PHONE: 212-669-8459 • MHAYES1@COMPTROLLER.NYC.GOV 
+WWW.COMPTROLLER.NYC.GOV 
+ 
+ 
+MAURA HAYES-CHAFFE 
+DEPUTY COMPTROLLER FOR AUDIT 
+CITY OF NEW YORK 
+OFFICE OF THE COMPTROLLER 
+BRAD LANDER 
+ BUREAU OF AUDIT 
+December 29, 2025 
+ 
+By Electronic Mail 
+The Honorable Neil Schaier, President and Commissioner 
+Office of Administrative Tax Appeals 
+1 Centre Street, Room 2400 
+New York, NY 10007 
+ 
+Re: Final Audit Letter Report…</description><guid isPermaLink="false">nyc-comptroller-b20ce0974e36</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Audit Report on the New York City Office of Technology and Innovation’s MyCity System</title><link>https://comptroller.nyc.gov/wp-content/uploads/2026/02/MyCity-System-Development-Public-Final-report-12-30-25-final-copy.pdf</link><guid isPermaLink="false">nyc-comptroller-605b5bb76250</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Audit Report on the Office of the New York City Public Advocate’s Provision of Language Access Services</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/SZ25-075A.pdf</link><description>DRAFT 
+ 
+1 
+ 
+ 
+MH23-094A | September xx, 2024 
+Audit Report on the Office of the 
+New York City Public Advocate’s 
+Provision of Language Access 
+Services 
+SZ25-075A | October 10, 2025 
+1 Centre Street, New York, NY 10007 • (212) 669-3916 • www.comptroller.nyc.gov • @NYCComptroller 
+ 
+Maura Hayes-Chaffe 
+Deputy Comptroller for Audit 
+ 
+ 
+ 
+ 
+ 
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-88772b40eb86</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201501920, officer tax #952693</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201501920</link><description>Outcome: Substantiated (Charges)
+ 
+ 
+THE CITY OF NEW YORK 
+OFFICE OF THE COMPTROLLER 
+BRAD LANDER 
+DAVID N. DINKINS MUNICIPAL BUILDING • 1 CENTRE STREET, 5TH Floor • NEW YORK, NY 10007…</description><guid isPermaLink="false">nyc-comptroller-db2ee9389265</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Review of the Small Business Forward Initiative and Its Impact on Violations Enforcement</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/Review-of-the-Small-Business-Forward-Initiative-and-Its-Impact-on-Violations-Enforcement.pdf</link><description>Maura Hayes-Chaffe 
+Deputy Comptroller for Audit 
+ 
+ 
+ 
+ 
+ 
+ 
+Review of the Small Business 
+Forward Initiative and Its Impact 
+on Violations Enforcement 
+Multi-Agency 
+MJ25-080S | April 7, 2026 
+1 Centre Street, New York, NY 10007 
+(212) 669-3916 
+www.comptroller.nyc.gov 
+@NYCComptroller 
+ 
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-6b25b8186094</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202101737, officer tax #966371</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202101737</link><description>Outcome: Substantiated (Command Discipline A)
+THE CITY OF NEW YORK 
+OFFICE OF THE COMPTROLLER 
+MARK D. LEVINE 
+ 
+DAVID N. DINKINS MUNICIPAL BUILDING • 1 CENTRE STREET, 5TH Floor • NEW YORK, NY 10007 
+PHONE: (212) 669-3500 • @NYCCOMPTROLLER…</description><guid isPermaLink="false">nyc-comptroller-1de94e4581ad</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Audit Report on the Office of City Clerk’s Enforcement of the Lobbying Law</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/MJ25-063A.pdf</link><description>DRAFT 
+1 Office of the New York City Comptroller Brad Lander 
+ 
+ 
+ 
+ 
+Audit Report on the Office of 
+City Clerk’s Enforcement of the 
+Lobbying Law 
+MJ25-063A | December 5, 2025 
+Maura Hayes-Chaffe 
+Deputy Comptroller for Audit 
+ 
+1 Centre Street, New York, NY 10007 • (212) 669-3916 • www.comptroller.nyc.gov • @NYCComptroller 
+ 
+ 
+ 
+ 
+ 
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-f66a893d9b14</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200706234, officer tax #932234</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200706234</link><description>Outcome: Substantiated (Command Discipline)
+ 
+ 
+THE CITY OF NEW YORK 
+OFFICE OF THE COMPTROLLER 
+BRAD LANDER 
+DAVID N. DINKINS MUNICIPAL BUILDING • 1 CENTRE STREET, 5TH Floor • NEW YORK, NY 10007 
+PHONE:…</description><guid isPermaLink="false">nyc-comptroller-674da5556a27</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Comments on New York City’s Executive Budget for Fiscal Year 2027 and Financial Plan for Fiscal Years 2026-2030</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/Comments-on-New-York-Citys-Executive-Budget-for-Fiscal-Year-2027-and-Financial-Plan-for-Fiscal-Years-2026-2030_June_09_2026.pdf</link><description>1 
+ 
+ 
+BUREAU OF BUDGET 
+Comments on 
+New York City’s 
+Executive Budget 
+For Fiscal Year 2027 and 
+Financial Plan for Fiscal Years 
+2026-2030 
+June 9, 2026 
+DAVID N. DINKINS MUNICIPAL BUILDING, 1 CENTRE STREET, NEW YORK, NY 10007 | COMPTROLLER.NYC.GOV 
+ 
+ 
+ 
+ 
+ 
+ 
 
-CCRB: Substantiated (Command Discipline)</description><guid isPermaLink="false">ccrb-penalties-617108613982</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202100956, officer tax #965969</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202100956</link><description>Outcome: Substantiated (Command Discipline A)
+ 
+ 
+ 
+Mark D. Levine 
+Comptroller 
+Executive Deputy Comptroller for Budget and Finance 
+Francesco Brindisi 
+Deputy Comptroller for Budget 
+Krista Olson 
+Executive Director, Budget Oversight 
+Elizabeth Brown 
+Chief Economist 
+Jonathan…</description><guid isPermaLink="false">nyc-comptroller-7e9e41df55d3</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Community Development Financial Institutions and the NYC Home Mortgage Market</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/July-2026-Spotlight.pdf</link><description>Office of the New York City Comptroller Mark Levine 1 
+ 
+ 
+Community Development 
+Financial Institutions and the 
+NYC Home Mortgage Market 
+1 Centre Street, New York, NY 10007 
+ (212) 669-3916 
+ www.comptroller.nyc.gov 
+ 
+July 15, 2026 
+ SPOTLIGHT 
+ 
+ 
+ 
+ 
+ 
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-f90d8a77d23a</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201702181, officer tax #955915</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201702181</link><description>Outcome: Substantiated (Command Lvl Instructions)
+Office of the New York City Comptroller Mark Levine 3 
+Contents 
+Introduction ............................................................................................................. 4 
+Background…</description><guid isPermaLink="false">nyc-comptroller-1868cb3b96b0</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Investigation — Procurement: 2026283 - Komprise Multi-Year Software Renewal</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709018</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Command Lvl Instructions)</description><guid isPermaLink="false">ccrb-penalties-e4e8cbeba5fb</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201504513, officer tax #950047</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201504513</link><description>Outcome: Substantiated (Command Discipline A)
+</description><guid isPermaLink="false">crol-5b5bdd9aa186</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Transportation — Procurement: Systems Requirements Analyst</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709017</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-2d29d2630349</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200708863, officer tax #898126</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200708863</link><description>Outcome: Substantiated (Command Discipline)
+</description><guid isPermaLink="false">crol-27139a073222</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: COMPASS Center Based CD - Bronx 3 Elementary School</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709012</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Command Discipline)</description><guid isPermaLink="false">ccrb-penalties-190868b27147</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201600099, officer tax #952641</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201600099</link><description>Outcome: Substantiated (Charges)
+COMPASS and SONYC is one of DYCD's largest programs, with over 820 programs collectively throughout the five boroughs. Families rely on these programs to provide elementary and middle school students, during after school hours, summer and on holidays, programing which includes educational support, recreation, enrichment, and cultural activities to support and strengthen the overall development of our youth. Programs are offered at no cost to youth and are purposefully located in public and private schools, community centers, religious institutions, public housing and parks recreational facilit</description><guid isPermaLink="false">crol-b6976d6eefd1</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Design and Construction — Procurement: 85026I0005-LBC21MNRF, CM-Build for Macon Library</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708024</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-28544609756f</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202203431, officer tax #935069</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202203431</link><description>Outcome: Substantiated (Command Discipline A)
+This project is to preserve and modernize the historic library facility while addressing critical infrastructure deficiencies that impact building performance, occupant comfort, and long-term operations.</description><guid isPermaLink="false">crol-de866c5633c5</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Homeless Services — Procurement: FY27 Renewal -  Shelter Facilities for Homeless Single Adults at New Beginnings Men's Shelter</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709016</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-b2f9ab3da8ba</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202501063, officer tax #978271</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202501063</link><description>Outcome: Substantiated (Charges)
+Located at 1 Hoyt Street, Brooklyn, NY 11201. (160 beds)</description><guid isPermaLink="false">crol-c4cd293e8595</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Sanitation — Agency Rules: DSNY Proposed Implementation Dates Regarding Brooklyn East, Manhattan Northeast, Queens West, and Manhattan West CWZs</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708002</link><description>Outcome: Agency Rules
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-9441fd7ffcf8</guid><pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-07-14-0492: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-07-14-0492</link><description>Outcome: 01-New/Open
+</description><guid isPermaLink="false">crol-484558afa101</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Parks and Recreation — Procurement: Notice of Award to Unwind Hospitality LLC for the development, operation, and maintenance of a snack bar and merchandise concession with the option of a full-servic</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708025</link><description>Outcome: Procurement
 
-Ventilation / Manhattan, 10036</description><guid isPermaLink="false">dohmh-indoor-34b4fe7440b9</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-07-14-0493: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-07-14-0493</link><description>Outcome: 01-New/Open
+The City of New York Department of Parks &amp; Recreation ('Parks') has awarded a concession to Unwind Hospitality LLC ( Concessionaire ), of 85 Broad St. Suite 17-004, New York, NY 10004, for the development, operation, and maintenance of a snack bar and merchandise concession with the option of a full-service restaurant at the Orchard Beach Pavilion, Pelham Bay Park, Bronx . The concession, which was solicited by a Negotiated Concession, will operate pursuant to a license for one (1) twenty (20) year term. Concessionaire shall pay to the City license fees consisting of the greater of a guarantee</description><guid isPermaLink="false">crol-a8d371859b16</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Design and Construction — Procurement: Degraw Firehouse Renovation</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709004</link><description>Outcome: Procurement
 
-Chemical Vapors/Gases/Odors / Brooklyn, 11208</description><guid isPermaLink="false">dohmh-indoor-48584a5001b3</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Administration for Children's Services — Procurement: Secure Detention Surveillance System Installation and Maintenance</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708012</link><description>Outcome: Procurement
+This project consists of the interior renovation and change of use of the decommissioned FDNY firehouse at 299 Degraw Street, Brooklyn to house the Noel Pointer Foundation non-profit music school. Construction scope will include restoration of exterior masonry and replacement of windows and doors. partial underpinning of existing party wall on west side as well as new mechanical, electrical, plumbing, fire protection, security, IT, and AV systems. CB: Brooklyn 6</description><guid isPermaLink="false">crol-9ae238ee243f</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: COMPASS Center Base CD - Queens 13 Middle School</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709010</link><description>Outcome: Procurement
 
-</description><guid isPermaLink="false">crol-7f32e512236a</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: COMPASS Center Based CD - Bronx 10 Elementary School</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708007</link><description>Outcome: Procurement
+</description><guid isPermaLink="false">crol-5909cbf444dd</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Housing Preservation and Development — Special Materials: Request for Comment SRO List</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260701027</link><description>Outcome: Special Materials
 
-COMPASS and SONYC is one of DYCD's largest programs, with over 820 programs collectively throughout the five boroughs. Families rely on these programs to provide elementary and middle school students, during after school hours, summer and on holidays, programing which includes educational support, recreation, enrichment, and cultural activities to support and strengthen the overall development of our youth. Programs are offered at no cost to youth and are purposefully located in public and private schools, community centers, religious institutions, public housing and parks recreational facilit</description><guid isPermaLink="false">crol-c923b50bc0e2</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: COMPASS Center Based CD - Elementary, Manhattan 10</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708009</link><description>Outcome: Procurement
+</description><guid isPermaLink="false">crol-b292d99bba61</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: COMPASS Center Based CD - Bronx 03 Elementary</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709014</link><description>Outcome: Procurement
 
-</description><guid isPermaLink="false">crol-c92de2674f01</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Citywide Administrative Services — Procurement: BID # 2600093-TRUCK, 16 C.Y. COMPACTING COLLECTION - PARKS- PRE SOLICITATION</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260702008</link><description>Outcome: Procurement
+COMPASS and SONYC is one of DYCD's largest programs, with over 820 programs collectively throughout the five boroughs. Families rely on these programs to provide elementary and middle school students, during after school hours, summer and on holidays, programing which includes educational support, recreation, enrichment, and cultural activities to support and strengthen the overall development of our youth. Programs are offered at no cost to youth and are purposefully located in public and private schools, community centers, religious institutions, public housing and parks recreational facilit</description><guid isPermaLink="false">crol-bfac7ac48b4f</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Housing Preservation and Development — Special Materials: Request for comment Pilot Program list.</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260701032</link><description>Outcome: Special Materials
 
-A Pre-Bid meeting has been scheduled on 7/30/2026. The purpose of this meeting is to review the solicitation documents for this commodity and ensure a successful bid by clarifying the best products and maximizing competition. Your participation will assist us in revising bid terms and/or specifications (if needed) prior to bid opening to meet this goal. The exchange of information among buyers and sellers is necessary so vendors can understand City requirements and the City can obtain industry advice on current standards, new technology, commercial equivalents, and new products and product lin</description><guid isPermaLink="false">crol-3ad49bf2e54f</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Administration for Children's Services — Procurement: Prevention Services</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708011</link><description>Outcome: Procurement
+</description><guid isPermaLink="false">crol-fd5132d4ab65</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Parks and Recreation — Procurement: CNYG-1317MA1: Citywide HVAC Controls Building Automation Systems Installation, Citywide</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709005</link><description>Outcome: Procurement
 
-ACS will renew this contract for three (3) years from July 1, 2026, through June 30, 2029. This renewal is critical in preventing disruption of services to our youth. The terms &amp; conditions will remain the same as per the underlying contract.</description><guid isPermaLink="false">crol-753dd9db7b45</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Housing Authority — Procurement: Property and Terrorism Insurance</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260319023</link><description>Outcome: Procurement
+</description><guid isPermaLink="false">crol-5f7b39b7dee4</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: COMPASS Center Based CD -  Bronx 04 Elementary School</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709008</link><description>Outcome: Procurement
 
-The New York City Housing Authority ('NYCHA') requests quotations from qualified Insurance Carriers for Primary/Excess Property and Terrorism Insurance coverage. Coverage is to become effective October 30, 2026. Proposals must be made in the format and within the timeline(s) included in the Invitation for Bids package containing instructions specifications and detailed submission requirements. Packets may be obtained by calling NYCHA's Property Insurance Broker: Edgewood Partners Insurance Center (EPIC), One American Lane, 1st Floor, Greenwich, CT 06831-2551 at (973) 886-8634 . To be eligible,</description><guid isPermaLink="false">crol-6258426a15e9</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Probation — Procurement: FY27 Electrician Certification Training Program</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260707023</link><description>Outcome: Procurement
+COMPASS and SONYC is one of DYCD's largest programs, with over 820 programs collectively throughout the five boroughs. Families rely on these programs to provide elementary and middle school students, during after school hours, summer and on holidays, programing which includes educational support, recreation, enrichment, and cultural activities to support and strengthen the overall development of our youth. Programs are offered at no cost to youth and are purposefully located in public and private schools, community centers, religious institutions, public housing and parks recreational facilit</description><guid isPermaLink="false">crol-0ac0f32ef155</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Homeless Services — Procurement: FY27 Renewal - Shelter Facilities for Homeless Single Adults at: Dona Carmen's Place Shelter</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709015</link><description>Outcome: Procurement
 
-Pursuant to Section 3-08 of the New York City Procurement Policy Board (PPB) Rules, the New York City Department of Probation intends to enter into an M/WBE Non-Competitive Small Purchase with March for Equity for the provision of the Electrician Certification Training Program, designed to prepare young adults (18 25) and adults (26 60) for employment in the electrical and construction industries through hands-on training and workforce readiness support. Sourcing EPIN: 78126W0004001 Vendor: March For Equity Vendor Address: 101 Plaza Center, Unit 388, Secaucus, NJ 07094 Term: July 15, 2026 - Ja</description><guid isPermaLink="false">crol-1eda157b2cbc</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Health and Mental Hygiene — Public Comment on Contract Awards: City Council/Peer Specialists Support</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260706042</link><description>Outcome: Public Comment on Contract Awards
+Located at 413 East 152nd Street, Bronx, NY 10455. (120 beds)</description><guid isPermaLink="false">crol-7490f63ab433</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Homeless Services — Public Comment on Contract Awards: WARMING CENTER SERVICES</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708022</link><description>Outcome: Public Comment on Contract Awards
 
-This is a notice that Department of Health and Mental Hygiene is seeking comments from the public about the proposed contract below. Contract Type: Contract Contractor: Concern for Independent Living, Inc. Contractor Address: 312 Expressway Drive South, Medford, NY 11763 Scope of Services: S upport mental health peer specialists focusing on suicide prevention, crisis response, services for the LGBT community, youth services, violence prevention and community safety, services for individuals living with infectious diseases, services for individuals with substance abuse disorders, family service</description><guid isPermaLink="false">crol-fe7e977d581e</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Buildings — Agency Rules: Final Rule - Amendment of Rules relating to Sidewalk Sheds</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260707025</link><description>Outcome: Agency Rules
+This is a notice that NYC Department of Homeless Services/DHS is seeking comments from the public about the proposed contract listed below. Contract Type: General Contract (CT1) Contractor: Priority Cares Home Services Contractor Address: 77 Sands Street, Brooklyn, NY 11201 Scope of Services: Warming center services in Brooklyn boroughwide and Manhattan CB 10, CB 11 Maximum Value : $374,996.25 Term: 07/01/2026   6/30/2029 Renewal Clause: 7/1/2029   6/30/2032 E-PIN: 07123P0009001 Procurement Method: Competitive Sealed Proposal Procurement Policy Board Rule: Section 3-03 How can I comment on thi</description><guid isPermaLink="false">crol-414f71f20394</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Homeless Services — Public Comment on Contract Awards: SAFE HAVEN SERVICES FOR SINGLE ADULTS</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708019</link><description>Outcome: Public Comment on Contract Awards
 
-</description><guid isPermaLink="false">crol-cd1cde2b1813</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Transportation — Agency Rules: Notice of Adoption: City-Owned Bicycle Racks</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260706041</link><description>Outcome: Agency Rules
+This is a notice that NYC Department of Homeless Services/DHS is seeking comments from the public about the proposed contract listed below. Contract Type : General Contract   (CT1) Contractor : Urban Pathways, Inc Contractor Address : 575 8 th Avenue, 16 th Floor, New York, NY 10018 Scope of Services : Safe Haven services for single adults, New York, NY Maximum Value : $2,855,457.00 Term : 7/1/2026   6/30/2027 E-PIN : 07126N0021001 Procurement Method : Negotiated Acquisition Extension Procurement Policy Board Rule : Section 3-04 (b)(2)(iii) How can I comment on this proposed contract award ? P</description><guid isPermaLink="false">crol-3d6f5fd7801c</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Administration for Children's Services — Public Comment on Contract Awards: Nutritionist Services</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708016</link><description>Outcome: Public Comment on Contract Awards
 
-</description><guid isPermaLink="false">crol-78749de42be3</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Administration for Children's Services — Procurement: Two Technical Support Technicians for DYFJ Crossroads</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260707027</link><description>Outcome: Procurement
+This is a notice that Administration for Children s Services is seeking comments from the public about the proposed contract below. Contract Type: Contract Contractor: Nutrished Dietitian Nutrition Solutions Contractor Address: 2825 3rd Avenue, Suite 301, Bronx, NY 10455 Scope of Services: Nutritionist Services Maximum Value: $200,000.00 Term: 7/1/2025 through 6/30/2027 Renewal Clauses : Not Applicable E-PIN: 06825W0051001 Procurement Method: M/WBE Small Purchase procurement Method Procurement Policy Board Rule: Section 3-08 (c)(1)(iv) How can I comment on this proposed contract award? Please </description><guid isPermaLink="false">crol-d2069ca63c35</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Board of Correction — Agency Rules: NOTICE OF REOPENING OF PUBLIC COMMENT PERIOD ON PROPOSED RULES</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708018</link><description>Outcome: Agency Rules
 
-</description><guid isPermaLink="false">crol-dd297f389c49</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Small Business Services — Procurement: NYC CoolRoofs Training Program Administration</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708004</link><description>Outcome: Procurement
+Notice of Reopening of Public Comment Period on Proposed Rules NOTICE IS HEREBY GIVEN that the Board of Correction is reopening the public comment period for the proposed rules concerning amendments to the Board s Minimum Standards related to mental health and health care. These rule proposals were first published in the City Record on January 12, 2026. How do I comment on the proposed rules? Anyone can comment on the proposed rules by: Website. You can submit comments to BOC through the NYC rules website at http://rules.cityofnewyork.us. Email. You can email comments to boc@boc.nyc.gov. Is th</description><guid isPermaLink="false">crol-98ad2c32ddc4</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>City Council — Public Hearings and Meetings: 7-21-26 Subcommittee on Zoning and Franchises meeting</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260707021</link><description>Outcome: Public Hearings and Meetings
 
-NYC CoolRoofs is a City initiative that supports local jobseekers through a paid and transitional work-based learning experience to cool New York City rooftops with a white, reflective coating that reduces building energy consumption and citywide greenhouse gas emissions.</description><guid isPermaLink="false">crol-d5ee66b9c05a</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: COMPASS Center Based - Manhattan 11 Elementary</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708008</link><description>Outcome: Procurement
+</description><guid isPermaLink="false">crol-484fb818bfa1</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: COMPASS Center Based - Queens 12 &amp; Bronx 09 Middle School</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709009</link><description>Outcome: Procurement
 
-Manhattan Community District 11. Site: 237 E. 104th Street, New York, NY 10029</description><guid isPermaLink="false">crol-e7c696e0760f</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Landmarks Preservation Commission — Public Hearings and Meetings: July 28, 2026, Public Hearing Agenda</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260707004</link><description>Outcome: Public Hearings and Meetings
+COMPASS and SONYC is one of DYCD's largest programs, with over 820 programs collectively throughout the five boroughs. Families rely on these programs to provide elementary and middle school students, during after school hours, summer and on holidays, programing which includes educational support, recreation, enrichment, and cultural activities to support and strengthen the overall development of our youth. Programs are offered at no cost to youth and are purposefully located in public and private schools, community centers, religious institutions, public housing and parks recreational facilit</description><guid isPermaLink="false">crol-b3ba6378c6b5</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Brooklyn Bridge Park — Procurement: Brooklyn Bridge Park Pier 1 LED Lighting Install</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708023</link><description>Outcome: Procurement
 
-</description><guid isPermaLink="false">crol-10c062bc4e5f</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Finance — Agency Rules: Notice of Adoption of Rule for Surcharge on Property That Does Not Serve as a Primary Residence</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260710033</link><description>Outcome: Agency Rules
+Brooklyn Bridge Park is an eighty-five (85) acre waterfront park in Brooklyn, NY. The Pier 1 section of the park is in need of lighting improvements to replace the aging metal halide lights installed during the build-out of the park. All proposed LED light fixtures will need to be tied into a recently installed new lighting panel. Brooklyn Bridge Park is Seeking proposals for an electrical contractor to remove the existing metal halide lighting fixtures and install the LED lighting fixtures and associated wiring. ??</description><guid isPermaLink="false">crol-112f8e796fc5</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Equal Employment Practices Commission — Public Hearings and Meetings: EEPC COMMISSION MEETING #289</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708015</link><description>Outcome: Public Hearings and Meetings
 
-</description><guid isPermaLink="false">crol-071fbdf6ec23</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Transportation — Public Comment on Contract Awards: Software Technical Lead</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708003</link><description>Outcome: Public Comment on Contract Awards
+</description><guid isPermaLink="false">crol-961d10f2a1cc</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Housing Preservation and Development — Special Materials: Request for Comment Greenpoint Williamsburg list.</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260701030</link><description>Outcome: Special Materials
 
-This is a notice that the Department of Transportation is seeking comments from the public about the proposed contract below. Contract Type: Purchase Order/Contract Contractor: Spruce Technology Contractor Address: 1149 Bloomfield Avenue, Clifton, NJ 07012 Scope of Services: Software Technical Lead Maximum Value: $ 999,050.00 Term: 10/5/2026 through 10/5/2029 E-PIN:84126W0091001 Procurement Method: MWBE Non-Competitive Small Purchase Procurement Policy Board Rule: Section 3-08 (c)(1)(iv) How can I comment on this proposed contract award? Please submit your comment to: https://forms.office.com/</description><guid isPermaLink="false">crol-7d1dd4a2ac45</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Fire Department — Procurement: Pitney Bowes Spectrum OnDemand License Renewal</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260707028</link><description>Outcome: Procurement
+</description><guid isPermaLink="false">crol-5d9c7264d276</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: COMPASS Center Based CD - Queens 06 Elementary</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709011</link><description>Outcome: Procurement
 
-</description><guid isPermaLink="false">crol-8d7195eb3ef9</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Fire Department — Procurement: Search and Rescue Camera Systems</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708014</link><description>Outcome: Procurement
+COMPASS and SONYC is one of DYCD's largest programs, with over 820 programs collectively throughout the five boroughs. Families rely on these programs to provide elementary and middle school students, during after school hours, summer and on holidays, programing which includes educational support, recreation, enrichment, and cultural activities to support and strengthen the overall development of our youth. Programs are offered at no cost to youth and are purposefully located in public and private schools, community centers, religious institutions, public housing and parks recreational facilit</description><guid isPermaLink="false">crol-64cb35372063</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Finance — Special Materials: Notice of Expected Opening of the Books of Annual Records</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260710035</link><description>Outcome: Special Materials
 
-Purchase of these search and rescue camera systems is part of the Squad Company Tool Inventory that are necessary for the emergency response and success of these units. They are currently in the inventory and play an integral role in the Squad Company Operations. These tools are needed to complete operations that the companies are tasked with. Maintaining the standard tool cache allows for cohesive operational uniformity and also maintains standardization in training and safety.</description><guid isPermaLink="false">crol-81a5fea2b7c9</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Housing Authority — Procurement: SMD_A&amp;CM_RFQ #521210 - Design-Build Services for In-Unit Renovations at Citywide Locations</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260630022</link><description>Outcome: Procurement
+</description><guid isPermaLink="false">crol-6440dee1631d</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: CMS Violence Prevention Mentoring Program</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709007</link><description>Outcome: Procurement
 
-Scope of Work The New York New York City Housing Authority ( NYCHA ) is commencing a two-step procurement process for three (3) standalone design-build projects as follows: (i) two (2) 5- and 6-story buildings in the Bronx, (ii) twenty (20) 6- to 11-story buildings in Brooklyn, and (iii) one (1) one 6-story and (4) 10-story buildings in Queens and one (1) 6-story building in the Bronx. NYCHA currently contemplates the work may include but not limited to: (i) plumbing and waste infrastructure replacement, (ii) repairs to kitchens and bathrooms, (iii) replacement of the existing steam energy sys</description><guid isPermaLink="false">crol-d38156bfd19a</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: FY27 Beacon ACS Prevention NAE</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708006</link><description>Outcome: Procurement
+</description><guid isPermaLink="false">crol-f797af30efb3</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Finance — Procurement: Printing of Parking Notices &amp; Correspondence Services</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709006</link><description>Outcome: Procurement
 
-The ACS Beacon Prevention programs provide preventive services to families with youth at risk of foster care placement in a manner which ensures the safety of the youth and preserves, supports, and strengthens the family, when appropriate. The Beacon ACS Prevention Programs are family-focused and reflect the culture of the community in which the families reside. They are designed to help families make positive changes in their lives that reduce the risk of children being placed in foster care. This integration of based prevention programs at Beacon sites strengthens, enriches and expands ACS s</description><guid isPermaLink="false">crol-90069b0252b9</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Information Technology and Telecommunications — Procurement: Chicago Soft</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260706048</link><description>Outcome: Procurement
+</description><guid isPermaLink="false">crol-93ba42f441fb</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: COMPASS Center Base - Queens 06 Middle School</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260709013</link><description>Outcome: Procurement
 
-The NYC Department of Information Technology &amp; Telecommunications (DoITT) is seeking to procure proprietary Chicago Soft software maintenance. Any vendor who is qualified to provide this software maintenance under this procurement in the future, should submit a response through PASSPort, no later than July 24th, 2026 at 2PM - Eastern Standard Time. Proposed vendor is Chicago Soft Ltd. To respond in PASSPort, please submit your proposals by both acknowledging the receipt of the RFx in the Acknowledgement tab and completing your response in the Manage Responses tab. Vendor resources and material</description><guid isPermaLink="false">crol-13dd87920709</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Probation — Procurement: Arches Program, Staten Island</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708005</link><description>Outcome: Procurement
+COMPASS and SONYC is one of DYCD's largest programs, with over 820 programs collectively throughout the five boroughs. Families rely on these programs to provide elementary and middle school students, during after school hours, summer and on holidays, programing which includes educational support, recreation, enrichment, and cultural activities to support and strengthen the overall development of our youth. Programs are offered at no cost to youth and are purposefully located in public and private schools, community centers, religious institutions, public housing and parks recreational facilit</description><guid isPermaLink="false">crol-2e5a4009aa3f</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Homeless Services — Public Comment on Contract Awards: WARMING CENTER SERVICES</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708020</link><description>Outcome: Public Comment on Contract Awards
 
-</description><guid isPermaLink="false">crol-487cb3d6a020</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Correction — Procurement: Commissary - Renewal No. 1</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708010</link><description>Outcome: Procurement
+This is a notice that NYC Department of Homeless Services/DHS is seeking comments from the public about the proposed contract listed below. Contract Type : General Contract   (CT1) Contractor : Jesus Bless Foundation Inc Contractor Address : 227-13 113th Drive, Queens Village, NY 11426 Scope of Services : Warming center services, Queens, Bronx &amp; Staten Island Maximum Value: $374,996.25 Term : 7/1/2026   06/30/2029 Renewal Clause: 07/1/2029-6/30/2032 E-PIN: 07123P0009002 Procurement Method: Competitive Sealed Proposal Procurement Policy Board Rule: Section 3-03 How can I comment on this propose</description><guid isPermaLink="false">crol-779cb9c6506d</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Housing Authority — Procurement: SMD_A&amp;CM_ RFQ 517896 - LOBBY RENOVATIONS AT O DWYER GARDENS &amp; CONEY ISLAND SITE 8</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260626003</link><description>Outcome: Procurement
 
-The New York City Department of Correction will utilize the renewal procurement method to obtain continued services of Keefe Group LLC to provide modernized commissary operations. The term of the procurement will commence, from July 1, 2026 through June 30, 2027. As part of ongoing efforts to provide a safe and supportive environment to our staff and people in custody, DOC is continuing to take aggressive measures to address our staffing crisis. A commissary operation that relieves staff from multiple related commissary activities and eliminates the DOC s need to process, credit and fulfill or</description><guid isPermaLink="false">crol-103ac7818a35</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Citywide Administrative Services — Procurement: 85726B0066-2600055- Forklifts Electric</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260706047</link><description>Outcome: Procurement
+Scope of Work: The base scope of work includes but is not limited to lobby renovations at Surfside Gardens Buildings SG-1 through SG-5. The work includes the installation of new storefront entrance systems with intercoms and key-fob access controls, construction of new recycling rooms with ventilation, key-fob access, and opaque exterior walls, installation of decorative art panels within the lobbies, patching and painting of existing ceilings as required, replacement of ceiling light fixtures were indicated on the plans, installation of new exit signage, and the addition of security cameras s</description><guid isPermaLink="false">crol-15605d009d20</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item><item><title>City Planning Commission — Public Hearings and Meetings: City Planning Commission Public Hearing Ad</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260707029</link><description>Outcome: Public Hearings and Meetings
 
-The New York City Department of Citywide Administrative Services ('DCAS') is issuing a solicitation to obtain bids for Forklifts Electric . This will be a 5-Year Requirements Contract ('RC'). Please see the solicitation documents in PASSPort for additional details. Please submit your proposals by both acknowledging the receipt of the RFx in the Acknowledgement tab and completing your response in the Manage Responses tab in the City's PASSPort System (nyc.gov/passport). Vendor resources and materials can be found at the link below under the Finding and Responding to RFx heading. If you need add</description><guid isPermaLink="false">crol-e68a50c60a34</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Homeless Services — Procurement: 07126B0002-DHS Specific CSB - On-Call Travel Reservation and Ticketing Services</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260706026</link><description>Outcome: Procurement
-
-This Competitive Sealed Bid ( RFx ) is being released through PASSPort, New York City s online procurement portal.To access the solicitation, vendors should visit the PASSPort Public Portal at https://www.nyc.gov/site/mocs/passport/about-passport.page, and click on the  Procurement Navigator  blue box. This will take you to the Public Portal of all procurements in the PASSPort system. To quickly locate the RFx, insert the EPIN 07126B0002 into the Keywords search field. Instructions for submitting responses to this RFx can be found via PASSPort. Please submit your bids by both acknowledging the</description><guid isPermaLink="false">crol-108dd52ea6ca</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Environmental Protection — Public Comment on Contract Awards: NCMCCSG-CM Electrical Distribution System Upgrade at New Clove Pumping Station</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260707002</link><description>Outcome: Public Comment on Contract Awards
-
-This is a notice that the Department of Environmental Protection is seeking comments from the public about the proposed contract below: Contract Type: Consultant Contractor: Techno-LiRo Hill JV Contractor Address: 5 Independence Way, Suite 150, Princeton NJ 08540 Scope of Services: Construction Management Services for the Electrical Distribution System Upgrade at New Clove Pumping Station Maximum Value: $12,195,214.03 Term: 2283 ccds EPIN: 82626P0014001 Procurement Method: Competitive Sealed Proposal Procurement Policy Board Rule: Section 3-03 How can I comment on this proposed contract award?</description><guid isPermaLink="false">crol-2246c3319c83</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: PO202600465 - IT Equipment</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260708013</link><description>Outcome: Procurement
-
-</description><guid isPermaLink="false">crol-12988d6738a3</guid><pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate></item></channel></rss>
+</description><guid isPermaLink="false">crol-a33527e6940a</guid><pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate></item></channel></rss>
