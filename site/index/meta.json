@@ -1,26 +1,26 @@
 {
-  "total": 141272,
-  "updated_at": "2026-07-29T07:08:59Z",
+  "total": 140948,
+  "updated_at": "2026-07-30T07:09:44Z",
   "sources": [
     {
       "key": "oath-trials",
       "label": "OATH Trials (incl. NYPD discipline)",
-      "count": 1610,
-      "shard_bytes": 687517,
+      "count": 1608,
+      "shard_bytes": 686657,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9999,
-      "shard_bytes": 5164722,
+      "count": 10000,
+      "shard_bytes": 5010853,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8149,
-      "shard_bytes": 3159117,
+      "count": 8127,
+      "shard_bytes": 3150629,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 7965,
-      "shard_bytes": 12502183,
+      "count": 7944,
+      "shard_bytes": 12448523,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 15000,
-      "shard_bytes": 9047556,
+      "count": 14720,
+      "shard_bytes": 8872585,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -76,14 +76,14 @@
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9070570,
+      "shard_bytes": 9070969,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "dcwp-complaints",
       "label": "DCWP Consumer Complaints",
-      "count": 24985,
-      "shard_bytes": 11865788,
+      "count": 24984,
+      "shard_bytes": 11865313,
       "coverage": "Last 5 years (capped 25,000)"
     },
     {
@@ -96,8 +96,8 @@
     {
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
-      "count": 499,
-      "shard_bytes": 1890057,
+      "count": 500,
+      "shard_bytes": 1897535,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -111,11 +111,11 @@
   "top_agencies": [
     [
       "DCWP",
-      24985
+      24984
     ],
     [
       "NYPD",
-      23216
+      23194
     ],
     [
       "NYC Department of Health",
@@ -123,7 +123,7 @@
     ],
     [
       "HPD",
-      15000
+      14720
     ],
     [
       "NYC City Council",
@@ -142,16 +142,12 @@
       4172
     ],
     [
+      "SANITATION OTHERS",
+      2833
+    ],
+    [
       "Other",
       2744
-    ],
-    [
-      "SANITATION OTHERS",
-      2272
-    ],
-    [
-      "DEPT. OF BUILDINGS",
-      1402
     ],
     [
       "Department of Education",
@@ -159,15 +155,11 @@
     ],
     [
       "Fire Department",
-      1263
+      1264
     ],
     [
-      "DEP - BUREAU OF ENV. COMPLIANC",
-      1257
-    ],
-    [
-      "FIRE DEPARTMENT OF NYC",
-      1188
+      "DEPT. OF BUILDINGS",
+      1132
     ],
     [
       "Department of Sanitation",
@@ -175,15 +167,23 @@
     ],
     [
       "DOS - ENFORCEMENT AGENTS",
-      903
+      1074
+    ],
+    [
+      "FIRE DEPARTMENT OF NYC",
+      1025
+    ],
+    [
+      "POLICE DEPARTMENT",
+      884
+    ],
+    [
+      "DEP - BUREAU OF ENV. COMPLIANC",
+      860
     ],
     [
       "Department of Parks & Recration",
       759
-    ],
-    [
-      "POLICE DEPARTMENT",
-      676
     ],
     [
       "NY Public Employment Relations Board",
@@ -194,20 +194,20 @@
       615
     ],
     [
+      "DEPT OF TRANSPORTATION",
+      589
+    ],
+    [
       "Youth and Community Development",
-      571
+      573
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
-      533
+      534
     ],
     [
       "Citywide Administrative Services",
-      530
-    ],
-    [
-      "DEPT OF TRANSPORTATION",
-      526
+      518
     ],
     [
       "Forfeiture",
@@ -215,11 +215,11 @@
     ],
     [
       "NYC Comptroller",
-      499
+      500
     ],
     [
       "Health and Mental Hygiene",
-      437
+      435
     ],
     [
       "Administration for Children's Services",
