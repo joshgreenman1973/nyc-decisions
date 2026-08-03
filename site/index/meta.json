@@ -1,33 +1,33 @@
 {
-  "total": 140792,
-  "updated_at": "2026-08-02T07:10:40Z",
+  "total": 140931,
+  "updated_at": "2026-08-03T07:23:12Z",
   "sources": [
     {
       "key": "oath-trials",
       "label": "OATH Trials (incl. NYPD discipline)",
-      "count": 1600,
-      "shard_bytes": 683169,
+      "count": 1597,
+      "shard_bytes": 681842,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9996,
-      "shard_bytes": 5022365,
+      "count": 9995,
+      "shard_bytes": 5116656,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8080,
-      "shard_bytes": 3132210,
+      "count": 8067,
+      "shard_bytes": 3127178,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
       "key": "ccrb-penalties",
       "label": "CCRB Penalty Recommendations",
-      "count": 15000,
-      "shard_bytes": 6913497,
+      "count": 15067,
+      "shard_bytes": 6944364,
       "coverage": "All available (capped 20,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 7914,
-      "shard_bytes": 12410120,
+      "count": 7912,
+      "shard_bytes": 12407714,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14720,
-      "shard_bytes": 8879574,
+      "count": 14810,
+      "shard_bytes": 8929153,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -82,8 +82,8 @@
     {
       "key": "dcwp-complaints",
       "label": "DCWP Consumer Complaints",
-      "count": 24984,
-      "shard_bytes": 11865313,
+      "count": 24985,
+      "shard_bytes": 11864141,
       "coverage": "Last 5 years (capped 25,000)"
     },
     {
@@ -97,7 +97,7 @@
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
-      "shard_bytes": 1893973,
+      "shard_bytes": 1893983,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -111,11 +111,11 @@
   "top_agencies": [
     [
       "DCWP",
-      24984
+      24985
     ],
     [
       "NYPD",
-      23080
+      23134
     ],
     [
       "NYC Department of Health",
@@ -123,7 +123,7 @@
     ],
     [
       "HPD",
-      14720
+      14810
     ],
     [
       "NYC City Council",
@@ -147,11 +147,15 @@
     ],
     [
       "SANITATION OTHERS",
-      2529
+      2239
+    ],
+    [
+      "DEP - BUREAU OF ENV. COMPLIANC",
+      1445
     ],
     [
       "FIRE DEPARTMENT OF NYC",
-      1591
+      1407
     ],
     [
       "Department of Education",
@@ -162,24 +166,20 @@
       1261
     ],
     [
-      "DEP - BUREAU OF ENV. COMPLIANC",
-      1200
-    ],
-    [
       "Department of Sanitation",
       1120
     ],
     [
+      "DEPT. OF BUILDINGS",
+      935
+    ],
+    [
       "DOS - ENFORCEMENT AGENTS",
-      1028
+      900
     ],
     [
       "POLICE DEPARTMENT",
-      798
-    ],
-    [
-      "DEPT. OF BUILDINGS",
-      767
+      807
     ],
     [
       "Department of Parks & Recration",
@@ -198,10 +198,6 @@
       579
     ],
     [
-      "DEPT OF TRANSPORTATION",
-      554
-    ],
-    [
       "Dept. of Social Svcs/Human Resources Administration",
       530
     ],
@@ -216,6 +212,10 @@
     [
       "NYC Comptroller",
       500
+    ],
+    [
+      "DEPT OF TRANSPORTATION",
+      493
     ],
     [
       "Health and Mental Hygiene",
