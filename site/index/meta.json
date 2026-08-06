@@ -1,33 +1,33 @@
 {
-  "total": 141015,
-  "updated_at": "2026-08-05T07:21:14Z",
+  "total": 140805,
+  "updated_at": "2026-08-06T07:23:44Z",
   "sources": [
     {
       "key": "oath-trials",
       "label": "OATH Trials (incl. NYPD discipline)",
-      "count": 1593,
-      "shard_bytes": 680034,
+      "count": 1601,
+      "shard_bytes": 683790,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9998,
-      "shard_bytes": 5116451,
+      "count": 9997,
+      "shard_bytes": 4950334,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8060,
-      "shard_bytes": 3124399,
+      "count": 8120,
+      "shard_bytes": 3148183,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
       "key": "ccrb-penalties",
       "label": "CCRB Penalty Recommendations",
-      "count": 15067,
-      "shard_bytes": 6944364,
+      "count": 15102,
+      "shard_bytes": 6960913,
       "coverage": "All available (capped 20,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 7945,
-      "shard_bytes": 12457874,
+      "count": 7965,
+      "shard_bytes": 12480361,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14869,
-      "shard_bytes": 8974135,
+      "count": 14537,
+      "shard_bytes": 8778259,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -76,7 +76,7 @@
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9070731,
+      "shard_bytes": 9070814,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
@@ -97,7 +97,7 @@
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
-      "shard_bytes": 1890391,
+      "shard_bytes": 1893892,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -115,7 +115,7 @@
     ],
     [
       "NYPD",
-      23127
+      23222
     ],
     [
       "NYC Department of Health",
@@ -123,7 +123,7 @@
     ],
     [
       "HPD",
-      14869
+      14537
     ],
     [
       "NYC City Council",
@@ -131,7 +131,7 @@
     ],
     [
       "Police Department",
-      6879
+      6881
     ],
     [
       "Department of Correction",
@@ -142,20 +142,12 @@
       4172
     ],
     [
+      "SANITATION OTHERS",
+      2996
+    ],
+    [
       "Other",
       2744
-    ],
-    [
-      "SANITATION OTHERS",
-      2239
-    ],
-    [
-      "DEP - BUREAU OF ENV. COMPLIANC",
-      1445
-    ],
-    [
-      "FIRE DEPARTMENT OF NYC",
-      1429
     ],
     [
       "Department of Education",
@@ -166,20 +158,28 @@
       1262
     ],
     [
+      "DOS - ENFORCEMENT AGENTS",
+      1134
+    ],
+    [
       "Department of Sanitation",
       1120
     ],
     [
-      "DEPT. OF BUILDINGS",
-      935
+      "FIRE DEPARTMENT OF NYC",
+      1008
     ],
     [
-      "DOS - ENFORCEMENT AGENTS",
-      900
+      "DEP - BUREAU OF ENV. COMPLIANC",
+      992
     ],
     [
       "POLICE DEPARTMENT",
-      807
+      947
+    ],
+    [
+      "DEPT. OF BUILDINGS",
+      760
     ],
     [
       "Department of Parks & Recration",
@@ -195,15 +195,19 @@
     ],
     [
       "Youth and Community Development",
-      585
+      588
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
-      536
+      534
+    ],
+    [
+      "DEPT OF TRANSPORTATION",
+      523
     ],
     [
       "Citywide Administrative Services",
-      519
+      523
     ],
     [
       "Forfeiture",
@@ -214,12 +218,8 @@
       500
     ],
     [
-      "DEPT OF TRANSPORTATION",
-      494
-    ],
-    [
       "Health and Mental Hygiene",
-      436
+      435
     ],
     [
       "Department of Environmental Protection",
@@ -227,7 +227,7 @@
     ],
     [
       "Administration for Children's Services",
-      422
+      423
     ]
   ]
 }
