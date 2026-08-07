@@ -1,6 +1,6 @@
 {
-  "total": 140805,
-  "updated_at": "2026-08-06T07:23:44Z",
+  "total": 141269,
+  "updated_at": "2026-08-07T06:45:34Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -12,22 +12,22 @@
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9997,
-      "shard_bytes": 4950334,
+      "count": 9984,
+      "shard_bytes": 4925840,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8120,
-      "shard_bytes": 3148183,
+      "count": 8155,
+      "shard_bytes": 3161649,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
       "key": "ccrb-penalties",
       "label": "CCRB Penalty Recommendations",
-      "count": 15102,
-      "shard_bytes": 6960913,
+      "count": 15101,
+      "shard_bytes": 6960400,
       "coverage": "All available (capped 20,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 7965,
-      "shard_bytes": 12480361,
+      "count": 7945,
+      "shard_bytes": 12446659,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14537,
-      "shard_bytes": 8778259,
+      "count": 15000,
+      "shard_bytes": 9059990,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -76,7 +76,7 @@
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9070814,
+      "shard_bytes": 9070505,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
@@ -97,7 +97,7 @@
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
-      "shard_bytes": 1893892,
+      "shard_bytes": 1894072,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -115,7 +115,7 @@
     ],
     [
       "NYPD",
-      23222
+      23256
     ],
     [
       "NYC Department of Health",
@@ -123,7 +123,7 @@
     ],
     [
       "HPD",
-      14537
+      15000
     ],
     [
       "NYC City Council",
@@ -143,7 +143,7 @@
     ],
     [
       "SANITATION OTHERS",
-      2996
+      3046
     ],
     [
       "Other",
@@ -159,31 +159,31 @@
     ],
     [
       "DOS - ENFORCEMENT AGENTS",
-      1134
+      1146
+    ],
+    [
+      "FIRE DEPARTMENT OF NYC",
+      1144
     ],
     [
       "Department of Sanitation",
       1120
     ],
     [
-      "FIRE DEPARTMENT OF NYC",
-      1008
-    ],
-    [
       "DEP - BUREAU OF ENV. COMPLIANC",
-      992
+      1000
     ],
     [
       "POLICE DEPARTMENT",
-      947
-    ],
-    [
-      "DEPT. OF BUILDINGS",
-      760
+      927
     ],
     [
       "Department of Parks & Recration",
       759
+    ],
+    [
+      "DEPT. OF BUILDINGS",
+      709
     ],
     [
       "NY Public Employment Relations Board",
@@ -199,15 +199,11 @@
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
-      534
-    ],
-    [
-      "DEPT OF TRANSPORTATION",
-      523
+      533
     ],
     [
       "Citywide Administrative Services",
-      523
+      520
     ],
     [
       "Forfeiture",
@@ -219,7 +215,11 @@
     ],
     [
       "Health and Mental Hygiene",
-      435
+      432
+    ],
+    [
+      "PCS - DOHMH",
+      428
     ],
     [
       "Department of Environmental Protection",
