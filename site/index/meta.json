@@ -1,6 +1,6 @@
 {
-  "total": 138736,
-  "updated_at": "2026-08-19T06:29:08Z",
+  "total": 141451,
+  "updated_at": "2026-08-20T06:30:16Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -12,22 +12,22 @@
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 7700,
-      "shard_bytes": 3946772,
+      "count": 9951,
+      "shard_bytes": 4986179,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8066,
-      "shard_bytes": 3126543,
+      "count": 8253,
+      "shard_bytes": 3197499,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
       "key": "ccrb-penalties",
       "label": "CCRB Penalty Recommendations",
-      "count": 15129,
-      "shard_bytes": 6973412,
+      "count": 15153,
+      "shard_bytes": 6984654,
       "coverage": "All available (capped 20,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 8030,
-      "shard_bytes": 12581826,
+      "count": 8037,
+      "shard_bytes": 12599618,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14733,
-      "shard_bytes": 8925352,
+      "count": 14981,
+      "shard_bytes": 9078355,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -75,8 +75,8 @@
     {
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
-      "count": 20000,
-      "shard_bytes": 9070202,
+      "count": 19999,
+      "shard_bytes": 9069510,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
@@ -96,8 +96,8 @@
     {
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
-      "count": 500,
-      "shard_bytes": 1912476,
+      "count": 499,
+      "shard_bytes": 1904727,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -115,15 +115,15 @@
     ],
     [
       "NYPD",
-      23195
+      23406
     ],
     [
       "NYC Department of Health",
-      20000
+      19999
     ],
     [
       "HPD",
-      14733
+      14981
     ],
     [
       "NYC City Council",
@@ -131,7 +131,7 @@
     ],
     [
       "Police Department",
-      6884
+      6885
     ],
     [
       "Department of Correction",
@@ -142,12 +142,12 @@
       4172
     ],
     [
-      "Other",
-      2744
+      "SANITATION OTHERS",
+      2770
     ],
     [
-      "SANITATION OTHERS",
-      1825
+      "Other",
+      2744
     ],
     [
       "Department of Education",
@@ -155,7 +155,7 @@
     ],
     [
       "Fire Department",
-      1266
+      1264
     ],
     [
       "Department of Sanitation",
@@ -163,27 +163,27 @@
     ],
     [
       "DEP - BUREAU OF ENV. COMPLIANC",
-      1098
+      1095
     ],
     [
       "FIRE DEPARTMENT OF NYC",
-      898
+      1047
     ],
     [
       "DOS - ENFORCEMENT AGENTS",
-      814
+      1029
     ],
     [
       "DEPT. OF BUILDINGS",
-      810
+      849
+    ],
+    [
+      "POLICE DEPARTMENT",
+      792
     ],
     [
       "Department of Parks & Recration",
       759
-    ],
-    [
-      "POLICE DEPARTMENT",
-      726
     ],
     [
       "NY Public Employment Relations Board",
@@ -191,7 +191,7 @@
     ],
     [
       "Youth and Community Development",
-      632
+      637
     ],
     [
       "NYC Health + Hospitals",
@@ -206,28 +206,28 @@
       529
     ],
     [
+      "PCS - DOHMH",
+      519
+    ],
+    [
       "Forfeiture",
       510
     ],
     [
       "NYC Comptroller",
-      500
+      499
+    ],
+    [
+      "DEPT OF TRANSPORTATION",
+      465
     ],
     [
       "Administration for Children's Services",
-      429
-    ],
-    [
-      "Health and Mental Hygiene",
       428
     ],
     [
-      "Department of Environmental Protection",
-      424
-    ],
-    [
-      "Environmental Protection",
-      402
+      "Health and Mental Hygiene",
+      425
     ]
   ]
 }
