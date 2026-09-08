@@ -1,6 +1,6 @@
 {
-  "total": 131255,
-  "updated_at": "2026-09-07T06:33:17Z",
+  "total": 131359,
+  "updated_at": "2026-09-08T06:34:06Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -12,8 +12,8 @@
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8083,
-      "shard_bytes": 3130505,
+      "count": 8074,
+      "shard_bytes": 3126942,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
@@ -33,15 +33,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 8114,
-      "shard_bytes": 12698024,
+      "count": 8118,
+      "shard_bytes": 12701558,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14830,
-      "shard_bytes": 8943357,
+      "count": 14939,
+      "shard_bytes": 9007793,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -69,7 +69,7 @@
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9069519,
+      "shard_bytes": 9069975,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
@@ -90,7 +90,7 @@
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
-      "shard_bytes": 1838551,
+      "shard_bytes": 1838780,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -108,7 +108,7 @@
     ],
     [
       "NYPD",
-      23236
+      23227
     ],
     [
       "NYC Department of Health",
@@ -116,7 +116,7 @@
     ],
     [
       "HPD",
-      14830
+      14939
     ],
     [
       "NYC City Council",
