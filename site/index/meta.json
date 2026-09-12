@@ -1,20 +1,13 @@
 {
-  "total": 103836,
-  "updated_at": "2026-09-11T06:29:49Z",
+  "total": 37855,
+  "updated_at": "2026-09-12T06:32:30Z",
   "sources": [
     {
-      "key": "oath-trials",
-      "label": "OATH Trials (incl. NYPD discipline)",
-      "count": 1592,
-      "shard_bytes": 679754,
-      "coverage": "Last 5 years (capped 20,000)"
-    },
-    {
-      "key": "ccrb-penalties",
-      "label": "CCRB Penalty Recommendations",
-      "count": 15153,
-      "shard_bytes": 6984654,
-      "coverage": "All available (capped 20,000)"
+      "key": "ccrb",
+      "label": "CCRB Complaints",
+      "count": 5000,
+      "shard_bytes": 1930980,
+      "coverage": "Last 2 years (capped 15,000)"
     },
     {
       "key": "perb",
@@ -26,23 +19,16 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 8110,
-      "shard_bytes": 12700424,
+      "count": 8108,
+      "shard_bytes": 12707066,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 9943,
-      "shard_bytes": 5984637,
+      "count": 5000,
+      "shard_bytes": 3008613,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
-    },
-    {
-      "key": "claims",
-      "label": "Claims Against NYC",
-      "count": 19140,
-      "shard_bytes": 8828431,
-      "coverage": "Last 5 years (capped 25,000)"
     },
     {
       "key": "council-legislation",
@@ -61,23 +47,9 @@
     {
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
-      "count": 10000,
-      "shard_bytes": 4538543,
+      "count": 5000,
+      "shard_bytes": 2268162,
       "coverage": "Last 5 years (capped 20,000)"
-    },
-    {
-      "key": "dcwp-complaints",
-      "label": "DCWP Consumer Complaints",
-      "count": 24982,
-      "shard_bytes": 11862608,
-      "coverage": "Last 5 years (capped 25,000)"
-    },
-    {
-      "key": "doi",
-      "label": "DOI Reports",
-      "count": 169,
-      "shard_bytes": 68179,
-      "coverage": "All reports, 2002\u2013present (via Wayback CDX)"
     },
     {
       "key": "nyc-comptroller",
@@ -96,92 +68,48 @@
   ],
   "top_agencies": [
     [
-      "DCWP",
-      24982
-    ],
-    [
-      "NYPD",
-      15153
-    ],
-    [
       "NYC City Council",
       11622
     ],
     [
-      "NYC Department of Health",
-      10000
+      "NYPD",
+      5000
     ],
     [
       "HPD",
-      9943
+      5000
     ],
     [
-      "Police Department",
-      5748
-    ],
-    [
-      "Department of Correction",
-      3719
-    ],
-    [
-      "Department of Transportation",
-      3280
-    ],
-    [
-      "Other",
-      2227
-    ],
-    [
-      "Department of Education",
-      1078
-    ],
-    [
-      "Fire Department",
-      1038
-    ],
-    [
-      "Department of Sanitation",
-      921
+      "NYC Department of Health",
+      5000
     ],
     [
       "Youth and Community Development",
-      706
+      711
     ],
     [
       "NY Public Employment Relations Board",
       642
     ],
     [
-      "Department of Parks & Recration",
-      554
-    ],
-    [
       "Citywide Administrative Services",
-      549
+      553
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
-      545
-    ],
-    [
-      "Forfeiture",
-      513
+      546
     ],
     [
       "NYC Comptroller",
       500
     ],
     [
-      "NYC Health + Hospitals",
-      495
-    ],
-    [
       "Health and Mental Hygiene",
-      428
+      430
     ],
     [
       "Administration for Children's Services",
-      425
+      422
     ],
     [
       "Environmental Protection",
@@ -192,28 +120,72 @@
       398
     ],
     [
-      "Taxi & Limousine",
-      392
-    ],
-    [
       "Mayor's Office of Contract Services",
-      337
+      335
     ],
     [
       "Transportation",
-      327
+      329
     ],
     [
       "Parks and Recreation",
-      315
-    ],
-    [
-      "Department of Environmental Protection",
-      299
+      314
     ],
     [
       "Homeless Services",
       279
+    ],
+    [
+      "Information Technology and Telecommunications",
+      271
+    ],
+    [
+      "Design and Construction",
+      251
+    ],
+    [
+      "DEPARTMENT OF TRANSPORTATION (DOT)",
+      245
+    ],
+    [
+      "Aging",
+      218
+    ],
+    [
+      "Office of the Mayor",
+      217
+    ],
+    [
+      "DEPARTMENT OF SMALL BUSINESS SERVICES (SBS)",
+      203
+    ],
+    [
+      "Housing Preservation and Development",
+      202
+    ],
+    [
+      "Sanitation",
+      181
+    ],
+    [
+      "Fire Department",
+      175
+    ],
+    [
+      "Correction",
+      166
+    ],
+    [
+      "DEPARTMENT OF PARKS AND RECREATION (DPR)",
+      164
+    ],
+    [
+      "HOUSING PRESERVATION & DEVELOPMENT (HPD)",
+      153
+    ],
+    [
+      "ECONOMIC DEVELOPMENT CORPORATION (EDC)",
+      140
     ]
   ]
 }
