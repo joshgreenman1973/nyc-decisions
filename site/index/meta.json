@@ -1,6 +1,6 @@
 {
-  "total": 133990,
-  "updated_at": "2026-09-18T06:28:35Z",
+  "total": 121405,
+  "updated_at": "2026-09-19T06:27:32Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -12,15 +12,15 @@
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 7390,
-      "shard_bytes": 3679034,
+      "count": 10000,
+      "shard_bytes": 4941323,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8189,
-      "shard_bytes": 3171141,
+      "count": 8134,
+      "shard_bytes": 3149336,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 8101,
-      "shard_bytes": 12713196,
+      "count": 8075,
+      "shard_bytes": 12665629,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 10000,
-      "shard_bytes": 5996285,
+      "count": 14881,
+      "shard_bytes": 8932295,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -75,29 +75,29 @@
     {
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
-      "count": 20000,
-      "shard_bytes": 9069251,
+      "count": 5000,
+      "shard_bytes": 2267921,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "dcwp-complaints",
       "label": "DCWP Consumer Complaints",
-      "count": 24982,
-      "shard_bytes": 11862608,
+      "count": 19986,
+      "shard_bytes": 9492747,
       "coverage": "Last 5 years (capped 25,000)"
     },
     {
       "key": "doi",
       "label": "DOI Reports",
-      "count": 169,
-      "shard_bytes": 68179,
+      "count": 170,
+      "shard_bytes": 68590,
       "coverage": "All reports, 2002\u2013present (via Wayback CDX)"
     },
     {
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
-      "shard_bytes": 1842280,
+      "shard_bytes": 1842277,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -110,28 +110,28 @@
   ],
   "top_agencies": [
     [
-      "DCWP",
-      24982
-    ],
-    [
       "NYPD",
-      23430
+      23375
     ],
     [
-      "NYC Department of Health",
-      20000
+      "DCWP",
+      19986
+    ],
+    [
+      "HPD",
+      14881
     ],
     [
       "NYC City Council",
       11622
     ],
     [
-      "HPD",
-      10000
+      "Police Department",
+      6889
     ],
     [
-      "Police Department",
-      6890
+      "NYC Department of Health",
+      5000
     ],
     [
       "Department of Correction",
@@ -142,12 +142,12 @@
       4172
     ],
     [
-      "Other",
-      2744
+      "SANITATION OTHERS",
+      2982
     ],
     [
-      "SANITATION OTHERS",
-      2081
+      "Other",
+      2744
     ],
     [
       "Department of Education",
@@ -155,31 +155,39 @@
     ],
     [
       "Fire Department",
-      1264
+      1262
     ],
     [
       "Department of Sanitation",
       1120
     ],
     [
+      "POLICE DEPARTMENT",
+      1090
+    ],
+    [
+      "DOS - ENFORCEMENT AGENTS",
+      1062
+    ],
+    [
       "FIRE DEPARTMENT OF NYC",
-      839
+      1009
+    ],
+    [
+      "DEP - BUREAU OF ENV. COMPLIANC",
+      888
+    ],
+    [
+      "DEPT. OF BUILDINGS",
+      767
     ],
     [
       "Department of Parks & Recration",
       759
     ],
     [
-      "DEP - BUREAU OF ENV. COMPLIANC",
-      741
-    ],
-    [
       "Youth and Community Development",
-      728
-    ],
-    [
-      "POLICE DEPARTMENT",
-      654
+      726
     ],
     [
       "NY Public Employment Relations Board",
@@ -190,20 +198,8 @@
       622
     ],
     [
-      "DOS - ENFORCEMENT AGENTS",
-      594
-    ],
-    [
-      "PCS - DOHMH",
-      555
-    ],
-    [
-      "DEPT. OF BUILDINGS",
-      555
-    ],
-    [
       "Citywide Administrative Services",
-      551
+      549
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
@@ -216,6 +212,10 @@
     [
       "NYC Comptroller",
       500
+    ],
+    [
+      "PCS - DOHMH",
+      461
     ],
     [
       "Health and Mental Hygiene",
