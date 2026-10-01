@@ -1,102 +1,294 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>The Rest of the Record — All Sources</title><link>https://joshgreenman1973.github.io/nyc-decisions/feeds/all.xml</link><description>The Rest of the Record feed: The Rest of the Record — All Sources</description><atom:link href="https://joshgreenman1973.github.io/nyc-decisions/feeds/all.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 30 Sep 2026 06:30:27 +0000</lastBuildDate><item><title>CCRB penalty recommendation — complaint #201600125, officer tax #948926</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201600125</link><description>Outcome: Substantiated (Charges)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>The Rest of the Record — All Sources</title><link>https://joshgreenman1973.github.io/nyc-decisions/feeds/all.xml</link><description>The Rest of the Record feed: The Rest of the Record — All Sources</description><atom:link href="https://joshgreenman1973.github.io/nyc-decisions/feeds/all.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 01 Oct 2026 06:39:50 +0000</lastBuildDate><item><title>Comptroller’s FY22 Executive Budget Presentation</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/FY22_Exec_Budget.pdf</link><description>NEW YORK CITY COMPTROLLER SCOTT M. STRINGER 
+ Bureau of Budget | 1
+Comptroller’s FY 2022 
+Executive Budget
+Analysis
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-88110070d5fa</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202305526, officer tax #966206</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202305526</link><description>Outcome: Substantiated (Command Discipline A)
+NEW YORK CITY COMPTROLLER SCOTT M. STRINGER 
+ Bureau of Budget | 2
+Turning the corner
+Vaccination rates CDC mask guidance Re-opening ...
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-af6e99a6323c</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202302572, officer tax #957496</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202302572</link><description>Outcome: Substantiated (Command Discipline B)
+NEW YORK CITY COMPTROLLER SCOTT M. STRINGER 
+ Bureau of Budget | 3
+The U.S. Economy: Slowly Recovering
+Return to full employment has been slow
+• Still 8.5 m jobs below pre-pandemic level 
+• Unemployment rate over…</description><guid isPermaLink="false">nyc-comptroller-d24561f11d16</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Comptroller’s FY21 Executive Budget Presentation</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/FY21Exec_05052020.pdf</link><description>NEW YORK CITY COMPTROLLER SCOTT M. STRINGER 
+ Bureau of Budget | 1
 
-CCRB: Substantiated (Command Discipline A) / Board: Substantiated (Command Discipline B)</description><guid isPermaLink="false">ccrb-penalties-93fe65f23d25</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201304146, officer tax #952847</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201304146</link><description>Outcome: Substantiated (Command Discipline)
+NEW YORK CITY COMPTROLLER SCOTT M. STRINGER 
+ Bureau of Budget | 2
+Comptroller's 
+FY21 Executive Budget 
+Presentation
 
-CCRB: Substantiated (Command Discipline)</description><guid isPermaLink="false">ccrb-penalties-944363a9559b</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202300884, officer tax #967321</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202300884</link><description>Outcome: Substantiated (Command Discipline A)
+NEW YORK CITY COMPTROLLER SCOTT M. STRINGER 
+ Bureau of Budget | 3
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-5ea87f6cbd6d</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201310961, officer tax #941907</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201310961</link><description>Outcome: Substantiated (Formalized Training)
+NEW YORK CITY COMPTROLLER SCOTT M. STRINGER 
+ Bureau of Budget | 4
+Steepest Recession in Postwar History
+-2.4%
+-3.0% -3.1%
+-2.5%
+-4.0%
+-7.9%
+Korean War
+1954 1957
+Oil Shock
+1974
+"Volcker" Recession
+1982
+Great Recession
+2009
+COVID-19
+2020
+Percent…</description><guid isPermaLink="false">nyc-comptroller-ebb91d750e38</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Analysis of the Financial and Operating Practices of Union-Administered Benefit Funds with Fiscal Years Ending in Calendar Year 2017</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/SR19-086S.pdf</link><description>City of New York 
+OFFICE OF THE COMPTROLLER 
+Scott M. Stringer 
+COMPTROLLER 
+SPECIAL REPORTS 
+Marjorie Landa 
+Deputy Comptroller for Audit 
+Analysis of the Financial and Operating 
+Practices of Union-Administered Benefit 
+Funds with Fiscal Years Ending in 
+Calendar Year 2017 
+SR19-086S 
+November 15, 2019 
+http://comptroller.nyc.gov 
 
-CCRB: Substantiated (Formalized Training)</description><guid isPermaLink="false">ccrb-penalties-11d8c783f12d</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201607782, officer tax #942823</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201607782</link><description>Outcome: Substantiated (Command Discipline B)
+THE CITY OF NEW YORK 
+OFFICE OF THE COMPTROLLER 
+SCOTT M. STRINGER 
+November 15, 2019 
+To the Residents of the City of New York: 
+My office has analyzed the…</description><guid isPermaLink="false">nyc-comptroller-d7cb37278add</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Analysis of the Financial and Operating Practices of Union-Administered Benefit Funds with Fiscal Years Ending in Calendar Year 2015</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/SR17_140S.pdf</link><description>City of New York 
+OFFICE OF THE COMPTROLLER 
+Scott M. Stringer 
+COMPTROLLER 
+SPECIAL REPORTS 
+Marjorie Landa 
+Deputy Comptroller for Audit 
+Analysis of the Financial and Operating 
+Practices of Union-Administered Benefit 
+Funds with Fiscal Years Ending in 
+Calendar Year 2015 
+SR17-140S 
+March 12, 2018 
+http://comptroller.nyc.gov 
 
-CCRB: Substantiated (Command Discipline B)</description><guid isPermaLink="false">ccrb-penalties-7dd096e77cc8</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202401640, officer tax #956595</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202401640</link><description>Outcome: Substantiated (Command Discipline A)
+TABLE OF CONTENTS 
+EXECUTIVE SUMMARY ............................................................................ 1 
+Findings and Conclusions…</description><guid isPermaLink="false">nyc-comptroller-2ca05694a88a</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Comptroller Stringer’s Presentation on New York City’s Preliminary FY 2018 Budget and January Financial Plan</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/FY18-Prelim-Budget-Slides.pdf</link><description>New York City Comptroller Scott M. Stringer @scottmstringer
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-034edbb64beb</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202104100, officer tax #956315</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202104100</link><description>Outcome: Substantiated (Command Discipline A)
+New York City Comptroller Scott M. Stringer
+The Economy
+New York City Comptroller Scott M. Stringer
+New York City Comptroller Scott M. Stringer
+-176
+-84
+6
+40 35 44
+67
+77 85
+97
+-22
+-112
+-40
+20
+52
+65 73
+45
+-106
+27
+94 90 95
+129
+115
+85
+-200
+-150
+-100
+-50
+0
+50
+100
+150
+1991 1993 1995 1997 1999 2001 2003 2005 2007 2009 2011 2013 2015
+Thousands of jobs
+Current Expansion Most Robust in Recent History
+Private-Sector Net Job Creation, in…</description><guid isPermaLink="false">nyc-comptroller-48a05bee6dd5</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>The Right-of-Play: Expanding “School Streets” Access in NYC</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/The-Right-of-Play-Expanding-School-Streets-in-New-York-City-082026.pdf</link><description>BUREAU OF POLICY 
+ 
+ 
+ 
+The Right-of-Play: 
+Expanding “School 
+Streets” Access 
+in NYC 
+August 2026 
+DAVID N. DINKINS MUNICIPAL BUILDING, 1 CENTRE STREET, NEW YORK, NY 10007 | COMPTROLLER.NYC.GOV 
+ 
+ 
+ 
+ 
+ 
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-4cefa13c9209</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201401027, officer tax #933693</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201401027</link><description>Outcome: Substantiated (Charges)
+ 
+ 
+Contents 
+Introduction ........................................................... 1 
+Findings ................................................................. 2 
+Recommendations at a Glance ............................... 2 
+The Benefits of Outdoor Activity…</description><guid isPermaLink="false">nyc-comptroller-c727da5c8e03</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>New York City Pension Funds’ Returns for Fiscal Year 2026</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/New-York-City-Pension-Funds-Returns-for-Fiscal-Year-2026.pdf</link><description>1 
+ 
+ 
+BUREAU OF ASSET MANAGEMENT 
+New York City Pension 
+Funds’ Returns for 
+Fiscal Year 2026 
+Delivering Strong Returns and Building Long-
+Term Portfolio Resilience 
+AUGUST 11, 2026 
+1 CENTRE STREET, NEW YORK, NY 10007 | WWW.COMPTROLLER.NYC.GOV 
+ 
+ 
+ 
+ 
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-1d051d07373f</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202302427, officer tax #952256</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202302427</link><description>Outcome: Substantiated (Command Discipline B)
+ 
+ 
+ 
+Contents 
+Overview of Fiscal Year 2026 ................................... 4 
+Economic and Market Commentary ........................ 7 
+Public Market Commentary .................................... 8 
+Public Equity…</description><guid isPermaLink="false">nyc-comptroller-cde86c99b99e</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>New York City Quarterly Cash Report</title><link>"https://www.nyc.gov/assets/hra/downloads/pdf/ca_recipients.pdf</link><guid isPermaLink="false">nyc-comptroller-0fd84190aebc</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>New York City Cash Balance Projection September 2026</title><link>https://comptroller.nyc.gov/wp-content/uploads/documents/Cash-Letter-September-2026-Final-1.pdf</link><description>Office of the New York City Comptroller Mark Levine 
+ 1 
+4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+At the close of FY 2026 (on June 30, 2026 ), the City recorded a n end-of-year cash balance of $ 16.171 
+billion, compared to $12.229 billion the year prior. The actual year-end balance was significantly higher 
+than anticipated , primarily due to stronger -than-expected Business Corporation Tax and General 
+Corporation Tax collections, and the deferral of the City’s customary year -end payment to the Retiree…</description><guid isPermaLink="false">nyc-comptroller-9a99609bc92f</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Shareholder Proposal Requesting Re-establishment of Environment, Partner and Community Impact Committee</title><link>https://comptroller.nyc.gov/wp-content/uploads/2026/09/2027-Starbucks-Proposal-Requesting-Re-Establishment-of-EPCI-Committee.pdf</link><guid isPermaLink="false">nyc-comptroller-377c418ddd94</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Popular Annual Financial Report (PAFR)</title><link>https://comptroller.nyc.gov/wp-content/uploads/2025/11/NYC-Organization-Chart-July-2025.pdf</link><description>Office of the Mayor
+July 2025
+Mayor
+Borough Boards
+Chief Counsel to the 
+Mayor and City Hall
+Deputy Mayor for 
+Strategic Initiatives
+Deputy Mayor for 
+Housing, Economic 
+Development &amp; Workforce
+Chief Technology
+Officer
+Deputy Mayor for 
+Operations
+Department of 
+Education
+Office of International
+Affairs
+Office of
+Appointments
+Office of Administrative
+Services
+Office of Administrative
+Trials and Hearings
+Economic Development
+Corporation
+New York City Housing
+Authority
+Office of Technology
+and…</description><guid isPermaLink="false">nyc-comptroller-5c09fdce2890</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-09-30-1030: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-09-30-1030</link><description>Outcome: 01-New/Open
 
-CCRB: Substantiated (Command Discipline B)</description><guid isPermaLink="false">ccrb-penalties-2809c44b37a2</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202303342, officer tax #949716</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202303342</link><description>Outcome: Substantiated (Command Discipline A)
+Ventilation / Bronx, 10463</description><guid isPermaLink="false">dohmh-indoor-43071f96bdbe</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Probation — Public Comment on Contract Awards: FY26-27 Pathways to Excellence, Achievement, and Knowledge (PEAK) Program - Negotiated Acquisition Extension</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260924003</link><description>Outcome: Public Comment on Contract Awards
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-0bd26dca3f33</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201903391, officer tax #932298</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201903391</link><description>Outcome: Substantiated (Command Discipline A)
+This is a notice that the New York City Department of Probation (DOP) is seeking comments from the public regarding the proposed contract award described below. Contract Type: General Contract (CT1) Contractor: Center for Alternative Sentencing and Employment Services, Inc. Contractor Address: 25 Chapel Street, 11th Floor, Brooklyn, NY 11201 Scope of Services: To support the continuation of services under the Pathways to Excellence, Achievement, and Knowledge (PEAK) Program. The PEAK Program is a structured, youth-centered afterschool intervention designed for justice-involved youth on probati</description><guid isPermaLink="false">crol-00ff00ec94a3</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Environmental Protection — Public Comment on Contract Awards: BEDC-CAT-477-DES2: Preliminary Design, Design, and Design Services During Construction for the Rehabilitation of the Catskill Aqueduct Ron</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923027</link><description>Outcome: Public Comment on Contract Awards
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-e187bc5fd3af</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202103553, officer tax #945665</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202103553</link><description>Outcome: Substantiated (Command Discipline B)
+This is a notice that NYC DEP is seeking comments from the public about the proposed contract below: Contract Type: Contract Contractor: Arup US INC Contractor Address: 140 Broadway, 19th Floor, New York, NY 10005 Scope of Services: BEDC-CAT-477-DES2: Preliminary Design, Design, and Design Services During Construction for the Rehabilitation of the Catskill Aqueduct Rondout Pressure Tunnel Maximum Value: $19,722,698.02 Term: 3650 days E-PIN: 82625P0005002 Procurement Method: Preferred Source Procurement Policy Board Rule: Section 3-05 How can I comment on this proposed contract award? Please su</description><guid isPermaLink="false">crol-125ea8fedcb9</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Police Department — Public Comment on Contract Awards: Electrical Installations and Repairs for the Bronx</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923019</link><description>Outcome: Public Comment on Contract Awards
 
-CCRB: Substantiated (Command Discipline B)</description><guid isPermaLink="false">ccrb-penalties-6343a8039969</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201510469, officer tax #947843</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201510469</link><description>Outcome: Substantiated (Command Discipline A)
+CORRECTED NOTICE This is a notice that NYPD is seeking comments from the public about the proposed contract below. Contract Type: Contract Contractor: Empire State Electric Maintenance and Data Corp Contractor Address: 38-30 30 th Street, Long Island City, NY 11101 Scope of Services: Electrical Installations and Repairs at facilities located in the boroughs of the Bronx. Maximum Value: $722,701.90 Term: Five Year Term from Notice to Proceed E-PIN: 05626W0019001 Procurement Method: M/WBE Small Purchase Procurement Policy Board Rule: Section 3-08 (c)(1)(iv) How can I comment on this proposed con</description><guid isPermaLink="false">crol-652574ad65d5</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Correction — Public Comment on Contract Awards: Willo Detention Products</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923036</link><description>Outcome: Public Comment on Contract Awards
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-e6c8157e1952</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201305359, officer tax #952599</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201305359</link><description>Outcome: Substantiated (Command Discipline)
+This is a notice that the New York City Department of Correction is seeking comments from the public about the proposed contract below. Contract Type: Contract Contractor: Willo Product Company LLC Contractor Address: 714 Willo Industrial Drive SE, Decatur, Al 35601 Scope of Services: Alarms and locking mechanisms vital to the ongoing maintenance and upgrade of the DOC s detention locking systems. Maximum Value: $27,500,000.00 Term: January 1, 2026 through December 31, 2029 EPIN: 07227S0001001 Procurement Method: Sole Source Procurement Policy Board Rule: Section 3-05 How can I comment on this</description><guid isPermaLink="false">crol-10a65de6f7ff</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Probation — Public Comment on Contract Awards: FY26-27 Parent Support Program - Negotiated Acquisition Extension</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260924001</link><description>Outcome: Public Comment on Contract Awards
 
-CCRB: Substantiated (Command Discipline)</description><guid isPermaLink="false">ccrb-penalties-0d6fdee9037d</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201901129, officer tax #957649</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201901129</link><description>Outcome: Substantiated (Command Lvl Instructions)
+This is a notice that the New York City Department of Probation (DOP) is seeking comments from the public regarding the proposed five (5) contract awards described below. Contract Types: General Contract (CT1) Scope of Services: To support the continuation of services under the Parent Support Program to serve the families of young people connected to DOP's Juvenile Operations. The Parent Support Program provides for parent coaches to support parents/caregivers of youth involved in the juvenile justice system and to assist parents/caregivers with navigating conditions assigned to them. Services</description><guid isPermaLink="false">crol-6cc842dde6cd</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Environmental Protection — Procurement: 82626B0065-BEDC - CSO-GC-SFS-OH-CP3 Construction of CSO Facilities for Gowanus Canal</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260922020</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Command Lvl Instructions)</description><guid isPermaLink="false">ccrb-penalties-77c07b017864</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202101557, officer tax #959205</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202101557</link><description>Outcome: Substantiated (Command Discipline B)
+Construction of the CSO facility superstructure, reconstruction/abandonment of impacted conveyance, and construction of public amenities above the below ground portions of the tank. The scope of OH-CP3 also includes installation of all CSO Facility components and conveyance including mechanical equipment, new force mains, electrical conduits and equipment, heating, ventilation, air conditioning components, architectural features, plumbing, and a Con Ed network protection structure, property line manhole, and duct bank installation. This Competitive Sealed Bid ( RFx') is being released through </description><guid isPermaLink="false">crol-acf0f0edbaa9</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: COMPASS Center Based - Middle School</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260924013</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Command Discipline A) / Board: Substantiated (Command Discipline B)</description><guid isPermaLink="false">ccrb-penalties-8a31de621a2c</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200004469, officer tax #897209</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200004469</link><description>Outcome: Substantiated (Charges)
+COMPASS and SONYC is one of DYCD's largest programs, with over 820 programs collectively throughout the five boroughs. Families rely on these programs to provide elementary and middle school students, during after school hours, summer and on holidays, programing which includes educational support, recreation, enrichment, and cultural activities to support and strengthen the overall development of our youth. Programs are offered at no cost to youth and are purposefully located in public and private schools, community centers, religious institutions, public housing and parks recreational facilit</description><guid isPermaLink="false">crol-112d5e2324a6</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Environmental Protection — Procurement: GRYPS-DEMO: DEP Contractor Payments Process Improvement and Automation Program</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260922033</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-e20ec49d768f</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202503472, officer tax #971000</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202503472</link><description>Outcome: Substantiated (Command Discipline A)
+DEP intends to enter into a Demonstration agreement with the Gryps Inc. for contract GRYPS-DEMO: DEP Contractor Payments Process Improvement and Automation Program project to test and evaluate the feasibility of an approach to making contractor payments in a timely fashion, from bureau review to audit to payment, without resorting to increasing headcount, as invoices submitted to DEP increases year on year . The demonstration project will allow for the Agency to test and evaluate AI review capability processing approximately 2,400 invoices annually across capital and expense categories; a real</description><guid isPermaLink="false">crol-f1c2beaa97af</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Sanitation — Public Comment on Contract Awards: Waste Containerization Pilots and Regulations for New Buildings</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923025</link><description>Outcome: Public Comment on Contract Awards
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-c8a165ab3da7</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201607604, officer tax #945316</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201607604</link><description>Outcome: Substantiated (Formalized Training)
+This is a notice that NYC Department of Sanitation is seeking comments from the public about the proposed contract below. Contract Type: Contract Contractor: Clare Miflin Contractor Address: 96 Sterling Street, #1, Brooklyn, NY 11225 Scope of Services: Waste Containerization Pilots and Regulations for New Buildings Maximum Value: $191,790.00 Term: Tuesday, October 13, 2026 through October 12, 2027 E-PIN: 82727W0008001 Procurement Method: Section 3-08 (c)(1)(iv) How can I comment on this proposed contract award? Please submit your comment to PublicComments@dsny.nyc.gov. Be sure to include the E</description><guid isPermaLink="false">crol-713e2c30534f</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>District Attorney - New York County — Procurement: NexGen Stenography Writers</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260922002</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Formalized Training)</description><guid isPermaLink="false">ccrb-penalties-4f731d096b57</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200708946, officer tax #904160</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200708946</link><description>Outcome: Substantiated (Charges)
+The New York County District Attorney's Office (DANY) intends to enter into a Sole Source agreement with Stenograph pursuant to PPB Rule 3-05 for 20 NexGen writers for a term of one year plus two options to renew for one year each. Stenograph is the sole provider of the stenograph machines. Any company, besides Stenograph, that believes it can also provide this product is invited to do so. Submissions are accepted via email by the due date to ITbidsRFPS@dany.nyc.gov.</description><guid isPermaLink="false">crol-6f77b58303a0</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Commission on Human Rights — Agency Rules: CCHR NOTICE OF ADOPTION OF FINAL CERTIFIED RULE RE EMPLOYMENT DISCRIMINATION ON THE BASIS OF CRIMINAL HISTORY, CONTENTS OF COMPLAINTS, SERVICE OF APPEAL REQU</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260921017</link><description>Outcome: Agency Rules
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-656e25169ffb</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201502298, officer tax #955758</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201502298</link><description>Outcome: Substantiated (Formalized Training)
+</description><guid isPermaLink="false">crol-755987446206</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Transportation — Public Hearings and Meetings: Draft Scope of Work for an Environmental Impact Statement (EIS) Brooklyn-Queens Expressway/Interstate 278 ( BQE ) from Atlantic Avenue to Nassau Street P</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923020</link><description>Outcome: Public Hearings and Meetings
 
-CCRB: Substantiated (Formalized Training)</description><guid isPermaLink="false">ccrb-penalties-5095a6ea1e76</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200506488, officer tax #932431</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200506488</link><description>Outcome: Substantiated (Charges)
+</description><guid isPermaLink="false">crol-0a51e2a3cedc</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Probation — Public Comment on Contract Awards: FY26-27 Mobile Adolescent Therapy Program - Negotiated Acquisition Extension</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260924002</link><description>Outcome: Public Comment on Contract Awards
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-861e8321de91</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202208304, officer tax #960400</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202208304</link><description>Outcome: Substantiated (Charges)
+This is a notice that the New York City Department of Probation (DOP) is seeking comments from the public regarding the proposed contract award described below. Contract Type: General Contract (CT1) Contractor: Center for Alternative Sentencing and Employment Services, Inc. Contractor Address: 25 Chapel Street, 11th Floor, Brooklyn, NY 11201 Scope of Services: To support the continuation of services under the Mobile Adolescent Crisis Therapy Program. The Mobile Adolescent Crisis Therapy Program provides intensive, mobile, community-based therapeutic services for justice-involved youth and thei</description><guid isPermaLink="false">crol-291bff513e5b</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: COMPASs Programs in Public Schools - Elementary</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260924012</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-47facd09d3f4</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201901581, officer tax #953309</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201901581</link><description>Outcome: Substantiated (Command Lvl Instructions)
+B 18-P.S. 119 Amersfort B 18-P.S. 203 Floyd Bennett School B 18-P.S. 207 Elizabeth G. Leary B 18-P.S. 251 Paerdegat B 18-P.S. 312 Bergen Beach</description><guid isPermaLink="false">crol-71ead970ba72</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Public Library - Queens — Procurement: Truck Wrapping Services</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260922025</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Command Lvl Instructions)</description><guid isPermaLink="false">ccrb-penalties-95e8eadcf745</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200301028, officer tax #919705</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200301028</link><description>Outcome: Substantiated (Charges)
+The Queens Borough Public Library (the  Library ), hereby solicits proposals from experienced and qualified firms and individuals (hereinafter referred to as  Proposers ) in response to this Request for Proposals for Truck Wrapping Services. To facilitate communication between the Library and Proposers and to ensure that all Proposers have access to the same information, all information concerning this RFP, including how to submit a proposal, will be posted on the Library s website at: https://www.queenslibrary.org/about-us/procurement-opportunities . All questions regarding this RFP must be s</description><guid isPermaLink="false">crol-47285c8c497d</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Mayor's Office of Contract Services — Special Materials: LL63/DOHMH/EXT</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923021</link><description>Outcome: Special Materials
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-74c305aaa6f3</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202410323, officer tax #949417</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202410323</link><description>Outcome: Substantiated (Charges)
+Notice of Intent to Renew or Amend Contract(s) Not Included in FY2027 Annual Contracting Plan and Schedule NOTICE IS HEREBY GIVEN that the Mayor will be entering into the following renewal(s)/amendment(s)) of (a) contract(s) not included in the FY 2027 Annual Contracting Plan and Schedule that is published pursuant to New York City Charter § 312(a): Agency: DOHMH Vendor: Gallagher &amp; Co. Adjusters Inc. Description of Services to be Provided: DOHMH is seeking a vendor to complete the filing of petitions in New York State Supreme Courts within the five boroughs of New York City and to serve the N</description><guid isPermaLink="false">crol-0580c79bfac2</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: COMPASS Programs in Public Schools - Middle</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260924011</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-b67e13673652</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202004123, officer tax #961209</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202004123</link><description>Outcome: Substantiated (Command Discipline A)
+COMPASS and SONYC is one of DYCD's largest programs, with over 820 programs collectively throughout the five boroughs. Families rely on these programs to provide elementary and middle school students, during after school hours, summer and on holidays, programing which includes educational support, recreation, enrichment, and cultural activities to support and strengthen the overall development of our youth. Programs are offered at no cost to youth and are purposefully located in public and private schools, community centers, religious institutions, public housing and parks recreational facilit</description><guid isPermaLink="false">crol-62e1beb69acb</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Mayor's Office of Contract Services — Special Materials: LL63/DDC/NEW</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923023</link><description>Outcome: Special Materials
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-7c06c5665aaa</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202306884, officer tax #959314</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202306884</link><description>Outcome: Substantiated (Command Discipline A)
+Notice of Intent to Issue New Solicitation(s) Not Included in FY 2027 Annual Contracting Plan and Schedule NOTICE IS HEREBY GIVEN that the mayor will be issuing the following solicitation(s) not included in the FY 2027 Annual Contracting Plan and Schedule that is published pursuant to New York City Charter § 312(a): Agency: Department of Design and Construction Description of Services to be Provided: Design Services Preliminary and Final Design Services for SEQ Farmers Boulevard Spine A&amp;B, 224 Street, South Conduit Avenue to 149th Avenue, etc. in Queens, Storm Sewer, SEQ Program Borough of Que</description><guid isPermaLink="false">crol-15ddfd12b2a4</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Public Comment on Contract Awards: HVAC maintenance services at various community centers within NYCHA facilities</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923042</link><description>Outcome: Public Comment on Contract Awards
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-55d0ee572102</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201308483, officer tax #936923</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201308483</link><description>Outcome: Substantiated (Command Discipline)
+CORRECTED NOTICE This is a notice that the NYC Department of Youth and Community Development is seeking comments from the public about the proposed contract below. Contract Type : Contract Contractor: Avanti Mechanical LLC Contractor Address: 14 Sunset Drive, Shirley, NY 11967 Scope of Services: HVAC maintenance services at various community centers within NYCHA facilities throughout New York City Maximum Value: $683,860.00 E-PIN: 26026W0007001 Term: November 24, 2025 through October 31, 2026 with a one-year option to renew. Procurement Method: MWBE Non-Competitive Small Purchase Procurement P</description><guid isPermaLink="false">crol-1f1b5259a3f1</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>City Record — Special Materials: August 2026 Monthly Index</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260903003</link><description>Outcome: Special Materials
 
-CCRB: Substantiated (Command Discipline)</description><guid isPermaLink="false">ccrb-penalties-dab37dcf3f22</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200600952, officer tax #937263</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200600952</link><description>Outcome: Substantiated (Charges)
+</description><guid isPermaLink="false">crol-d81eb5e16ca1</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Information Technology and Telecommunications — Procurement: CITYWIDE CABLING SERVICES CONTRACT RENEWAL #2</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260924008</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-012f4f741b2a</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202311680, officer tax #941319</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202311680</link><description>Outcome: Substantiated (Command Discipline B)
+</description><guid isPermaLink="false">crol-f103446cafd2</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Management and Budget — Special Materials: Alternative Enforcement Program (AEP) - 5-Year Review - Notice of Intent to Request the Release of Funds</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260918003</link><description>Outcome: Special Materials
 
-CCRB: Substantiated (Command Discipline A) / Board: Substantiated (Command Discipline B)</description><guid isPermaLink="false">ccrb-penalties-4bffd348b27f</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201706461, officer tax #945658</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201706461</link><description>Outcome: Substantiated (Charges)
+COMMUNITY DEVELOPMENT BLOCK GRANT (CDBG) ALTERNATIVE ENFORCEMENT PROGRAM (AEP)   5-YEAR REVIEW - 2026 NOTICE OF INTENT TO REQUEST RELEASE OF FUNDS (NOI RROF) REQUEST FOR RELEASE OF FUNDS On or about October 8, 2026, the City of New York (the City) anticipates submitting a request to the U.S. Department of Housing and Urban Development (HUD) for the release of $51,780,000 of Community Development Block Grant (CDBG) funds authorized under the Housing and Community Development Act of 1992, to undertake the City s Demolition Program citywide, for a period of five years. The Alternative Enforcement</description><guid isPermaLink="false">crol-fce395fbfc7c</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Transportation — Public Hearings and Meetings: NEW YORK CITY DEPARTMENT OF TRANSPORTATION</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260922032</link><description>Outcome: Public Hearings and Meetings
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-15aee956e3ca</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202505468, officer tax #972900</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202505468</link><description>Outcome: Substantiated (Command Discipline B)
+</description><guid isPermaLink="false">crol-84b41963ea15</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>City University — Procurement: DIGITAL MARKETING SERVICES</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923037</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Command Discipline B)</description><guid isPermaLink="false">ccrb-penalties-8034a694208c</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202307228, officer tax #948236</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202307228</link><description>Outcome: Substantiated (Command Discipline A)
+LaGuardia Community College, CUNY is seeking proposals from qualified digital marketing firms to provide comprehensive marketing and advertising services that will enhance brand awareness, increase engagement with prospective and current students, and support institutional enrollment and outreach objectives. The selected vendor will be expected to develop and implement strategic, data-driven marketing campaigns across digital channels, leveraging industry best practices, audience analytics, and performance metrics to maximize reach and return on investment. Subcontracting is allowed with Colle</description><guid isPermaLink="false">crol-639355653214</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Probation — Public Comment on Contract Awards: FY26-27 ICM Plus Program - Negotiated Acquisition Extension</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923041</link><description>Outcome: Public Comment on Contract Awards
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-844975fc733c</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202400576, officer tax #959339</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202400576</link><description>Outcome: Substantiated (Command Discipline B)
+This is a notice that the New York City Department of Probation (DOP) is seeking comments from the public regarding the proposed four (4) contract awards described below. Contract Type : General Contract (CT1) Scope of Services: To support the continuation of services under the Plus+ Mentoring Program (ICM). The Plus+ Mentoring Program (ICM) is a mentoring intervention designed for justice-involved youth under intensive community monitoring or high-risk supervision by DOP. The program provides structured mentoring and skill-building activities aimed at strengthening emotional regulation, impro</description><guid isPermaLink="false">crol-44d42bfe3737</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Environmental Protection — Procurement: BWS-DEL-462: Feasibility Study of Enlarging the Cannonsville Dam to Increase reservoir capacity</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260924010</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Command Discipline A) / Board: Substantiated (Command Discipline B)</description><guid isPermaLink="false">ccrb-penalties-644f34811876</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200203149, officer tax #924900</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200203149</link><description>Outcome: Substantiated (Charges)
+</description><guid isPermaLink="false">crol-adcc1a26fc4c</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Economic Development Corporation — Procurement: Consultant Services, Coney Island Boardwalk Reconstruction</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923026</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-400d37131d11</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201403223, officer tax #916473</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201403223</link><description>Outcome: Substantiated (Command Discipline A)
+The New York City Economic Development Corporation ( NYCEDC ) is seeking a consultant team to provide Progressive Design-Build services for the integrated delivery of the design and reconstruction of the Coney Island Riegelmann Boardwalk (the  Project ). The Coney Island Riegelmann Boardwalk ( Boardwalk ) is located between W 37th Street on its west end and Brighton 15th Street on its east end in Brooklyn along the southern shore of the Coney Island peninsula. It is located on property under the jurisdiction of the NYC Department of Parks &amp; Recreation ( NYC Parks ) and is maintained and operat</description><guid isPermaLink="false">crol-e902e46de35f</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>City Council — Public Hearings and Meetings: 10-6-26 Subcommittee on Zoning and Franchises meeting</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260922023</link><description>Outcome: Public Hearings and Meetings
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-db40728daf12</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202104849, officer tax #945774</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202104849</link><description>Outcome: Substantiated (Charges)
+</description><guid isPermaLink="false">crol-0d816708e865</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Small Business Services — Procurement: Bronx NAQE- Catholic Charities- Construction Site Safety Training</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923040</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-ef8b19016f5c</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200303401, officer tax #899771</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200303401</link><description>Outcome: Substantiated (Charges)
+The NYC Department of Small Business Services is entering into a Negotiated Acquisition Extension Contract with Catholic Charities Community Services Archdiocese of NY, to provide site safety training in the borough of the Bronx. Local Law 196 (2017) establishes Site Safety Training requirements for workers at most construction sites in the City of New York. Local Law 196 also requires that an agency designated by the Mayor will develop a program to provide equal access to the training required by Section 3321 of the New York City Building Code. The New York City Department of Small Business S</description><guid isPermaLink="false">crol-c47b0d9e0510</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>District Attorney - New York County — Procurement: Xerox printer rental</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260924004</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-a255395a3ae9</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #201008648, officer tax #919712</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=201008648</link><description>Outcome: Substantiated (Charges)
+</description><guid isPermaLink="false">crol-a7a9622d12af</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Financial Information Services Agency — Procurement: VPS, VPS/TCPIP, DRS Software Maintenance and Support Renewal</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923030</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-9cd30da80933</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #200309539, officer tax #916500</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=200309539</link><description>Outcome: Substantiated (Charges)
+Pursuant to Section 4-04 of the Procurement Policy Board Rules (PPB), the Financial Information Services Agency (FISA) and Office of Payroll Administration (OPA) intends to exercise its renewal option for a Sole Source agreement with Levi, Ray and Shoup, Inc. for the contract term 01/01/2027 - 12/31/2029.</description><guid isPermaLink="false">crol-16de3f4852ce</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Board of Elections — Public Comment on Contract Awards: CISCO Network Equipment And Components</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923028</link><description>Outcome: Public Comment on Contract Awards
 
-CCRB: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-7f42886d2b45</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202100558, officer tax #957891</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202100558</link><description>Outcome: Substantiated (Charges)
+This is a notice that The Board of Elections is seeking comments from the public about the proposed contract below. Contract Type: Contract Contractor Legal Name : Derive Technologies Inc Contractor Address : 40 Wall Street, New York, NY 10005 Scope of Services: CISCO Networking Maximum Value: $96,860 Term: November 1, 2026, through October 31, 2027 E-PIN: 003202704 Procurement Method: MWBE Procurement Policy Board Rule: Section 2-11 How can I comment on this proposed contract award? Please submit your comment to SSuss@boenyc.gov. Be sure to include the E-PIN above in your message. Comments mu</description><guid isPermaLink="false">crol-e9184ec087b2</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Youth and Community Development — Procurement: Men s Wellness Initiative</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923039</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Command Discipline A) / Board: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-daf91ac594d7</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202408879, officer tax #971777</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202408879</link><description>Outcome: Substantiated (Command Discipline A)
+To coordinate and implement citywide efforts aimed at reducing disparities related to the Social Determinants of Health (SDH) for African American and Latino males ages 14 24. The initiative The Men s Wellness Initiative will focus on promoting mental health, increasing access to healthcare services, and fostering overall well-being among young men and their families throughout New York City. Contracts awarded under this method may not exceed $1,500,000.00, inclusive of any and all change orders, overruns, amendments, renewals and extensions.</description><guid isPermaLink="false">crol-a0f2b21e97a8</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Finance — Procurement: Data Processing, Printing &amp; Mailing Services for Violation Summonses</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260924009</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Command Discipline A)</description><guid isPermaLink="false">ccrb-penalties-5bb1a7f1c744</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202403158, officer tax #957992</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202403158</link><description>Outcome: Substantiated (Formalized Training)
+</description><guid isPermaLink="false">crol-4e3d53fe48c8</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>School Construction Authority — Special Materials: NOTICE OF FILING - 43-58 11TH STREET, QUEENS</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260925017</link><description>Outcome: Special Materials
 
-CCRB: Substantiated (Formalized Training)</description><guid isPermaLink="false">ccrb-penalties-8c9eb256dc8f</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>CCRB penalty recommendation — complaint #202301589, officer tax #960976</title><link>https://data.cityofnewyork.us/d/keep-pkmh/explore?q=202301589</link><description>Outcome: Substantiated (Charges)
+NOTICE OF FILING Pursuant to §1731 of the New York Public Authorities Law, notice has been filed for the proposed site selection of all or portions of Block 453, Lot 1 and any other property in the immediate vicinity which may be necessary for the proposed construction of a new, approximately 972-seat intermediate school in Queens. The proposed site is located at 43-58 11th Street on the north side of 44th Avenue, between 10th Street and 11th Street in the Long Island City neighborhood of Queens. The site is currently occupied by one to two-story commercial and manufacturing buildings. The pro</description><guid isPermaLink="false">crol-a060364ddb0a</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>NYC Health + Hospitals — Procurement: Community Pharmacy at Lincoln Hospital - GC Work (MISC) MEP Trades</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260924021</link><description>Outcome: Procurement
 
-CCRB: Substantiated (Command Discipline A) / Board: Substantiated (Charges)</description><guid isPermaLink="false">ccrb-penalties-30cff9342f65</guid><pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-09-29-0985: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-09-29-0985</link><description>Outcome: 01-New/Open
+Mandatory Pre-Bid Meeting Information Only bidders who attend the mandatory pre-bid meeting will be allowed to bid. The mandatory pre-bid meetings are scheduled for: Thursday, October 15 at 10AM. Location 234 E. 149th Street, Bronx, NY, Conference Room #5 Friday, October 17, 2026 at 10AM. Location 234 E. 149th Street, Bronx, NY, Conference Room #6 The Contractor shall not make subcontracts totaling more than 75% of the Contract Price nor Provide Less than 25% of the Labor Requirement of the Project with the Contractor's own employees the Contractor shall not make subcontracts totaling more tha</description><guid isPermaLink="false">crol-3571c22d0e84</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Mayor's Office of Contract Services — Special Materials: LL63/DOT/NEW</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923022</link><description>Outcome: Special Materials
 
-Sewage Odor / Bronx, 10473</description><guid isPermaLink="false">dohmh-indoor-343e27c89d41</guid><pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-09-29-0986: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-09-29-0986</link><description>Outcome: 01-New/Open
+Notice of Intent to Issue New Solicitation(s) Not Included in FY 2027 Annual Contracting Plan and Schedule NOTICE IS HEREBY GIVEN that the mayor will be issuing the following solicitation(s) not included in the FY 2027 Annual Contracting Plan and Schedule that is published pursuant to New York City Charter § 312(a): Agency: Department of Transportation Description of services to be provided: Citywide Data Collection, Tabulation and Analysis Services Anticipated Procurement Method: Negotiated Acquisition Extension Anticipated Contract Start Date: November 28, 2026 Anticipated Contract End Date:</description><guid isPermaLink="false">crol-5623941242e6</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item><item><title>Parks and Recreation — Procurement: Construction Management Services for NYC Parks, Citywide</title><link>https://a856-cityrecord.nyc.gov/RequestDetail/20260923038</link><description>Outcome: Procurement
 
-Ventilation / Queens, 11354</description><guid isPermaLink="false">dohmh-indoor-45440a0d752f</guid><pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-09-29-0987: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-09-29-0987</link><description>Outcome: 01-New/Open
-
-Chemical Vapors/Gases/Odors / Manhattan, 10003</description><guid isPermaLink="false">dohmh-indoor-ac79f0e5c66a</guid><pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate></item></channel></rss>
+NYC s Department of Parks and Recreation is seeking qualified firms to perform comprehensive construction management services, partial construction management services, or consulting services for various City-owned properties located within the five boroughs, on an as needed basis. Request for Proposal (RFP) documents are available online for free through the NYC PASSPort System https://www.nyc.gov/site/mocs/passport/about-passport.page You must have a NYC ID Account and Login. Submissions must be submitted through PASSPort. Please visit the following link to view the documents for this solici</description><guid isPermaLink="false">crol-e5ceb7b4a0e6</guid><pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate></item></channel></rss>
