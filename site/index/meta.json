@@ -1,6 +1,6 @@
 {
-  "total": 131436,
-  "updated_at": "2026-10-16T10:44:31Z",
+  "total": 86462,
+  "updated_at": "2026-10-17T10:15:40Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -12,16 +12,9 @@
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8001,
-      "shard_bytes": 3096118,
+      "count": 5000,
+      "shard_bytes": 1929563,
       "coverage": "Last 2 years (capped 15,000)"
-    },
-    {
-      "key": "ccrb-penalties",
-      "label": "CCRB Penalty Recommendations",
-      "count": 15314,
-      "shard_bytes": 7060403,
-      "coverage": "All available (capped 20,000)"
     },
     {
       "key": "perb",
@@ -33,15 +26,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 8108,
-      "shard_bytes": 12780983,
+      "count": 8121,
+      "shard_bytes": 12802201,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14948,
-      "shard_bytes": 8955826,
+      "count": 14884,
+      "shard_bytes": 8917958,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -54,8 +47,8 @@
     {
       "key": "council-legislation",
       "label": "City Council Legislation",
-      "count": 11622,
-      "shard_bytes": 11813004,
+      "count": 10000,
+      "shard_bytes": 10959623,
       "coverage": "All bills + local laws since 1998"
     },
     {
@@ -69,15 +62,8 @@
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9068697,
+      "shard_bytes": 9068947,
       "coverage": "Last 5 years (capped 20,000)"
-    },
-    {
-      "key": "dcwp-complaints",
-      "label": "DCWP Consumer Complaints",
-      "count": 24986,
-      "shard_bytes": 11869010,
-      "coverage": "Last 5 years (capped 25,000)"
     },
     {
       "key": "doi",
@@ -90,7 +76,7 @@
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
-      "shard_bytes": 1835442,
+      "shard_bytes": 1835385,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -103,28 +89,24 @@
   ],
   "top_agencies": [
     [
-      "DCWP",
-      24986
-    ],
-    [
-      "NYPD",
-      23315
-    ],
-    [
       "NYC Department of Health",
       20000
     ],
     [
       "HPD",
-      14948
+      14884
     ],
     [
       "NYC City Council",
-      11622
+      10000
     ],
     [
       "Police Department",
       6889
+    ],
+    [
+      "NYPD",
+      5000
     ],
     [
       "Department of Correction",
@@ -152,7 +134,7 @@
     ],
     [
       "Youth and Community Development",
-      760
+      761
     ],
     [
       "Department of Parks & Recration",
@@ -164,11 +146,11 @@
     ],
     [
       "NYC Health + Hospitals",
-      624
+      623
     ],
     [
       "Citywide Administrative Services",
-      541
+      546
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
@@ -196,7 +178,7 @@
     ],
     [
       "Environmental Protection",
-      401
+      400
     ],
     [
       "HOUSING PRESERVATION AND DEVELOPMENT (HPD)",
@@ -208,19 +190,23 @@
     ],
     [
       "Mayor's Office of Contract Services",
-      330
+      333
     ],
     [
       "Transportation",
-      328
+      329
     ],
     [
       "Parks and Recreation",
-      310
+      309
     ],
     [
       "Homeless Services",
       281
+    ],
+    [
+      "Section 75",
+      266
     ]
   ]
 }
