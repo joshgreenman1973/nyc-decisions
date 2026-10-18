@@ -1,20 +1,34 @@
 {
-  "total": 86462,
-  "updated_at": "2026-10-17T10:15:40Z",
+  "total": 141132,
+  "updated_at": "2026-10-18T10:25:43Z",
   "sources": [
     {
       "key": "oath-trials",
       "label": "OATH Trials (incl. NYPD discipline)",
-      "count": 1577,
-      "shard_bytes": 673290,
+      "count": 1576,
+      "shard_bytes": 672861,
       "coverage": "Last 5 years (capped 20,000)"
+    },
+    {
+      "key": "oath-hearings",
+      "label": "OATH Hearings (summons)",
+      "count": 9782,
+      "shard_bytes": 4915882,
+      "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 5000,
-      "shard_bytes": 1929563,
+      "count": 7999,
+      "shard_bytes": 3095653,
       "coverage": "Last 2 years (capped 15,000)"
+    },
+    {
+      "key": "ccrb-penalties",
+      "label": "CCRB Penalty Recommendations",
+      "count": 15314,
+      "shard_bytes": 7060403,
+      "coverage": "All available (capped 20,000)"
     },
     {
       "key": "perb",
@@ -26,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 8121,
-      "shard_bytes": 12802201,
+      "count": 8089,
+      "shard_bytes": 12750769,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
       "count": 14884,
-      "shard_bytes": 8917958,
+      "shard_bytes": 8921712,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -47,8 +61,8 @@
     {
       "key": "council-legislation",
       "label": "City Council Legislation",
-      "count": 10000,
-      "shard_bytes": 10959623,
+      "count": 11622,
+      "shard_bytes": 11813004,
       "coverage": "All bills + local laws since 1998"
     },
     {
@@ -64,6 +78,13 @@
       "count": 20000,
       "shard_bytes": 9068947,
       "coverage": "Last 5 years (capped 20,000)"
+    },
+    {
+      "key": "dcwp-complaints",
+      "label": "DCWP Consumer Complaints",
+      "count": 24986,
+      "shard_bytes": 11869010,
+      "coverage": "Last 5 years (capped 25,000)"
     },
     {
       "key": "doi",
@@ -89,6 +110,14 @@
   ],
   "top_agencies": [
     [
+      "DCWP",
+      24986
+    ],
+    [
+      "NYPD",
+      23313
+    ],
+    [
       "NYC Department of Health",
       20000
     ],
@@ -98,15 +127,11 @@
     ],
     [
       "NYC City Council",
-      10000
+      11622
     ],
     [
       "Police Department",
       6889
-    ],
-    [
-      "NYPD",
-      5000
     ],
     [
       "Department of Correction",
@@ -121,24 +146,48 @@
       2744
     ],
     [
+      "SANITATION OTHERS",
+      2595
+    ],
+    [
       "Department of Education",
       1315
     ],
     [
+      "FIRE DEPARTMENT OF NYC",
+      1270
+    ],
+    [
       "Fire Department",
-      1258
+      1256
+    ],
+    [
+      "DEP - BUREAU OF ENV. COMPLIANC",
+      1249
     ],
     [
       "Department of Sanitation",
       1120
     ],
     [
+      "DOS - ENFORCEMENT AGENTS",
+      1012
+    ],
+    [
       "Youth and Community Development",
-      761
+      760
     ],
     [
       "Department of Parks & Recration",
       759
+    ],
+    [
+      "DEPT. OF BUILDINGS",
+      721
+    ],
+    [
+      "POLICE DEPARTMENT",
+      692
     ],
     [
       "NY Public Employment Relations Board",
@@ -150,11 +199,11 @@
     ],
     [
       "Citywide Administrative Services",
-      546
+      540
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
-      539
+      530
     ],
     [
       "Forfeiture",
@@ -165,8 +214,12 @@
       500
     ],
     [
+      "DEPT OF TRANSPORTATION",
+      446
+    ],
+    [
       "Health and Mental Hygiene",
-      428
+      427
     ],
     [
       "Department of Environmental Protection",
@@ -175,38 +228,6 @@
     [
       "Administration for Children's Services",
       423
-    ],
-    [
-      "Environmental Protection",
-      400
-    ],
-    [
-      "HOUSING PRESERVATION AND DEVELOPMENT (HPD)",
-      398
-    ],
-    [
-      "Taxi & Limousine",
-      388
-    ],
-    [
-      "Mayor's Office of Contract Services",
-      333
-    ],
-    [
-      "Transportation",
-      329
-    ],
-    [
-      "Parks and Recreation",
-      309
-    ],
-    [
-      "Homeless Services",
-      281
-    ],
-    [
-      "Section 75",
-      266
     ]
   ]
 }
