@@ -1,26 +1,26 @@
 {
-  "total": 141132,
-  "updated_at": "2026-10-18T10:25:43Z",
+  "total": 140720,
+  "updated_at": "2026-10-19T12:06:56Z",
   "sources": [
     {
       "key": "oath-trials",
       "label": "OATH Trials (incl. NYPD discipline)",
-      "count": 1576,
-      "shard_bytes": 672861,
+      "count": 1575,
+      "shard_bytes": 672434,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9782,
-      "shard_bytes": 4915882,
+      "count": 9803,
+      "shard_bytes": 4925327,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 7999,
-      "shard_bytes": 3095653,
+      "count": 7977,
+      "shard_bytes": 3087073,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
@@ -47,8 +47,8 @@
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14884,
-      "shard_bytes": 8921712,
+      "count": 14646,
+      "shard_bytes": 8766441,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -87,13 +87,6 @@
       "coverage": "Last 5 years (capped 25,000)"
     },
     {
-      "key": "doi",
-      "label": "DOI Reports",
-      "count": 172,
-      "shard_bytes": 69368,
-      "coverage": "All reports, 2002\u2013present (via Wayback CDX)"
-    },
-    {
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
@@ -115,7 +108,7 @@
     ],
     [
       "NYPD",
-      23313
+      23291
     ],
     [
       "NYC Department of Health",
@@ -123,7 +116,7 @@
     ],
     [
       "HPD",
-      14884
+      14646
     ],
     [
       "NYC City Council",
@@ -147,7 +140,7 @@
     ],
     [
       "SANITATION OTHERS",
-      2595
+      2602
     ],
     [
       "Department of Education",
@@ -155,7 +148,7 @@
     ],
     [
       "FIRE DEPARTMENT OF NYC",
-      1270
+      1271
     ],
     [
       "Fire Department",
@@ -171,7 +164,7 @@
     ],
     [
       "DOS - ENFORCEMENT AGENTS",
-      1012
+      1016
     ],
     [
       "Youth and Community Development",
