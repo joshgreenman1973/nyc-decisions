@@ -1,8 +1,8 @@
 # The Rest of the Record
 
-A searchable microscope on NYC public records — the paper trail that lives beyond the news cycle.
+A searchable microscope on New York City public records that rarely make the news.
 
-Aggregates adjudications, audits, complaints, penalty recommendations, and oversight reports from sources that are public but hard to track: OATH (Trials and Hearings), CCRB complaints and penalties, COIB ethics dispositions, the Commission on Human Rights, DOI investigations, NYC Comptroller audits, the Public Advocate, TLC Chairperson reviews, DCWP final decisions, and PERB labor decisions.
+Aggregates adjudications, audits, complaints, penalty recommendations and oversight reports from sources that are public but hard to track: the Office of Administrative Trials and Hearings (OATH, both its Trials and Hearings divisions), Civilian Complaint Review Board (CCRB) complaints and penalties, Conflicts of Interest Board (COIB) ethics dispositions, the Commission on Human Rights, Department of Investigation (DOI) investigations, New York City Comptroller audits, the Public Advocate, Taxi and Limousine Commission (TLC) Chairperson reviews, Department of Consumer and Worker Protection (DCWP) final decisions and Public Employment Relations Board (PERB) labor decisions.
 
 (Repo name `nyc-decisions` is preserved for URL stability.)
 
@@ -42,7 +42,7 @@ See [methodology page](site/methodology.html) for details and known gaps.
 ## Roadmap
 
 - v1.1: NYPD Trials (headless-browser scrape of nypdonline.org), NYC Commission on Human Rights (OCR), Health Department Board of Health, City Council testimony (via citymeetings.nyc)
-- v1.2: Backfill DOI, Comptroller, and Public Advocate archives
+- v1.2: Backfill DOI, Comptroller and Public Advocate archives
 - v2: Full-text PDF for OATH Trials Division written decisions
 - Later: NY State court coverage (out of scope unless someone wants to fund it)
 
