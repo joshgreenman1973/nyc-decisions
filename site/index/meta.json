@@ -1,6 +1,6 @@
 {
-  "total": 131741,
-  "updated_at": "2026-11-06T13:55:21Z",
+  "total": 109973,
+  "updated_at": "2026-11-07T12:37:27Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -10,17 +10,10 @@
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
-      "key": "oath-hearings",
-      "label": "OATH Hearings (summons)",
-      "count": 9998,
-      "shard_bytes": 4963159,
-      "coverage": "Last 180 days (capped 10,000)"
-    },
-    {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8187,
-      "shard_bytes": 3167615,
+      "count": 5000,
+      "shard_bytes": 1928295,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
@@ -40,15 +33,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 8103,
-      "shard_bytes": 12794604,
+      "count": 8104,
+      "shard_bytes": 12796706,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 15000,
-      "shard_bytes": 8943734,
+      "count": 10000,
+      "shard_bytes": 5983267,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -59,31 +52,17 @@
       "coverage": "Last 5 years (capped 25,000)"
     },
     {
-      "key": "council-legislation",
-      "label": "City Council Legislation",
-      "count": 11622,
-      "shard_bytes": 11813004,
-      "coverage": "All bills + local laws since 1998"
-    },
-    {
-      "key": "rezoning",
-      "label": "Rezoning Tracker",
-      "count": 1955,
-      "shard_bytes": 3835033,
-      "coverage": "All projects"
-    },
-    {
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9069749,
+      "shard_bytes": 9069842,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "dcwp-complaints",
       "label": "DCWP Consumer Complaints",
-      "count": 14989,
-      "shard_bytes": 7118788,
+      "count": 24982,
+      "shard_bytes": 11875969,
       "coverage": "Last 5 years (capped 25,000)"
     },
     {
@@ -97,7 +76,7 @@
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
-      "shard_bytes": 1839398,
+      "shard_bytes": 1839629,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -110,8 +89,12 @@
   ],
   "top_agencies": [
     [
+      "DCWP",
+      24982
+    ],
+    [
       "NYPD",
-      23580
+      20393
     ],
     [
       "NYC Department of Health",
@@ -119,15 +102,7 @@
     ],
     [
       "HPD",
-      15000
-    ],
-    [
-      "DCWP",
-      14989
-    ],
-    [
-      "NYC City Council",
-      11622
+      10000
     ],
     [
       "Police Department",
@@ -146,10 +121,6 @@
       2744
     ],
     [
-      "SANITATION OTHERS",
-      2656
-    ],
-    [
       "Department of Education",
       1315
     ],
@@ -162,52 +133,24 @@
       1120
     ],
     [
-      "FIRE DEPARTMENT OF NYC",
-      1059
-    ],
-    [
-      "DOS - ENFORCEMENT AGENTS",
-      983
-    ],
-    [
-      "DEPT OF TRANSPORTATION",
-      948
-    ],
-    [
-      "DEPT. OF BUILDINGS",
-      893
-    ],
-    [
-      "DEP - BUREAU OF ENV. COMPLIANC",
-      878
-    ],
-    [
       "Youth and Community Development",
-      771
+      773
     ],
     [
       "Department of Parks & Recration",
       759
     ],
     [
-      "POLICE DEPARTMENT",
-      701
-    ],
-    [
       "NY Public Employment Relations Board",
       642
     ],
     [
-      "PCS - DOHMH",
-      631
-    ],
-    [
       "NYC Health + Hospitals",
-      624
+      625
     ],
     [
       "Citywide Administrative Services",
-      550
+      548
     ],
     [
       "Forfeiture",
@@ -215,11 +158,15 @@
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
-      508
+      506
     ],
     [
       "NYC Comptroller",
       500
+    ],
+    [
+      "Health and Mental Hygiene",
+      425
     ],
     [
       "Department of Environmental Protection",
@@ -227,7 +174,39 @@
     ],
     [
       "Administration for Children's Services",
-      423
+      421
+    ],
+    [
+      "Environmental Protection",
+      405
+    ],
+    [
+      "Taxi & Limousine",
+      383
+    ],
+    [
+      "Mayor's Office of Contract Services",
+      331
+    ],
+    [
+      "Transportation",
+      330
+    ],
+    [
+      "Parks and Recreation",
+      293
+    ],
+    [
+      "Homeless Services",
+      283
+    ],
+    [
+      "Section 75",
+      266
+    ],
+    [
+      "Design and Construction",
+      261
     ]
   ]
 }
