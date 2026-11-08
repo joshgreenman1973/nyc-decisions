@@ -1,19 +1,26 @@
 {
-  "total": 109973,
-  "updated_at": "2026-11-07T12:37:27Z",
+  "total": 141540,
+  "updated_at": "2026-11-08T12:55:23Z",
   "sources": [
     {
       "key": "oath-trials",
       "label": "OATH Trials (incl. NYPD discipline)",
-      "count": 1569,
-      "shard_bytes": 669770,
+      "count": 1566,
+      "shard_bytes": 668448,
       "coverage": "Last 5 years (capped 20,000)"
+    },
+    {
+      "key": "oath-hearings",
+      "label": "OATH Hearings (summons)",
+      "count": 9994,
+      "shard_bytes": 5073805,
+      "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 5000,
-      "shard_bytes": 1928295,
+      "count": 8152,
+      "shard_bytes": 3153975,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
@@ -33,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 8104,
-      "shard_bytes": 12796706,
+      "count": 8060,
+      "shard_bytes": 12736455,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 10000,
-      "shard_bytes": 5983267,
+      "count": 14891,
+      "shard_bytes": 8883359,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -50,6 +57,20 @@
       "count": 23582,
       "shard_bytes": 10885545,
       "coverage": "Last 5 years (capped 25,000)"
+    },
+    {
+      "key": "council-legislation",
+      "label": "City Council Legislation",
+      "count": 11622,
+      "shard_bytes": 11813004,
+      "coverage": "All bills + local laws since 1998"
+    },
+    {
+      "key": "rezoning",
+      "label": "Rezoning Tracker",
+      "count": 1955,
+      "shard_bytes": 3835033,
+      "coverage": "All projects"
     },
     {
       "key": "dohmh-indoor",
@@ -94,7 +115,7 @@
     ],
     [
       "NYPD",
-      20393
+      23545
     ],
     [
       "NYC Department of Health",
@@ -102,7 +123,11 @@
     ],
     [
       "HPD",
-      10000
+      14891
+    ],
+    [
+      "NYC City Council",
+      11622
     ],
     [
       "Police Department",
@@ -121,6 +146,14 @@
       2744
     ],
     [
+      "SANITATION OTHERS",
+      2359
+    ],
+    [
+      "DEP - BUREAU OF ENV. COMPLIANC",
+      1415
+    ],
+    [
       "Department of Education",
       1315
     ],
@@ -129,16 +162,32 @@
       1250
     ],
     [
+      "DOS - ENFORCEMENT AGENTS",
+      1159
+    ],
+    [
       "Department of Sanitation",
       1120
     ],
     [
+      "FIRE DEPARTMENT OF NYC",
+      1070
+    ],
+    [
+      "DEPT. OF BUILDINGS",
+      783
+    ],
+    [
       "Youth and Community Development",
-      773
+      771
     ],
     [
       "Department of Parks & Recration",
       759
+    ],
+    [
+      "PCS - DOHMH",
+      678
     ],
     [
       "NY Public Employment Relations Board",
@@ -149,64 +198,36 @@
       625
     ],
     [
+      "POLICE DEPARTMENT",
+      582
+    ],
+    [
       "Citywide Administrative Services",
-      548
+      541
+    ],
+    [
+      "DEPT OF TRANSPORTATION",
+      526
     ],
     [
       "Forfeiture",
       512
     ],
     [
-      "Dept. of Social Svcs/Human Resources Administration",
-      506
-    ],
-    [
       "NYC Comptroller",
       500
     ],
     [
-      "Health and Mental Hygiene",
-      425
+      "Dept. of Social Svcs/Human Resources Administration",
+      499
     ],
     [
       "Department of Environmental Protection",
       424
     ],
     [
-      "Administration for Children's Services",
+      "Health and Mental Hygiene",
       421
-    ],
-    [
-      "Environmental Protection",
-      405
-    ],
-    [
-      "Taxi & Limousine",
-      383
-    ],
-    [
-      "Mayor's Office of Contract Services",
-      331
-    ],
-    [
-      "Transportation",
-      330
-    ],
-    [
-      "Parks and Recreation",
-      293
-    ],
-    [
-      "Homeless Services",
-      283
-    ],
-    [
-      "Section 75",
-      266
-    ],
-    [
-      "Design and Construction",
-      261
     ]
   ]
 }
