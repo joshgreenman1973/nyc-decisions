@@ -1,6 +1,6 @@
 {
-  "total": 141623,
-  "updated_at": "2026-11-10T14:21:38Z",
+  "total": 141124,
+  "updated_at": "2026-11-11T13:38:06Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -12,22 +12,22 @@
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9996,
-      "shard_bytes": 5090691,
+      "count": 9994,
+      "shard_bytes": 5073713,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8137,
-      "shard_bytes": 3148083,
+      "count": 8130,
+      "shard_bytes": 3145329,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
       "key": "ccrb-penalties",
       "label": "CCRB Penalty Recommendations",
       "count": 15393,
-      "shard_bytes": 7097494,
+      "shard_bytes": 7097492,
       "coverage": "All available (capped 20,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 8108,
-      "shard_bytes": 12815646,
+      "count": 8078,
+      "shard_bytes": 12769934,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14940,
-      "shard_bytes": 8914832,
+      "count": 14655,
+      "shard_bytes": 8758637,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -76,22 +76,15 @@
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9070424,
+      "shard_bytes": 9070526,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "dcwp-complaints",
       "label": "DCWP Consumer Complaints",
-      "count": 24982,
-      "shard_bytes": 11875969,
+      "count": 24979,
+      "shard_bytes": 11874515,
       "coverage": "Last 5 years (capped 25,000)"
-    },
-    {
-      "key": "doi",
-      "label": "DOI Reports",
-      "count": 172,
-      "shard_bytes": 69368,
-      "coverage": "All reports, 2002\u2013present (via Wayback CDX)"
     },
     {
       "key": "nyc-comptroller",
@@ -111,11 +104,11 @@
   "top_agencies": [
     [
       "DCWP",
-      24982
+      24979
     ],
     [
       "NYPD",
-      23530
+      23523
     ],
     [
       "NYC Department of Health",
@@ -123,7 +116,7 @@
     ],
     [
       "HPD",
-      14940
+      14655
     ],
     [
       "NYC City Council",
@@ -147,15 +140,11 @@
     ],
     [
       "SANITATION OTHERS",
-      2208
+      2356
     ],
     [
       "DEP - BUREAU OF ENV. COMPLIANC",
-      1397
-    ],
-    [
-      "DOS - ENFORCEMENT AGENTS",
-      1367
+      1415
     ],
     [
       "Department of Education",
@@ -163,7 +152,11 @@
     ],
     [
       "Fire Department",
-      1250
+      1248
+    ],
+    [
+      "DOS - ENFORCEMENT AGENTS",
+      1164
     ],
     [
       "Department of Sanitation",
@@ -171,11 +164,11 @@
     ],
     [
       "FIRE DEPARTMENT OF NYC",
-      1034
+      1065
     ],
     [
       "DEPT. OF BUILDINGS",
-      807
+      783
     ],
     [
       "Youth and Community Development",
@@ -187,7 +180,7 @@
     ],
     [
       "PCS - DOHMH",
-      709
+      678
     ],
     [
       "NY Public Employment Relations Board",
@@ -198,12 +191,16 @@
       625
     ],
     [
+      "POLICE DEPARTMENT",
+      581
+    ],
+    [
       "Citywide Administrative Services",
-      548
+      547
     ],
     [
       "DEPT OF TRANSPORTATION",
-      521
+      529
     ],
     [
       "Forfeiture",
@@ -211,15 +208,11 @@
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
-      502
+      501
     ],
     [
       "NYC Comptroller",
       500
-    ],
-    [
-      "POLICE DEPARTMENT",
-      491
     ],
     [
       "Department of Environmental Protection",
@@ -227,7 +220,7 @@
     ],
     [
       "Administration for Children's Services",
-      423
+      421
     ]
   ]
 }
