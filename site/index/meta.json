@@ -1,6 +1,6 @@
 {
-  "total": 141579,
-  "updated_at": "2026-11-20T15:07:02Z",
+  "total": 141499,
+  "updated_at": "2026-11-21T14:14:51Z",
   "sources": [
     {
       "key": "oath-trials",
@@ -12,15 +12,15 @@
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9989,
-      "shard_bytes": 4855372,
+      "count": 9995,
+      "shard_bytes": 4988270,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8278,
-      "shard_bytes": 3201272,
+      "count": 8309,
+      "shard_bytes": 3213485,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 8101,
-      "shard_bytes": 12799400,
+      "count": 8072,
+      "shard_bytes": 12757674,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 14907,
-      "shard_bytes": 8889665,
+      "count": 14648,
+      "shard_bytes": 8741428,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -76,21 +76,28 @@
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9071253,
+      "shard_bytes": 9071557,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "dcwp-complaints",
       "label": "DCWP Consumer Complaints",
-      "count": 24982,
-      "shard_bytes": 11875969,
+      "count": 24979,
+      "shard_bytes": 11874595,
       "coverage": "Last 5 years (capped 25,000)"
+    },
+    {
+      "key": "doi",
+      "label": "DOI Reports",
+      "count": 174,
+      "shard_bytes": 70200,
+      "coverage": "All reports, 2002\u2013present (via Wayback CDX)"
     },
     {
       "key": "nyc-comptroller",
       "label": "NYC Comptroller",
       "count": 500,
-      "shard_bytes": 1839610,
+      "shard_bytes": 1839749,
       "coverage": "Most recent 500 reports"
     },
     {
@@ -104,11 +111,11 @@
   "top_agencies": [
     [
       "DCWP",
-      24982
+      24979
     ],
     [
       "NYPD",
-      23707
+      23738
     ],
     [
       "NYC Department of Health",
@@ -116,7 +123,7 @@
     ],
     [
       "HPD",
-      14907
+      14648
     ],
     [
       "NYC City Council",
@@ -135,48 +142,52 @@
       4172
     ],
     [
-      "SANITATION OTHERS",
-      3154
-    ],
-    [
       "Other",
       2744
+    ],
+    [
+      "SANITATION OTHERS",
+      2478
     ],
     [
       "Department of Education",
       1315
     ],
     [
-      "DOS - ENFORCEMENT AGENTS",
-      1264
-    ],
-    [
       "Fire Department",
       1251
+    ],
+    [
+      "DEP - BUREAU OF ENV. COMPLIANC",
+      1167
+    ],
+    [
+      "FIRE DEPARTMENT OF NYC",
+      1164
     ],
     [
       "Department of Sanitation",
       1120
     ],
     [
-      "POLICE DEPARTMENT",
-      884
+      "DOS - ENFORCEMENT AGENTS",
+      1048
     ],
     [
-      "FIRE DEPARTMENT OF NYC",
-      862
+      "POLICE DEPARTMENT",
+      944
     ],
     [
       "Youth and Community Development",
-      777
+      776
     ],
     [
       "Department of Parks & Recration",
       759
     ],
     [
-      "DEP - BUREAU OF ENV. COMPLIANC",
-      754
+      "DEPT. OF BUILDINGS",
+      664
     ],
     [
       "NY Public Employment Relations Board",
@@ -184,23 +195,15 @@
     ],
     [
       "NYC Health + Hospitals",
-      625
+      624
     ],
     [
       "PCS - DOHMH",
-      599
-    ],
-    [
-      "DEPT. OF BUILDINGS",
-      584
+      619
     ],
     [
       "Citywide Administrative Services",
-      558
-    ],
-    [
-      "DEPT OF TRANSPORTATION",
-      515
+      557
     ],
     [
       "Forfeiture",
@@ -212,15 +215,19 @@
     ],
     [
       "Dept. of Social Svcs/Human Resources Administration",
-      497
+      496
     ],
     [
       "Administration for Children's Services",
-      426
+      425
     ],
     [
       "Department of Environmental Protection",
       424
+    ],
+    [
+      "Health and Mental Hygiene",
+      420
     ]
   ]
 }
