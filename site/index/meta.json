@@ -1,33 +1,33 @@
 {
-  "total": 141871,
-  "updated_at": "2026-11-23T17:24:18Z",
+  "total": 141543,
+  "updated_at": "2026-11-24T17:09:52Z",
   "sources": [
     {
       "key": "oath-trials",
       "label": "OATH Trials (incl. NYPD discipline)",
-      "count": 1563,
-      "shard_bytes": 667141,
+      "count": 1560,
+      "shard_bytes": 665876,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "oath-hearings",
       "label": "OATH Hearings (summons)",
-      "count": 9989,
-      "shard_bytes": 5019827,
+      "count": 9985,
+      "shard_bytes": 5018015,
       "coverage": "Last 180 days (capped 10,000)"
     },
     {
       "key": "ccrb",
       "label": "CCRB Complaints",
-      "count": 8321,
-      "shard_bytes": 3218466,
+      "count": 8327,
+      "shard_bytes": 3220883,
       "coverage": "Last 2 years (capped 15,000)"
     },
     {
       "key": "ccrb-penalties",
       "label": "CCRB Penalty Recommendations",
-      "count": 15461,
-      "shard_bytes": 7129232,
+      "count": 15476,
+      "shard_bytes": 7136153,
       "coverage": "All available (capped 20,000)"
     },
     {
@@ -40,15 +40,15 @@
     {
       "key": "crol",
       "label": "City Record Online",
-      "count": 8051,
-      "shard_bytes": 12736595,
+      "count": 8080,
+      "shard_bytes": 12786417,
       "coverage": "Last 365 days, substantive notices only (capped 15,000)"
     },
     {
       "key": "hpd-violations",
       "label": "HPD Class C Violations",
-      "count": 15000,
-      "shard_bytes": 8932830,
+      "count": 14632,
+      "shard_bytes": 8702759,
       "coverage": "Last 90 days (capped 15,000); live lookup by address covers all classes"
     },
     {
@@ -76,14 +76,14 @@
       "key": "dohmh-indoor",
       "label": "DOHMH Indoor Complaints",
       "count": 20000,
-      "shard_bytes": 9071808,
+      "shard_bytes": 9071497,
       "coverage": "Last 5 years (capped 20,000)"
     },
     {
       "key": "dcwp-complaints",
       "label": "DCWP Consumer Complaints",
-      "count": 24982,
-      "shard_bytes": 11875969,
+      "count": 24979,
+      "shard_bytes": 11874595,
       "coverage": "Last 5 years (capped 25,000)"
     },
     {
@@ -111,11 +111,11 @@
   "top_agencies": [
     [
       "DCWP",
-      24982
+      24979
     ],
     [
       "NYPD",
-      23782
+      23803
     ],
     [
       "NYC Department of Health",
@@ -123,7 +123,7 @@
     ],
     [
       "HPD",
-      15000
+      14632
     ],
     [
       "NYC City Council",
@@ -147,7 +147,7 @@
     ],
     [
       "SANITATION OTHERS",
-      2622
+      2618
     ],
     [
       "Department of Education",
@@ -163,7 +163,7 @@
     ],
     [
       "FIRE DEPARTMENT OF NYC",
-      1153
+      1151
     ],
     [
       "Department of Sanitation",
@@ -171,7 +171,7 @@
     ],
     [
       "POLICE DEPARTMENT",
-      966
+      968
     ],
     [
       "DOS - ENFORCEMENT AGENTS",
@@ -179,7 +179,7 @@
     ],
     [
       "Youth and Community Development",
-      777
+      780
     ],
     [
       "Department of Parks & Recration",
@@ -195,7 +195,7 @@
     ],
     [
       "NYC Health + Hospitals",
-      624
+      626
     ],
     [
       "Citywide Administrative Services",
@@ -219,7 +219,7 @@
     ],
     [
       "Administration for Children's Services",
-      424
+      427
     ],
     [
       "Department of Environmental Protection",
