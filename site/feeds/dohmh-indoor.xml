@@ -1,57 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>The Rest of the Record — DOHMH Indoor Complaints</title><link>https://joshgreenman1973.github.io/nyc-decisions/feeds/dohmh-indoor.xml</link><description>The Rest of the Record feed: The Rest of the Record — DOHMH Indoor Complaints</description><atom:link href="https://joshgreenman1973.github.io/nyc-decisions/feeds/dohmh-indoor.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 26 Nov 2026 16:26:16 +0000</lastBuildDate><item><title>DOHMH indoor complaint #T-26-11-24-0952: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0952</link><description>Outcome: 04-Action Taken
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>The Rest of the Record — DOHMH Indoor Complaints</title><link>https://joshgreenman1973.github.io/nyc-decisions/feeds/dohmh-indoor.xml</link><description>The Rest of the Record feed: The Rest of the Record — DOHMH Indoor Complaints</description><atom:link href="https://joshgreenman1973.github.io/nyc-decisions/feeds/dohmh-indoor.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 27 Nov 2026 16:10:45 +0000</lastBuildDate><item><title>DOHMH indoor complaint #T-26-11-25-0971: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0971</link><description>Outcome: 05-Close
 
-Sewage Odor / Bronx, 10468</description><guid isPermaLink="false">dohmh-indoor-301f6f07cfbf</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-24-0951: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0951</link><description>Outcome: 04-Action Taken
-
-Other (Explain Below) / Brooklyn, 11239</description><guid isPermaLink="false">dohmh-indoor-10a8b007e360</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-24-0953: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0953</link><description>Outcome: 03-Assigned
-
-Sewage Odor / Brooklyn, 11236</description><guid isPermaLink="false">dohmh-indoor-308d86b58c12</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-24-0954: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0954</link><description>Outcome: 05-Close
-
-Other (Explain Below) / Brooklyn, 11215</description><guid isPermaLink="false">dohmh-indoor-1cdb4ba87749</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-24-0955: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0955</link><description>Outcome: 04-Action Taken
-
-Ventilation / Manhattan, 10009</description><guid isPermaLink="false">dohmh-indoor-27b73be22ce0</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-24-0956: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0956</link><description>Outcome: 05-Close
-
-Ventilation / Bronx, 10463</description><guid isPermaLink="false">dohmh-indoor-41bd2ada6cec</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-24-0958: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0958</link><description>Outcome: 04-Action Taken
-
-Other (Explain Below) / Brooklyn, 11215</description><guid isPermaLink="false">dohmh-indoor-980bf7769a14</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-24-0957: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0957</link><description>Outcome: 05-Close
-
-Unsafe Mold Cleanup / Manhattan, 10009</description><guid isPermaLink="false">dohmh-indoor-d3fdd04c99ac</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-24-0959: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0959</link><description>Outcome: 04-Action Taken
-
-Human Feces / Manhattan, 10009</description><guid isPermaLink="false">dohmh-indoor-6c76585084e2</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-24-0960: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0960</link><description>Outcome: 04-Action Taken
-
-Sewage Odor / Manhattan, 10009</description><guid isPermaLink="false">dohmh-indoor-bb18b166116a</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-24-0961: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0961</link><description>Outcome: 04-Action Taken
-
-Ventilation / Manhattan, 10009</description><guid isPermaLink="false">dohmh-indoor-1c2db694ef80</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-24-0962: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0962</link><description>Outcome: 04-Action Taken
-
-Other (Explain Below) / Manhattan, 10009</description><guid isPermaLink="false">dohmh-indoor-c5e0e9feef7a</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-24-0963: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0963</link><description>Outcome: 05-Close
-
-Ventilation / Brooklyn, 11223</description><guid isPermaLink="false">dohmh-indoor-9a906aa28481</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-24-0964: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-24-0964</link><description>Outcome: 04-Action Taken
-
-Dust from Construction / Manhattan, 10017</description><guid isPermaLink="false">dohmh-indoor-5b75afbb6204</guid><pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0965: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0965</link><description>Outcome: 04-Action Taken
-
-Other (Explain Below) / Brooklyn, 11209</description><guid isPermaLink="false">dohmh-indoor-5b9153603382</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0966: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0966</link><description>Outcome: 04-Action Taken
-
-Other (Explain Below) / Manhattan, 10036</description><guid isPermaLink="false">dohmh-indoor-4380bc5b4fac</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0967: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0967</link><description>Outcome: 04-Action Taken
-
-Chemical Vapors/Gases/Odors / Queens, 11377</description><guid isPermaLink="false">dohmh-indoor-6f80ceaae8a6</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0968: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0968</link><description>Outcome: 04-Action Taken
-
-Chemical Vapors/Gases/Odors / Bronx, 10452</description><guid isPermaLink="false">dohmh-indoor-af8a6bf32b06</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0969: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0969</link><description>Outcome: 04-Action Taken
-
-Other (Explain Below) / Brooklyn, 11215</description><guid isPermaLink="false">dohmh-indoor-669233b9b101</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0970: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0970</link><description>Outcome: 04-Action Taken
-
-Chemical Vapors/Gases/Odors / Brooklyn, 11215</description><guid isPermaLink="false">dohmh-indoor-507bc29a56fa</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0971: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0971</link><description>Outcome: 04-Action Taken
-
-Chemical Vapors/Gases/Odors / Manhattan, 10044</description><guid isPermaLink="false">dohmh-indoor-1bab01b1f73b</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0972: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0972</link><description>Outcome: 04-Action Taken
+Chemical Vapors/Gases/Odors / Manhattan, 10044</description><guid isPermaLink="false">dohmh-indoor-1bab01b1f73b</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0972: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0972</link><description>Outcome: 05-Close
 
 Dust from Construction / Manhattan, 10009</description><guid isPermaLink="false">dohmh-indoor-7b9b5acde5a3</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0974: Asbestos</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0974</link><description>Outcome: 03-Assigned
 
 N/A / Queens, 11355</description><guid isPermaLink="false">dohmh-indoor-6e68fc367c09</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0973: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0973</link><description>Outcome: 03-Assigned
 
-Human Feces / Brooklyn, 11228</description><guid isPermaLink="false">dohmh-indoor-0017dc917c32</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0975: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0975</link><description>Outcome: 04-Action Taken
+Human Feces / Brooklyn, 11228</description><guid isPermaLink="false">dohmh-indoor-0017dc917c32</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0975: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0975</link><description>Outcome: 05-Close
 
 Chemical Vapors/Gases/Odors / Queens, 11432</description><guid isPermaLink="false">dohmh-indoor-3381872d897a</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0976: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0976</link><description>Outcome: 03-Assigned
 
-Chemical Vapors/Gases/Odors / Queens, 11355</description><guid isPermaLink="false">dohmh-indoor-4a953c0df249</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0977: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0977</link><description>Outcome: 04-Action Taken
+Chemical Vapors/Gases/Odors / Queens, 11355</description><guid isPermaLink="false">dohmh-indoor-4a953c0df249</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0977: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0977</link><description>Outcome: 05-Close
 
 Chemical Vapors/Gases/Odors / Queens, 11101</description><guid isPermaLink="false">dohmh-indoor-a18f5a2e52dc</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0978: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0978</link><description>Outcome: 03-Assigned
 
@@ -59,11 +19,11 @@ Chemical Vapors/Gases/Odors / Manhattan, 10128</description><guid isPermaLink="f
 
 Dust from Construction / Manhattan, 10022</description><guid isPermaLink="false">dohmh-indoor-f19a218744fa</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0981: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0981</link><description>Outcome: 03-Assigned
 
-Other (Explain Below) / Manhattan, 10034</description><guid isPermaLink="false">dohmh-indoor-b140bc0cd281</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0980: Asbestos</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0980</link><description>Outcome: 04-Action Taken
+Other (Explain Below) / Manhattan, 10034</description><guid isPermaLink="false">dohmh-indoor-b140bc0cd281</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0980: Asbestos</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0980</link><description>Outcome: 05-Close
 
 N/A / Brooklyn, 11206</description><guid isPermaLink="false">dohmh-indoor-831e3d5d5d1b</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0982: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0982</link><description>Outcome: 03-Assigned
 
-Chemical Vapors/Gases/Odors / Manhattan, 10039</description><guid isPermaLink="false">dohmh-indoor-21b3f574e057</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0983: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0983</link><description>Outcome: 04-Action Taken
+Chemical Vapors/Gases/Odors / Manhattan, 10039</description><guid isPermaLink="false">dohmh-indoor-21b3f574e057</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0983: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0983</link><description>Outcome: 05-Close
 
 Chemical Vapors/Gases/Odors / Bronx, 10453</description><guid isPermaLink="false">dohmh-indoor-a9a630a6c467</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0984: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0984</link><description>Outcome: 02-To Be Assigned
 
@@ -83,7 +43,7 @@ Chemical Vapors/Gases/Odors / Bronx, 10459</description><guid isPermaLink="false
 
 Ventilation / Brooklyn, 11216</description><guid isPermaLink="false">dohmh-indoor-ac85048cb4b3</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0992: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0992</link><description>Outcome: 02-To Be Assigned
 
-Sewage Odor / Manhattan, 10009</description><guid isPermaLink="false">dohmh-indoor-d0586f0bb8ec</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0993: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0993</link><description>Outcome: 04-Action Taken
+Sewage Odor / Manhattan, 10009</description><guid isPermaLink="false">dohmh-indoor-d0586f0bb8ec</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0993: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0993</link><description>Outcome: 05-Close
 
 Chemical Vapors/Gases/Odors / Brooklyn, 11249</description><guid isPermaLink="false">dohmh-indoor-c22cf6c5d553</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0994: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0994</link><description>Outcome: 02-To Be Assigned
 
@@ -95,8 +55,48 @@ Other (Explain Below) / Queens, 11103</description><guid isPermaLink="false">doh
 
 Chemical Vapors/Gases/Odors / Brooklyn, 11230</description><guid isPermaLink="false">dohmh-indoor-c389bff9f530</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0998: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0998</link><description>Outcome: 02-To Be Assigned
 
-Chemical Vapors/Gases/Odors / Staten Island, 10304</description><guid isPermaLink="false">dohmh-indoor-3126668f4c61</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0999: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0999</link><description>Outcome: 04-Action Taken
+Chemical Vapors/Gases/Odors / Staten Island, 10304</description><guid isPermaLink="false">dohmh-indoor-3126668f4c61</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-0999: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-0999</link><description>Outcome: 05-Close
 
-Chemical Vapors/Gases/Odors / Queens, 11692</description><guid isPermaLink="false">dohmh-indoor-aab578e95293</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-1000: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-1000</link><description>Outcome: 04-Action Taken
+Chemical Vapors/Gases/Odors / Queens, 11692</description><guid isPermaLink="false">dohmh-indoor-aab578e95293</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-25-1000: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-25-1000</link><description>Outcome: 05-Close
 
-Sewage Odor / Brooklyn, 11216</description><guid isPermaLink="false">dohmh-indoor-565d0441eb65</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item></channel></rss>
+Sewage Odor / Brooklyn, 11216</description><guid isPermaLink="false">dohmh-indoor-565d0441eb65</guid><pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1001: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1001</link><description>Outcome: 02-To Be Assigned
+
+Chemical Vapors/Gases/Odors / Manhattan, 10039</description><guid isPermaLink="false">dohmh-indoor-5e8b6e00cd10</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1002: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1002</link><description>Outcome: 02-To Be Assigned
+
+Human Feces / Bronx, 10460</description><guid isPermaLink="false">dohmh-indoor-8f605ac5f13e</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1003: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1003</link><description>Outcome: 02-To Be Assigned
+
+Ventilation / Brooklyn, 11231</description><guid isPermaLink="false">dohmh-indoor-091c77660c3a</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1004: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1004</link><description>Outcome: 02-To Be Assigned
+
+Chemical Vapors/Gases/Odors / Brooklyn, 11212</description><guid isPermaLink="false">dohmh-indoor-8cb02bd6fc82</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1005: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1005</link><description>Outcome: 02-To Be Assigned
+
+Dust from Construction / Manhattan, 10032</description><guid isPermaLink="false">dohmh-indoor-ff329f8c0974</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1006: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1006</link><description>Outcome: 02-To Be Assigned
+
+Chemical Vapors/Gases/Odors / Brooklyn, 11237</description><guid isPermaLink="false">dohmh-indoor-b4b760291d74</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1007: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1007</link><description>Outcome: 05-Close
+
+Chemical Vapors/Gases/Odors / Queens, 11432</description><guid isPermaLink="false">dohmh-indoor-bc36db192d7e</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1008: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1008</link><description>Outcome: 04-Action Taken
+
+Chemical Vapors/Gases/Odors / Brooklyn, 11217</description><guid isPermaLink="false">dohmh-indoor-d9ddb2cccbb3</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1009: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1009</link><description>Outcome: 01-New/Open
+
+Chemical Vapors/Gases/Odors / Queens, 11692</description><guid isPermaLink="false">dohmh-indoor-1ad82dcee777</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1010: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1010</link><description>Outcome: 02-To Be Assigned
+
+Chemical Vapors/Gases/Odors / Brooklyn, 11207</description><guid isPermaLink="false">dohmh-indoor-51dc8fc2c57d</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1011: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1011</link><description>Outcome: 02-To Be Assigned
+
+Ventilation / Queens, 11373</description><guid isPermaLink="false">dohmh-indoor-6e7e34f72d22</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1012: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1012</link><description>Outcome: 01-New/Open
+
+Other (Explain Below) / Queens, 11355</description><guid isPermaLink="false">dohmh-indoor-6caae7d108ef</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1013: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1013</link><description>Outcome: 01-New/Open
+
+Chemical Vapors/Gases/Odors / Manhattan, 10037</description><guid isPermaLink="false">dohmh-indoor-2a7e2836441a</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1014: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1014</link><description>Outcome: 01-New/Open
+
+Chemical Vapors/Gases/Odors / Queens, 11377</description><guid isPermaLink="false">dohmh-indoor-856e32b359cc</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1015: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1015</link><description>Outcome: 02-To Be Assigned
+
+Ventilation / Brooklyn, 11234</description><guid isPermaLink="false">dohmh-indoor-1758c7598e03</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1016: Asbestos</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1016</link><description>Outcome: 02-To Be Assigned
+
+N/A / Manhattan, 10010</description><guid isPermaLink="false">dohmh-indoor-cf8f7c1a07c1</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1017: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1017</link><description>Outcome: 02-To Be Assigned
+
+Ventilation / Manhattan, 10010</description><guid isPermaLink="false">dohmh-indoor-38b9905fc989</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1019: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1019</link><description>Outcome: 01-New/Open
+
+Dust from Construction / Brooklyn, 11215</description><guid isPermaLink="false">dohmh-indoor-b043c576e318</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-26-1018: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-26-1018</link><description>Outcome: 01-New/Open
+
+Chemical Vapors/Gases/Odors / Queens, 11692</description><guid isPermaLink="false">dohmh-indoor-8a7ab8af0687</guid><pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate></item><item><title>DOHMH indoor complaint #T-26-11-27-1020: Indoor Air Quality</title><link>https://data.cityofnewyork.us/d/9jgj-bmct/explore?q=T-26-11-27-1020</link><description>Outcome: 01-New/Open
+
+Other (Explain Below) / Bronx, 10453</description><guid isPermaLink="false">dohmh-indoor-e4b917a1c76a</guid><pubDate>Fri, 27 Nov 2026 12:00:00 +0000</pubDate></item></channel></rss>
